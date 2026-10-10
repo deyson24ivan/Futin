@@ -14,5 +14,5 @@
 *.mp4 binary
 *.zip binary
 
-# Historical snapshots are not active application source.
-legacy/** linguist-vendored=true
+# Historical snapshots are not active application source or language statistics.
+legacy/** linguist-vendored=true linguist-detectable=false

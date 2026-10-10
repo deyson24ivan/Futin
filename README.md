@@ -52,5 +52,8 @@ para la estructura, el guardado y las comprobaciones realizadas.
 TypeScript se compila a JavaScript para ejecutarse en el navegador. Los `.js`
 de `dist/` son resultado de compilación; se mantienen los `.ts` y `.tsx` fuente.
 
+Las estadísticas de lenguajes de GitHub excluyen las copias de `legacy/` mediante
+`.gitattributes`. HTML y CSS siguen contando porque forman parte de la aplicación.
+
 Los datos recopilados de las cinco ligas siguen en `data/big-five/` como fuente
 separada. Su atribución está en `THIRD-PARTY-NOTICES.md`.
