@@ -1,0 +1,104 @@
+{
+  "index": [
+    "futin-formations.js?v=10",
+    "futin-players.js",
+    "futin-core.js",
+    "app.js",
+    "futin-shell.js",
+    "futin-card-data.js",
+    "futin-card.js?v=10",
+    "home.js?v=10",
+    "futin-ui.js",
+    "futin-premium.js?v=12"
+  ],
+  "plantilla": [
+    "futin-formations.js?v=10",
+    "futin-players.js",
+    "futin-core.js",
+    "app.js",
+    "futin-shell.js",
+    "futin-card-data.js",
+    "futin-card.js?v=10",
+    "plantilla.js?v=11",
+    "futin-ui.js",
+    "futin-premium.js?v=12"
+  ],
+  "cartas": [
+    "futin-players.js",
+    "futin-core.js",
+    "app.js",
+    "futin-shell.js",
+    "futin-card-data.js",
+    "futin-card.js?v=10",
+    "cartas.js",
+    "bronce-preview.js",
+    "futin-ui.js",
+    "futin-premium.js?v=12"
+  ],
+  "tienda": [
+    "futin-players.js",
+    "futin-core.js",
+    "app.js",
+    "futin-shell.js",
+    "futin-card-data.js",
+    "futin-card.js?v=10",
+    "tienda.js",
+    "futin-ui.js",
+    "futin-premium.js?v=12"
+  ],
+  "pase": [
+    "futin-players.js",
+    "futin-card-data.js",
+    "futin-card.js?v=10",
+    "futin-core.js",
+    "app.js",
+    "futin-shell.js",
+    "pase.js?v=11",
+    "futin-ui.js",
+    "futin-premium.js?v=12"
+  ],
+  "carrera": [
+    "futin-formations.js?v=10",
+    "futin-players.js",
+    "futin-core.js",
+    "app.js",
+    "futin-shell.js",
+    "futin-card-data.js",
+    "futin-card.js?v=10",
+    "scripts/career/career-engine.js?v=11",
+    "scripts/career/career-page.js?v=11",
+    "futin-ui.js",
+    "futin-premium.js?v=12"
+  ],
+  "minijuegos": [
+    "futin-players.js",
+    "futin-card-data.js",
+    "futin-card.js?v=10",
+    "futin-core.js",
+    "app.js",
+    "futin-shell.js",
+    "penalty-scene.js?v=10",
+    "minijuegos.js?v=2",
+    "adivina-jugador.js?v=10",
+    "futin-ui.js",
+    "futin-premium.js?v=12"
+  ],
+  "monedas": [
+    "futin-players.js",
+    "futin-core.js",
+    "app.js",
+    "futin-shell.js",
+    "futin-ui.js",
+    "monedas.js",
+    "futin-premium.js?v=12"
+  ],
+  "perfil": [
+    "futin-players.js",
+    "futin-core.js",
+    "app.js",
+    "futin-shell.js",
+    "futin-ui.js",
+    "perfil.js",
+    "futin-premium.js?v=12"
+  ]
+}

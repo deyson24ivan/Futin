@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f3f4ef" />
+  <meta name="description" content="Compite en los desafíos diarios de FUTIN y gana monedas y experiencia para el pase." />
+  <title>Minijuegos — FUTIN</title>
+  <link rel="icon" href="futin-mark.svg?v=10" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <script src="futin-theme.js?v=10"></script>
+    <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="futin-ui.css" />
+    <link rel="stylesheet" href="futin-theme.css" /><link rel="stylesheet" href="futin-polish.css" />
+<link rel="stylesheet" href="futin-card.css?v=10" />
+<link rel="stylesheet" href="futin-premium.css?v=11" /></head>
+<body class="minigames-experience futin-ui">
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Navegación principal">
+      <a class="brand" href="index.html"><img class="brand-mark" src="futin-mark.svg?v=10" alt="" /><span>FUTIN<span class="brand-period">.</span></span></a>
+      <div class="nav-label">MENÚ</div>
+      <nav class="main-nav">
+          <a class="nav-link" href="index.html"><span class="nav-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1V10Z"/><path d="M8 7.5h.01M16 7.5h.01"/></svg></span>Inicio</a>
+          <a class="nav-link" href="plantilla.html"><span class="nav-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 12a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+  <path d="M3 9h3v6h-3l0 -6" />
+  <path d="M18 9h3v6h-3l0 -6" />
+  <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" />
+  <path d="M12 5l0 14" /></svg></span>Mi equipo</a>
+          <a class="nav-link" href="cartas.html"><span class="nav-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" /></svg></span>Jugadores</a>
+          <a class="nav-link" href="tienda.html"><span class="nav-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.331 8h11.339a2 2 0 0 1 1.977 2.304l-1.255 8.152a3 3 0 0 1 -2.966 2.544h-6.852a3 3 0 0 1 -2.965 -2.544l-1.255 -8.152a2 2 0 0 1 1.977 -2.304" />
+  <path d="M9 11v-5a3 3 0 0 1 6 0v5" /></svg></span>Tienda</a><a class="nav-link" href="pase.html"><span class="nav-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="6"/><path d="M8.6 13 8 21l4-2.6 4 2.6-.6-8"/><path d="m12 4.8 1 2 2.2.3-1.6 1.5.4 2.2-2-1-2 1 .4-2.2-1.6-1.5 2.2-.3z"/></svg></span>Pase de temporada</a>
+          <a class="nav-link" href="carrera.html"><span class="nav-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+  <path d="M12 7l4.76 3.45l-1.76 5.55h-6l-1.76 -5.55l4.76 -3.45" />
+  <path d="M12 7v-4m3 13l2.5 3m-.74 -8.55l3.74 -1.45m-11.44 7.05l-2.56 2.95m.74 -8.55l-3.74 -1.45" /></svg></span>Modo carrera</a>
+          <a class="nav-link" href="minijuegos.html"><span class="nav-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5h3.5a5 5 0 0 1 0 10h-5.5l-4.015 4.227a2.3 2.3 0 0 1 -3.923 -2.035l1.634 -8.173a5 5 0 0 1 4.904 -4.019h3.4" />
+  <path d="M14 15l4.07 4.284a2.3 2.3 0 0 0 3.925 -2.023l-1.6 -8.232" />
+  <path d="M8 9v2" />
+  <path d="M7 10h2" />
+  <path d="M14 10h2" /></svg></span>Minijuegos</a>
+        </nav>
+      <div class="sidebar-bottom">
+        <a class="season-card" href="pase.html" aria-label="Ver pase de temporada"><div class="season-top"><span class="live-dot"></span> TEMPORADA 01</div><strong>El camino<br />a la gloria</strong><div class="season-progress"><span data-pass-progress-meter></span></div><div class="season-meta"><span>Nivel <b data-pass-level>01</b></span><span><b data-pass-current-xp>0</b>/<b data-pass-xp-required>60</b> XP</span></div></a>
+        <a class="profile-mini" href="perfil.html"><span class="avatar">JD</span><span class="profile-copy"><strong>Jugador 01</strong><small>Mánager del club</small></span><span class="profile-more">···</span></a>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar"><div class="breadcrumb"><span>CLUB</span><span class="crumb-slash">/</span> MINIJUEGOS</div><div class="topbar-actions"><a class="coin-pill" href="monedas.html"><span class="gem-icon" aria-hidden="true"></span><strong data-gem-balance>2.450</strong><span class="coin-plus">+</span></a><button class="icon-button notification-button" aria-label="Notificaciones"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 9a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9ZM10 21h4"/></svg></span><i></i></button><a class="avatar top-avatar" href="perfil.html" aria-label="Perfil de Jugador 01">JD</a></div></header>
+      <div class="page-wrap minigames-page">
+        <section class="games-intro club-page-hero hero-games">
+          <div><p class="eyebrow"><span class="eyebrow-line"></span> CENTRO DE DESAFÍOS · TEMPORADA 01</p><h1>JUEGA. ARRIESGA. <span>GANA.</span></h1><p class="subheading">Retos rápidos para poner a prueba tus reflejos y sumar monedas y experiencia.</p></div>
+          <a class="games-wallet" href="monedas.html"><span class="gem-icon" aria-hidden="true"></span><span><small>TU MONEDERO</small><strong data-gem-balance>2.450</strong></span><i>↗</i></a>
+        </section>
+
+                <p class="daily-reset-line"><span data-ui-icon="clock"></span> Nuevos intentos en <b data-daily-reset>00:00:00</b><span>· 00:00 UTC</span></p><div class="minigame-picker" role="tablist" aria-label="Elige tu minijuego">
+          <button class="game-picker-card picker-penalty is-selected" type="button" role="tab" aria-selected="true" aria-controls="penalty-game-panel" data-minigame-view="penalty"><span class="picker-index">01 / RIESGO Y RECOMPENSA</span><img src="assets/ui/penalty.svg" alt="" class="picker-art" /><span class="picker-copy"><strong>PENALTI DECISIVO</strong><small>Nueve rondas. Un solo gran premio.</small></span><span class="picker-action">JUGAR <b>↗</b></span></button>
+          <button class="game-picker-card picker-guess" type="button" role="tab" aria-selected="false" aria-controls="guess-game-panel" data-minigame-view="guess"><span class="picker-index">02 / PISTAS Y CONOCIMIENTO</span><img src="assets/premium/trivia-keyart.png" alt="" class="picker-art" /><span class="picker-copy"><strong>¿QUIÉN ES EL JUGADOR?</strong><small>Descubre la identidad detrás de la carta.</small></span><span class="picker-action">JUGAR <b>↗</b></span></button>
+        </div>
+<section class="daily-attempts" aria-label="Intentos disponibles hoy"><span class="attempts-icon" data-ui-icon="clock" aria-hidden="true"></span><div><strong>Desafíos de hoy</strong><small>Reinicio a las 00:00 UTC.</small></div><div class="attempts-counter"><span data-attempts-left>3</span><small>/ 3 intentos</small></div><div class="attempt-dots" data-attempt-dots aria-hidden="true"><i></i><i></i><i></i></div></section>
+
+        <section id="penalty-game-panel" class="death-game-card" aria-labelledby="death-game-title">
+          <div class="death-game-heading"><div><p class="game-kicker"><span></span> RETO PRINCIPAL · RIESGO Y RECOMPENSA</p><h2 id="death-game-title">PENALTI <span>DECISIVO</span></h2><p>Nueve lanzamientos. Cada acierto eleva el premio; cada ronda deja menos margen para fallar.</p></div></div>
+
+          <div class="death-game-layout">
+            <div class="penalty-arena">
+              <div class="arena-topline"><span data-round-label>PREPARADO PARA EL RETO</span><span class="probability-pill" data-probability>—</span></div>
+              <div class="round-progress" data-round-progress aria-label="Progreso del desafío"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+              <div class="goal-scene">
+                <div class="goal-net" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+                <div class="goal-zone" data-goal-grid role="group" aria-label="Elige uno de los diez huecos para lanzar"><button type="button" data-goal-cell aria-label="Hueco 1" disabled>01</button><button type="button" data-goal-cell aria-label="Hueco 2" disabled>02</button><button type="button" data-goal-cell aria-label="Hueco 3" disabled>03</button><button type="button" data-goal-cell aria-label="Hueco 4" disabled>04</button><button type="button" data-goal-cell aria-label="Hueco 5" disabled>05</button><button type="button" data-goal-cell aria-label="Hueco 6" disabled>06</button><button type="button" data-goal-cell aria-label="Hueco 7" disabled>07</button><button type="button" data-goal-cell aria-label="Hueco 8" disabled>08</button><button type="button" data-goal-cell aria-label="Hueco 9" disabled>09</button><button type="button" data-goal-cell aria-label="Hueco 10" disabled>10</button></div>
+                <div class="keeper-silhouette" aria-hidden="true"><span></span><i></i><b></b></div>
+              </div>
+              <div class="arena-legend"><span><i class="safe-light"></i> Zona segura</span><span><i class="danger-light"></i> Atajada</span><small>Cada hueco tiene la misma probabilidad.</small></div>
+              <p class="game-feedback" data-game-feedback role="status" aria-live="polite">Empieza tu reto y elige cualquiera de los diez huecos.</p>
+            </div>
+
+            <aside class="prize-console" aria-label="Premios del reto">
+              <div class="prize-console-head"><p>PREMIO ASEGURADO</p><span data-prize-state>Supera una ronda</span></div>
+              <div class="secured-prize"><span class="gem-icon" aria-hidden="true"></span><strong data-secured-gems>0</strong><small>MONEDAS</small></div>
+              <div class="secured-xp"><span>Experiencia del pase</span><strong>+<b data-secured-xp>0</b> XP</strong></div>
+              <div class="prize-divider"></div>
+              <div class="next-prize-label"><span data-next-round-label>PRIMER PREMIO</span><span data-next-probability>90% de acierto</span></div>
+              <div class="next-prize-row"><span>Siguiente premio</span><strong><span class="reward-coin" aria-hidden="true"><img src="futin-coin.svg?v=10" alt="" /></span> <b data-next-gems>25</b></strong></div>
+              <div class="next-prize-row"><span>Experiencia</span><strong>+<b data-next-xp>15</b> XP</strong></div>
+              <div class="prize-actions"><button class="button button-neon" type="button" data-start-run>COMENZAR RETO <span>→</span></button><button class="button button-secondary" type="button" data-retire hidden>RETIRARME CON EL PREMIO</button></div>
+              <p class="risk-note" data-risk-note>Si fallas, recibirás la mitad del último premio asegurado.</p>
+            </aside>
+          </div>
+        </section>
+
+        <section id="guess-game-panel" class="guess-game-card" aria-labelledby="guess-game-title" data-player-guess>
+          <div class="guess-game-heading">
+            <div><p class="game-kicker"><span></span> DESAFÍO DE CONOCIMIENTO · 3 INTENTOS AL DÍA</p><h2 id="guess-game-title">¿QUIÉN ES <span>EL JUGADOR?</span></h2><p>Lee la carta y sus pistas. Cada respuesta incorrecta reduce el premio y desbloquea una nueva pista.</p></div>
+            <div class="guess-daily-pill"><span class="guess-daily-count" data-guess-attempts>3</span><small>INTENTOS<br />DISPONIBLES</small></div>
+          </div>
+          <div class="guess-game-layout">
+            <div class="mystery-card-panel">
+              <div class="mystery-card futin-mystery-base" data-mystery-card aria-label="Carta del jugador oculto"></div>
+              <div class="mystery-card-caption"><span class="live-dot"></span><span data-guess-card-caption>La carta aparecerá al comenzar</span></div>
+            </div>
+            <div class="guess-console">
+              <div class="guess-prize-strip"><div><small>PREMIO ACTUAL</small><strong><span class="gem-icon" aria-hidden="true"></span><b data-guess-gems>180</b> <em>MONEDAS</em></strong></div><div><small>EXPERIENCIA</small><strong>+<b data-guess-xp>60</b> <em>XP</em></strong></div><span class="guess-error-meter" data-guess-errors>0 / 6 FALLOS</span></div>
+              <div class="guess-clues" data-guess-clues aria-live="polite"><div class="guess-clues-empty"><span>01</span><p>Las pistas aparecerán aquí. Analiza la carta y encuentra al jugador.</p></div></div>
+              <form class="guess-form" data-guess-form autocomplete="off">
+                <label for="playerGuessInput">TU RESPUESTA</label>
+                <div class="guess-input-wrap"><input id="playerGuessInput" data-guess-input type="text" placeholder="Escribe el nombre del jugador..." autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="guessSuggestions" disabled /><button type="submit" data-guess-submit disabled>CONFIRMAR <span>→</span></button><div id="guessSuggestions" class="guess-suggestions" data-guess-suggestions role="listbox" aria-label="Jugadores encontrados" hidden></div></div>
+              </form>
+              <p class="guess-feedback" data-guess-feedback role="status" aria-live="polite">Comienza un desafío para descubrir la carta misteriosa.</p>
+              <div class="guess-actions"><button class="button button-neon" type="button" data-guess-start>COMENZAR DESAFÍO <span>→</span></button></div>
+              <small class="guess-rules">El premio baja 30 monedas y 10 XP por error. La recompensa se entrega al acertar.</small>
+            </div>
+          </div>
+        </section>
+
+        
+      </div>
+    </main>
+  </div>
+  <script src="futin-players.js" defer></script><script src="futin-card-data.js" defer></script><script src="futin-card.js?v=10" defer></script><script src="futin-core.js" defer></script><script src="app.js" defer></script><script src="futin-shell.js" defer></script>
+  <script src="penalty-scene.js?v=10" defer></script><script src="minijuegos.js?v=2" defer></script>
+  <script src="adivina-jugador.js?v=10" defer></script>
+<script src="futin-ui.js" defer></script>
+<script src="futin-premium.js?v=11" defer></script></body>
+</html>
+
+

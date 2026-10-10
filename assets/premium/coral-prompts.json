@@ -1,0 +1,66 @@
+{
+  "tool": "image_gen integrated",
+  "palette": {
+    "accent": "#FF4D67",
+    "background": "#17181C",
+    "surface": "#1F2127"
+  },
+  "assets": [
+    {
+      "id": "trivia-keyart",
+      "alpha": false,
+      "request": "Recolor every blue/cyan light, halo, trim, confetti and navy background to FUTIN coral pink #FF4D67 and matte dark graphite #17181C. Keep the polished gold question mark, realistic white/gold football, the exact text \"QUIÉN ES EL JUGADOR\", typography, camera and composition. Remove the entire invented shield/player card at the right behind the question mark; replace that area with blurred graphite stadium and coral particles, no player card or human portrait. Cards will be separate HTML components.",
+      "generatedSource": "C:\\Users\\deyso\\.codex\\generated_images\\01a10422-3f6f-7653-b8f3-0bf2fea9fa60\\exec-1175622b-6170-490d-928c-bf754779eaa2.png",
+      "savedPath": "C:\\Users\\deyso\\OneDrive\\Desktop\\Futin\\assets\\premium\\trivia-keyart.png"
+    },
+    {
+      "id": "penalty-keyart",
+      "alpha": false,
+      "request": "Recolor all blue/cyan trails, shoe inserts, floodlight and lighting accents to coral pink #FF4D67, background dark graphite #17181C. Preserve realistic ball, boot, white tight net, natural gold metal, exact \"PENALTI DECISIVO\" text, layout and dimensional detail.",
+      "generatedSource": "C:\\Users\\deyso\\.codex\\generated_images\\01a10422-3f6f-7653-b8f3-0bf2fea9fa60\\exec-17acdffb-fdc5-4d77-a0fa-0d2a9ae58792.png",
+      "savedPath": "C:\\Users\\deyso\\OneDrive\\Desktop\\Futin\\assets\\premium\\penalty-keyart.png"
+    },
+    {
+      "id": "season-ticket",
+      "alpha": true,
+      "request": "Recolor all blue/cyan/navy enamel, lightning and holographic details to dark graphite #1F2127 and coral pink #FF4D67. Preserve gold ticket trim, chest, metallic letters exactly \"PASE DE TEMPORADA\" and \"FUTIN\", same wide composition. REMOVE the invented player/shield card behind the ticket completely, leave that area transparent, keep chest. Actual FUTIN card is supplied separately by HTML. Transparent background, no new card.",
+      "generatedSource": "C:\\Users\\deyso\\.codex\\generated_images\\01a10422-3f6f-7653-b8f3-0bf2fea9fa60\\exec-8d8e7588-82d1-4aeb-a842-432a529f913a.png",
+      "savedPath": "C:\\Users\\deyso\\OneDrive\\Desktop\\Futin\\assets\\premium\\season-ticket.png"
+    },
+    {
+      "id": "glory-crest",
+      "alpha": true,
+      "request": "Change only blue/cyan/navy enamel, gems, trims and light effects to coral pink #FF4D67 and graphite #17181C. Preserve gold laurels, stars, gold football, dimensional relief and exact \"EL CAMINO A LA GLORIA\" and \"FUTIN\" lettering and shape. Transparent background.",
+      "generatedSource": "C:\\Users\\deyso\\.codex\\generated_images\\01a10422-3f6f-7653-b8f3-0bf2fea9fa60\\exec-574fa5c5-c75a-4cba-be28-aba56941ef08.png",
+      "savedPath": "C:\\Users\\deyso\\OneDrive\\Desktop\\Futin\\assets\\premium\\glory-crest.png"
+    },
+    {
+      "id": "legacy-trophy",
+      "alpha": true,
+      "request": "Change only blue/cyan ribbons, gems, enamel and lighting accents to coral pink #FF4D67 and dark graphite #17181C. Preserve gold trophy ornate relief, polished gold ball, stone pedestal, exact \"CONSTRUYE TU LEGADO\" engraving and same composition. Transparent background.",
+      "generatedSource": "C:\\Users\\deyso\\.codex\\generated_images\\01a10422-3f6f-7653-b8f3-0bf2fea9fa60\\exec-14e7333e-e9b2-40e7-aed2-135df6a1ae0d.png",
+      "savedPath": "C:\\Users\\deyso\\OneDrive\\Desktop\\Futin\\assets\\premium\\legacy-trophy.png"
+    },
+    {
+      "id": "penalty-athlete",
+      "alpha": true,
+      "request": "Identity-preserving color edit. Change the navy/blue football uniform and shoe blue details to matte graphite #1F2127 with coral pink #FF4D67 accents; keep number 9 and gold trim natural, same athlete identity, skin, anatomy, rear third-person pose and proportions. Preserve clean genuinely transparent alpha background, no stadium, ball or extra player.",
+      "generatedSource": "C:\\Users\\deyso\\.codex\\generated_images\\01a10422-3f6f-7653-b8f3-0bf2fea9fa60\\exec-d7322013-e4a1-47d9-a531-7ed8d426b882.png",
+      "savedPath": "C:\\Users\\deyso\\OneDrive\\Desktop\\Futin\\assets\\premium\\penalty-athlete.png"
+    },
+    {
+      "id": "stadium-arena",
+      "alpha": false,
+      "request": "Change only blue/cyan stadium signage, glow and navy sky to dark neutral graphite stadium with coral pink #FF4D67 accent LEDs. Preserve natural green turf, floodlights, camera, perspective and the exact existing white penalty spot at center near lower third (50% width,77.6% height). No goal, athlete, ball, added HUD or text.",
+      "generatedSource": "C:\\Users\\deyso\\.codex\\generated_images\\01a10422-3f6f-7653-b8f3-0bf2fea9fa60\\exec-16a3c833-2eb4-4e7c-903e-a19da7feac05.png",
+      "savedPath": "C:\\Users\\deyso\\OneDrive\\Desktop\\Futin\\assets\\premium\\stadium-arena.png"
+    },
+    {
+      "id": "football",
+      "alpha": true,
+      "request": "Use case: product-mockup. Asset type: realistic football PNG sprite for FUTIN penalty game. One perfectly round regulation football, realistic textured white synthetic leather panels and charcoal black pentagons, clear delicate seam stitching, no logos, no text, no glow, no background, no ground or separate cast shadow. Front/three-quarter spherical view, studio highlight upper left, clean alpha cutout, centered and fills 88% of square canvas. Crisp high resolution, genuinely transparent background.",
+      "generatedSource": "C:\\Users\\deyso\\.codex\\generated_images\\01a10422-3f6f-7653-b8f3-0bf2fea9fa60\\exec-e76a1386-aa56-4bad-bbd4-8bba2b3cea96.png",
+      "savedPath": "C:\\Users\\deyso\\OneDrive\\Desktop\\Futin\\assets\\premium\\football.png"
+    }
+  ]
+}

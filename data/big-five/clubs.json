@@ -1,0 +1,2710 @@
+[
+  {
+    "id": "wiki-6a40b5a41f1017f8d257",
+    "name": "Arsenal",
+    "leagueId": "premier-league",
+    "country": "Inglaterra",
+    "season": "2026-27",
+    "wikipediaTitle": "Arsenal F.C.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Arsenal_F.C.",
+    "sourceRevision": 1379016207,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 23,
+    "totalListedCount": 35,
+    "wikidataId": "Q9617",
+    "stadiums": [
+      {
+        "id": "Q163995",
+        "name": "Emirates Stadium"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q84",
+        "name": "Londres"
+      }
+    ],
+    "inception": "+1886-00-00T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-4d7226da18cf7cd1f5a4",
+    "name": "Aston Villa",
+    "leagueId": "premier-league",
+    "country": "Inglaterra",
+    "season": "2026-27",
+    "wikipediaTitle": "Aston Villa F.C.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Aston_Villa_F.C.",
+    "sourceRevision": 1379078487,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 28,
+    "totalListedCount": 57,
+    "wikidataId": "Q18711",
+    "stadiums": [
+      {
+        "id": "Q175339",
+        "name": "Villa Park"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q649838",
+        "name": "Aston"
+      }
+    ],
+    "inception": "+1874-11-21T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-d701a71a89cb43c380fd",
+    "name": "Bournemouth",
+    "leagueId": "premier-league",
+    "country": "Inglaterra",
+    "season": "2026-27",
+    "wikipediaTitle": "AFC Bournemouth",
+    "sourceUrl": "https://en.wikipedia.org/wiki/AFC_Bournemouth",
+    "sourceRevision": 1378162316,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 28,
+    "totalListedCount": 31,
+    "wikidataId": "Q19568",
+    "stadiums": [
+      {
+        "id": "Q619094",
+        "name": "Dean Court"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q170478",
+        "name": "Bournemouth"
+      }
+    ],
+    "inception": "+1899-00-00T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-4cb1a91198d87e4650ba",
+    "name": "Brentford",
+    "leagueId": "premier-league",
+    "country": "Inglaterra",
+    "season": "2026-27",
+    "wikipediaTitle": "Brentford F.C.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Brentford_F.C.",
+    "sourceRevision": 1377640772,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 29,
+    "totalListedCount": 53,
+    "wikidataId": "Q19571",
+    "stadiums": [
+      {
+        "id": "Q1546623",
+        "name": "Griffin Park"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q84",
+        "name": "Londres"
+      }
+    ],
+    "inception": "+1889-10-10T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-61f23995183a899d93ba",
+    "name": "Brighton & Hove Albion",
+    "leagueId": "premier-league",
+    "country": "Inglaterra",
+    "season": "2026-27",
+    "wikipediaTitle": "Brighton & Hove Albion F.C.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Brighton_%26_Hove_Albion_F.C.",
+    "sourceRevision": 1378920668,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 30,
+    "totalListedCount": 41,
+    "wikidataId": "Q19453",
+    "stadiums": [
+      {
+        "id": "Q619409",
+        "name": "Falmer Stadium"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q1022488",
+        "name": "Brighton & Hove"
+      }
+    ],
+    "inception": "+1901-06-24T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-d2f2ee261a78b8ed88b1",
+    "name": "Chelsea",
+    "leagueId": "premier-league",
+    "country": "Inglaterra",
+    "season": "2026-27",
+    "wikipediaTitle": "Chelsea F.C.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Chelsea_F.C.",
+    "sourceRevision": 1378544423,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 30,
+    "totalListedCount": 55,
+    "wikidataId": "Q9616",
+    "stadiums": [
+      {
+        "id": "Q171458",
+        "name": "Stamford Bridge"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q84",
+        "name": "Londres"
+      }
+    ],
+    "inception": "+1905-03-10T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-8e445bfeb08ceaed990b",
+    "name": "Coventry City",
+    "leagueId": "premier-league",
+    "country": "Inglaterra",
+    "season": "2026-27",
+    "wikipediaTitle": "Coventry City F.C.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Coventry_City_F.C.",
+    "sourceRevision": 1378599598,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 30,
+    "totalListedCount": 51,
+    "wikidataId": "Q19580",
+    "stadiums": [
+      {
+        "id": "Q842077",
+        "name": "Ricoh Arena"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q6225",
+        "name": "Coventry"
+      }
+    ],
+    "inception": "+1883-08-13T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-ff8d44897013cf0a7a8f",
+    "name": "Crystal Palace",
+    "leagueId": "premier-league",
+    "country": "Inglaterra",
+    "season": "2026-27",
+    "wikipediaTitle": "Crystal Palace F.C.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Crystal_Palace_F.C.",
+    "sourceRevision": 1379064167,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 29,
+    "totalListedCount": 35,
+    "wikidataId": "Q19467",
+    "stadiums": [
+      {
+        "id": "Q1066373",
+        "name": "Selhurst Park"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q84",
+        "name": "Londres"
+      }
+    ],
+    "inception": "+1905-09-10T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-8177291612be054003b2",
+    "name": "Everton",
+    "leagueId": "premier-league",
+    "country": "Inglaterra",
+    "season": "2026-27",
+    "wikipediaTitle": "Everton F.C.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Everton_F.C.",
+    "sourceRevision": 1377645645,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 21,
+    "totalListedCount": 22,
+    "wikidataId": "Q5794",
+    "stadiums": [
+      {
+        "id": "Q29347805",
+        "name": "Everton Stadium"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q24826",
+        "name": "Liverpool"
+      }
+    ],
+    "inception": "+1878-00-00T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-327579787cb4d8d0c98a",
+    "name": "Fulham",
+    "leagueId": "premier-league",
+    "country": "Inglaterra",
+    "season": "2026-27",
+    "wikipediaTitle": "Fulham F.C.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Fulham_F.C.",
+    "sourceRevision": 1377801641,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 26,
+    "totalListedCount": 30,
+    "wikidataId": "Q18708",
+    "stadiums": [
+      {
+        "id": "Q318043",
+        "name": "Craven Cottage"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q84",
+        "name": "Londres"
+      }
+    ],
+    "inception": "+1879-00-00T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-13b8045ca1152c05e423",
+    "name": "Hull City",
+    "leagueId": "premier-league",
+    "country": "Inglaterra",
+    "season": "2026-27",
+    "wikipediaTitle": "Hull City A.F.C.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Hull_City_A.F.C.",
+    "sourceRevision": 1377645981,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 33,
+    "totalListedCount": 68,
+    "wikidataId": "Q19477",
+    "stadiums": [
+      {
+        "id": "Q630160",
+        "name": "KC Stadium"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q128147",
+        "name": "Kingston upon Hull"
+      }
+    ],
+    "inception": "+1904-00-00T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-7b147eda4861cf80ca31",
+    "name": "Ipswich Town",
+    "leagueId": "premier-league",
+    "country": "Inglaterra",
+    "season": "2026-27",
+    "wikipediaTitle": "Ipswich Town F.C.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Ipswich_Town_F.C.",
+    "sourceRevision": 1377710260,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 28,
+    "totalListedCount": 35,
+    "wikidataId": "Q9653",
+    "stadiums": [
+      {
+        "id": "Q619558",
+        "name": "Portman Road"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q184775",
+        "name": "Ipswich"
+      }
+    ],
+    "inception": "+1878-00-00T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-cacbb4af4aa41ab21af6",
+    "name": "Leeds United",
+    "leagueId": "premier-league",
+    "country": "Inglaterra",
+    "season": "2026-27",
+    "wikipediaTitle": "Leeds United F.C.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Leeds_United_F.C.",
+    "sourceRevision": 1375796969,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 24,
+    "totalListedCount": 29,
+    "wikidataId": "Q1128631",
+    "stadiums": [
+      {
+        "id": "Q619505",
+        "name": "Elland Road"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q39121",
+        "name": "Leeds"
+      }
+    ],
+    "inception": "+1919-00-00T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-349b94dd521afea16d5a",
+    "name": "Liverpool",
+    "leagueId": "premier-league",
+    "country": "Inglaterra",
+    "season": "2026-27",
+    "wikipediaTitle": "Liverpool F.C.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Liverpool_F.C.",
+    "sourceRevision": 1379025346,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 31,
+    "totalListedCount": 42,
+    "wikidataId": "Q1130849",
+    "stadiums": [
+      {
+        "id": "Q45671",
+        "name": "Anfield"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q24826",
+        "name": "Liverpool"
+      }
+    ],
+    "inception": "+1892-06-03T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-da73a716b09130fabd40",
+    "name": "Manchester City",
+    "leagueId": "premier-league",
+    "country": "Inglaterra",
+    "season": "2026-27",
+    "wikipediaTitle": "Manchester City F.C.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Manchester_City_F.C.",
+    "sourceRevision": 1378689346,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 26,
+    "totalListedCount": 45,
+    "wikidataId": "Q50602",
+    "stadiums": [
+      {
+        "id": "Q48159",
+        "name": "Estadio Ciudad de Mánchester"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q18125",
+        "name": "Mánchester"
+      }
+    ],
+    "inception": "+1894-04-16T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-200da986b284ff8e3110",
+    "name": "Manchester United",
+    "leagueId": "premier-league",
+    "country": "Inglaterra",
+    "season": "2026-27",
+    "wikipediaTitle": "Manchester United F.C.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Manchester_United_F.C.",
+    "sourceRevision": 1377740411,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 30,
+    "totalListedCount": 36,
+    "wikidataId": "Q18656",
+    "stadiums": [
+      {
+        "id": "Q83457",
+        "name": "Old Trafford"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q18125",
+        "name": "Mánchester"
+      }
+    ],
+    "inception": "+1878-00-00T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-6d35a40b1cf524504a5b",
+    "name": "Newcastle United",
+    "leagueId": "premier-league",
+    "country": "Inglaterra",
+    "season": "2026-27",
+    "wikipediaTitle": "Newcastle United F.C.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Newcastle_United_F.C.",
+    "sourceRevision": 1379010182,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 26,
+    "totalListedCount": 41,
+    "wikidataId": "Q18716",
+    "stadiums": [
+      {
+        "id": "Q191774",
+        "name": "St James’ Park"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q1425428",
+        "name": "Newcastle upon Tyne"
+      }
+    ],
+    "inception": "+1892-12-09T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-3aed9de5ee5b368f63b4",
+    "name": "Nottingham Forest",
+    "leagueId": "premier-league",
+    "country": "Inglaterra",
+    "season": "2026-27",
+    "wikipediaTitle": "Nottingham Forest F.C.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Nottingham_Forest_F.C.",
+    "sourceRevision": 1377705085,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 24,
+    "totalListedCount": 57,
+    "wikidataId": "Q19490",
+    "stadiums": [
+      {
+        "id": "Q593446",
+        "name": "City Ground"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q2079944",
+        "name": "West Bridgford"
+      }
+    ],
+    "inception": "+1865-00-00T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-f3adb5ce774c445ef155",
+    "name": "Sunderland",
+    "leagueId": "premier-league",
+    "country": "Inglaterra",
+    "season": "2026-27",
+    "wikipediaTitle": "Sunderland A.F.C.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Sunderland_A.F.C.",
+    "sourceRevision": 1378994182,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 28,
+    "totalListedCount": 32,
+    "wikidataId": "Q18739",
+    "stadiums": [
+      {
+        "id": "Q31969",
+        "name": "Stadium of Light"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q188304",
+        "name": "Sunderland"
+      }
+    ],
+    "inception": "+1879-00-00T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-a679e57a797909dc823a",
+    "name": "Tottenham Hotspur",
+    "leagueId": "premier-league",
+    "country": "Inglaterra",
+    "season": "2026-27",
+    "wikipediaTitle": "Tottenham Hotspur F.C.",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Tottenham_Hotspur_F.C.",
+    "sourceRevision": 1378862481,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 28,
+    "totalListedCount": 44,
+    "wikidataId": "Q18741",
+    "stadiums": [
+      {
+        "id": "Q55074091",
+        "name": "Tottenham Hotspur Stadium"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q213560",
+        "name": "Haringey"
+      }
+    ],
+    "inception": "+1882-09-05T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-4d67b51ee7ec222de860",
+    "name": "Alavés",
+    "leagueId": "la-liga",
+    "country": "España",
+    "season": "2026-27",
+    "wikipediaTitle": "Deportivo Alavés",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Deportivo_Alav%C3%A9s",
+    "sourceRevision": 1378560138,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 27,
+    "totalListedCount": 32,
+    "wikidataId": "Q223620",
+    "stadiums": [
+      {
+        "id": "Q1369390",
+        "name": "Estadio de Mendizorroza"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q14318",
+        "name": "Vitoria"
+      }
+    ],
+    "inception": "+1921-01-23T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-6aa4c0d0270409b5c0d4",
+    "name": "Athletic Bilbao",
+    "leagueId": "la-liga",
+    "country": "España",
+    "season": "2026-27",
+    "wikipediaTitle": "Athletic Bilbao",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Athletic_Bilbao",
+    "sourceRevision": 1377519050,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 26,
+    "totalListedCount": 36,
+    "wikidataId": "Q8687",
+    "stadiums": [
+      {
+        "id": "Q182864",
+        "name": "Estadio de San Mamés"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q9054503",
+        "name": "Palacio de Ibaigane"
+      }
+    ],
+    "inception": "+1898-07-18T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-fbaeb3cd8d89eeff84fe",
+    "name": "Atlético Madrid",
+    "leagueId": "la-liga",
+    "country": "España",
+    "season": "2026-27",
+    "wikipediaTitle": "Atlético Madrid",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Madrid",
+    "sourceRevision": 1376524130,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 24,
+    "totalListedCount": 33,
+    "wikidataId": "Q8701",
+    "stadiums": [
+      {
+        "id": "Q1369687",
+        "name": "Estadio Metropolitano"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q2807",
+        "name": "Madrid"
+      }
+    ],
+    "inception": "+1903-00-00T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-09c58af5e0ed9ebb1092",
+    "name": "Barcelona",
+    "leagueId": "la-liga",
+    "country": "España",
+    "season": "2026-27",
+    "wikipediaTitle": "FC Barcelona",
+    "sourceUrl": "https://en.wikipedia.org/wiki/FC_Barcelona",
+    "sourceRevision": 1378327134,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 27,
+    "totalListedCount": 36,
+    "wikidataId": "Q7156",
+    "stadiums": [
+      {
+        "id": "Q159848",
+        "name": "Camp Nou"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q1492",
+        "name": "Barcelona"
+      }
+    ],
+    "inception": "+1899-11-29T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-d1e71cc879732690654e",
+    "name": "Celta Vigo",
+    "leagueId": "la-liga",
+    "country": "España",
+    "season": "2026-27",
+    "wikipediaTitle": "RC Celta de Vigo",
+    "sourceUrl": "https://en.wikipedia.org/wiki/RC_Celta_de_Vigo",
+    "sourceRevision": 1375265619,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 25,
+    "totalListedCount": 35,
+    "wikidataId": "Q8749",
+    "stadiums": [
+      {
+        "id": "Q1326578",
+        "name": "Estadio Abanca Balaídos"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q8745",
+        "name": "Vigo"
+      }
+    ],
+    "inception": "+1923-08-23T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-4726ec684f49b8731471",
+    "name": "Deportivo A Coruña",
+    "leagueId": "la-liga",
+    "country": "España",
+    "season": "2026-27",
+    "wikipediaTitle": "Deportivo de A Coruña",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Deportivo_de_A_Coru%C3%B1a",
+    "sourceRevision": 1378792674,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 26,
+    "totalListedCount": 31,
+    "wikidataId": "Q8760",
+    "stadiums": [
+      {
+        "id": "Q22130",
+        "name": "Estadio de Abanca Riazor"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q8757",
+        "name": "La Coruña"
+      }
+    ],
+    "inception": "+1906-03-02T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-b96ef13d15b8991a08a5",
+    "name": "Elche",
+    "leagueId": "la-liga",
+    "country": "España",
+    "season": "2026-27",
+    "wikipediaTitle": "Elche CF",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Elche_CF",
+    "sourceRevision": 1378902217,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 28,
+    "totalListedCount": 35,
+    "wikidataId": "Q10512",
+    "stadiums": [
+      {
+        "id": "Q953600",
+        "name": "Estadio Manuel Martínez Valero"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q10509",
+        "name": "Elche"
+      }
+    ],
+    "inception": "+1923-00-00T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-fea95f61b97a65f26c64",
+    "name": "Espanyol",
+    "leagueId": "la-liga",
+    "country": "España",
+    "season": "2026-27",
+    "wikipediaTitle": "RCD Espanyol",
+    "sourceUrl": "https://en.wikipedia.org/wiki/RCD_Espanyol",
+    "sourceRevision": 1375819095,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 25,
+    "totalListedCount": 33,
+    "wikidataId": "Q8780",
+    "stadiums": [
+      {
+        "id": "Q473223",
+        "name": "RCDE Stadium"
+      },
+      {
+        "id": "Q1325234",
+        "name": "Estadio de Sarriá"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q15602",
+        "name": "Cornellá de Llobregat"
+      }
+    ],
+    "inception": "+1900-00-00T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-6ad271e58e20cbd21657",
+    "name": "Getafe",
+    "leagueId": "la-liga",
+    "country": "España",
+    "season": "2026-27",
+    "wikipediaTitle": "Getafe CF",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Getafe_CF",
+    "sourceRevision": 1375187426,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 22,
+    "totalListedCount": 35,
+    "wikidataId": "Q8806",
+    "stadiums": [
+      {
+        "id": "Q929109",
+        "name": "Coliseum (Getafe)"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q8802",
+        "name": "Getafe"
+      }
+    ],
+    "inception": "+1983-00-00T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-d6b7508f868586fadd01",
+    "name": "Levante",
+    "leagueId": "la-liga",
+    "country": "España",
+    "season": "2026-27",
+    "wikipediaTitle": "Levante UD",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Levante_UD",
+    "sourceRevision": 1378439251,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 25,
+    "totalListedCount": 31,
+    "wikidataId": "Q8823",
+    "stadiums": [
+      {
+        "id": "Q1122715",
+        "name": "Estadio Ciudad de Valencia"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q8818",
+        "name": "Valencia"
+      }
+    ],
+    "inception": "+1909-00-00T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-d2757b1df1152fc0874f",
+    "name": "Málaga",
+    "leagueId": "la-liga",
+    "country": "España",
+    "season": "2026-27",
+    "wikipediaTitle": "Málaga CF",
+    "sourceUrl": "https://en.wikipedia.org/wiki/M%C3%A1laga_CF",
+    "sourceRevision": 1375841975,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 28,
+    "totalListedCount": 32,
+    "wikidataId": "Q8857",
+    "stadiums": [
+      {
+        "id": "Q695879",
+        "name": "Estadio La Rosaleda"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q8851",
+        "name": "Málaga"
+      }
+    ],
+    "inception": "+1904-04-03T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-d62922d45f1a8cd5d61d",
+    "name": "Osasuna",
+    "leagueId": "la-liga",
+    "country": "España",
+    "season": "2026-27",
+    "wikipediaTitle": "CA Osasuna",
+    "sourceUrl": "https://en.wikipedia.org/wiki/CA_Osasuna",
+    "sourceRevision": 1376664683,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 24,
+    "totalListedCount": 31,
+    "wikidataId": "Q10286",
+    "stadiums": [
+      {
+        "id": "Q735783",
+        "name": "Estadio El Sadar"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q10282",
+        "name": "Pamplona"
+      }
+    ],
+    "inception": "+1920-10-24T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-3b681e036ea2c0458d54",
+    "name": "Racing Santander",
+    "leagueId": "la-liga",
+    "country": "España",
+    "season": "2026-27",
+    "wikipediaTitle": "Racing de Santander",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Racing_de_Santander",
+    "sourceRevision": 1376458401,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 24,
+    "totalListedCount": 31,
+    "wikidataId": "Q12236",
+    "stadiums": [
+      {
+        "id": "Q195391",
+        "name": "Campos de Sport de El Sardinero"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q12233",
+        "name": "Santander"
+      }
+    ],
+    "inception": "+1913-02-23T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-a01ebc3cce94ffd14337",
+    "name": "Rayo Vallecano",
+    "leagueId": "la-liga",
+    "country": "España",
+    "season": "2026-27",
+    "wikipediaTitle": "Rayo Vallecano",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Rayo_Vallecano",
+    "sourceRevision": 1375964082,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 26,
+    "totalListedCount": 34,
+    "wikidataId": "Q10300",
+    "stadiums": [
+      {
+        "id": "Q983806",
+        "name": "Campo de Fútbol de Vallecas"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q2807",
+        "name": "Madrid"
+      }
+    ],
+    "inception": "+1924-05-29T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-bf73e7d9cc4db50ea541",
+    "name": "Real Betis",
+    "leagueId": "la-liga",
+    "country": "España",
+    "season": "2026-27",
+    "wikipediaTitle": "Real Betis",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Real_Betis",
+    "sourceRevision": 1378837019,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 25,
+    "totalListedCount": 28,
+    "wikidataId": "Q8723",
+    "stadiums": [
+      {
+        "id": "Q126844",
+        "name": "Estadio Benito Villamarín"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q8717",
+        "name": "Sevilla"
+      }
+    ],
+    "inception": "+1907-00-00T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-8df238f8673b71d0b4e7",
+    "name": "Real Madrid",
+    "leagueId": "la-liga",
+    "country": "España",
+    "season": "2026-27",
+    "wikipediaTitle": "Real Madrid CF",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Real_Madrid_CF",
+    "sourceRevision": 1373883081,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 26,
+    "totalListedCount": 38,
+    "wikidataId": "Q8682",
+    "stadiums": [
+      {
+        "id": "Q164027",
+        "name": "Estadio Santiago Bernabéu"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q2807",
+        "name": "Madrid"
+      }
+    ],
+    "inception": "+1902-03-06T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-403b246f961eec92c329",
+    "name": "Real Sociedad",
+    "leagueId": "la-liga",
+    "country": "España",
+    "season": "2026-27",
+    "wikipediaTitle": "Real Sociedad",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Real_Sociedad",
+    "sourceRevision": 1377986472,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 24,
+    "totalListedCount": 31,
+    "wikidataId": "Q10315",
+    "stadiums": [
+      {
+        "id": "Q917845",
+        "name": "Estadio Municipal de Anoeta"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q10313",
+        "name": "San Sebastián"
+      }
+    ],
+    "inception": "+1909-09-07T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-77e33688076e2f77e6c0",
+    "name": "Sevilla",
+    "leagueId": "la-liga",
+    "country": "España",
+    "season": "2026-27",
+    "wikipediaTitle": "Sevilla FC",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Sevilla_FC",
+    "sourceRevision": 1378816420,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 25,
+    "totalListedCount": 33,
+    "wikidataId": "Q10329",
+    "stadiums": [
+      {
+        "id": "Q275429",
+        "name": "Estadio Ramón Sánchez-Pizjuán"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q8717",
+        "name": "Sevilla"
+      }
+    ],
+    "inception": "+1905-00-00T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-0a9d9135ab9549817b31",
+    "name": "Valencia",
+    "leagueId": "la-liga",
+    "country": "España",
+    "season": "2026-27",
+    "wikipediaTitle": "Valencia CF",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Valencia_CF",
+    "sourceRevision": 1378643095,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 25,
+    "totalListedCount": 37,
+    "wikidataId": "Q10333",
+    "stadiums": [
+      {
+        "id": "Q202762",
+        "name": "Campo de Mestalla"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q8818",
+        "name": "Valencia"
+      }
+    ],
+    "inception": "+1919-03-18T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-5435d629b50e9367df9d",
+    "name": "Villarreal",
+    "leagueId": "la-liga",
+    "country": "España",
+    "season": "2026-27",
+    "wikipediaTitle": "Villarreal CF",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Villarreal_CF",
+    "sourceRevision": 1373351129,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 24,
+    "totalListedCount": 33,
+    "wikidataId": "Q12297",
+    "stadiums": [
+      {
+        "id": "Q741157",
+        "name": "Estadio de la Cerámica"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q12292",
+        "name": "Villarreal"
+      }
+    ],
+    "inception": "+1923-03-10T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-744738aa69a626df254e",
+    "name": "Atalanta",
+    "leagueId": "serie-a",
+    "country": "Italia",
+    "season": "2026-27",
+    "wikipediaTitle": "Atalanta BC",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Atalanta_BC",
+    "sourceRevision": 1377760733,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 25,
+    "totalListedCount": 33,
+    "wikidataId": "Q1886",
+    "stadiums": [
+      {
+        "id": "Q780526",
+        "name": "Stadio Atleti Azzurri d'Italia"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q628",
+        "name": "Bérgamo"
+      }
+    ],
+    "inception": "+1907-10-17T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-0f4a3fba1ef42b5b106d",
+    "name": "Bologna",
+    "leagueId": "serie-a",
+    "country": "Italia",
+    "season": "2026-27",
+    "wikipediaTitle": "Bologna FC 1909",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Bologna_FC_1909",
+    "sourceRevision": 1377143104,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 27,
+    "totalListedCount": 50,
+    "wikidataId": "Q1893",
+    "stadiums": [
+      {
+        "id": "Q757182",
+        "name": "Estadio Renato Dall'Ara"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q1891",
+        "name": "Bolonia"
+      }
+    ],
+    "inception": "+1909-10-03T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-77c4dced1a0bf59e30c3",
+    "name": "Cagliari",
+    "leagueId": "serie-a",
+    "country": "Italia",
+    "season": "2026-27",
+    "wikipediaTitle": "Cagliari Calcio",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Cagliari_Calcio",
+    "sourceRevision": 1378066784,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 31,
+    "totalListedCount": 46,
+    "wikidataId": "Q1900",
+    "stadiums": [
+      {
+        "id": "Q30880646",
+        "name": "Unipol Domus"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q105561376",
+        "name": "CRAI Sport Center"
+      }
+    ],
+    "inception": "+1920-00-00T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-118e58557fdcfca250bc",
+    "name": "Como",
+    "leagueId": "serie-a",
+    "country": "Italia",
+    "season": "2026-27",
+    "wikipediaTitle": "Como 1907",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Como_1907",
+    "sourceRevision": 1376557801,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 27,
+    "totalListedCount": 44,
+    "wikidataId": "Q1120838",
+    "stadiums": [
+      {
+        "id": "Q115372",
+        "name": "Estadio Giuseppe Sinigaglia"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q1308",
+        "name": "Como"
+      }
+    ],
+    "inception": "+1907-00-00T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-e3eec90cdec1c8cbd1c4",
+    "name": "Fiorentina",
+    "leagueId": "serie-a",
+    "country": "Italia",
+    "season": "2026-27",
+    "wikipediaTitle": "ACF Fiorentina",
+    "sourceUrl": "https://en.wikipedia.org/wiki/ACF_Fiorentina",
+    "sourceRevision": 1379102137,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 23,
+    "totalListedCount": 57,
+    "wikidataId": "Q2052",
+    "stadiums": [
+      {
+        "id": "Q270474",
+        "name": "Estadio Artemio Franchi"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q2044",
+        "name": "Florencia"
+      }
+    ],
+    "inception": "+1926-00-00T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-3f19c402fd57d34c9e85",
+    "name": "Frosinone",
+    "leagueId": "serie-a",
+    "country": "Italia",
+    "season": "2026-27",
+    "wikipediaTitle": "Frosinone Calcio",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Frosinone_Calcio",
+    "sourceRevision": 1374111709,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 30,
+    "totalListedCount": 40,
+    "wikidataId": "Q845043",
+    "stadiums": [
+      {
+        "id": "Q29655396",
+        "name": "Estadio Benito Stirpe"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q13413",
+        "name": "Frosinone"
+      }
+    ],
+    "inception": "+1928-09-19T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-7eedd1825755c3f22c3f",
+    "name": "Genoa",
+    "leagueId": "serie-a",
+    "country": "Italia",
+    "season": "2026-27",
+    "wikipediaTitle": "Genoa CFC",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Genoa_CFC",
+    "sourceRevision": 1378882580,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 30,
+    "totalListedCount": 47,
+    "wikidataId": "Q2074",
+    "stadiums": [
+      {
+        "id": "Q271568",
+        "name": "Estadio Luigi Ferraris"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q1449",
+        "name": "Génova"
+      }
+    ],
+    "inception": "+1893-09-07T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-1d620368e850ee0e8f5b",
+    "name": "Inter Milan",
+    "leagueId": "serie-a",
+    "country": "Italia",
+    "season": "2026-27",
+    "wikipediaTitle": "Inter Milan",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Inter_Milan",
+    "sourceRevision": 1378205757,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 24,
+    "totalListedCount": 35,
+    "wikidataId": "Q631",
+    "stadiums": [
+      {
+        "id": "Q133566",
+        "name": "Estadio Giuseppe Meazza"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q490",
+        "name": "Milán"
+      }
+    ],
+    "inception": "+1908-03-09T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-50590b5d93c69bf354f3",
+    "name": "Juventus",
+    "leagueId": "serie-a",
+    "country": "Italia",
+    "season": "2026-27",
+    "wikipediaTitle": "Juventus FC",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Juventus_FC",
+    "sourceRevision": 1378752154,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 29,
+    "totalListedCount": 42,
+    "wikidataId": "Q1422",
+    "stadiums": [
+      {
+        "id": "Q62149",
+        "name": "Juventus Stadium"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q495",
+        "name": "Turín"
+      }
+    ],
+    "inception": "+1897-11-01T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-3c1177693eb6a476b34c",
+    "name": "Lazio",
+    "leagueId": "serie-a",
+    "country": "Italia",
+    "season": "2026-27",
+    "wikipediaTitle": "SS Lazio",
+    "sourceUrl": "https://en.wikipedia.org/wiki/SS_Lazio",
+    "sourceRevision": 1378451325,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 31,
+    "totalListedCount": 38,
+    "wikidataId": "Q2609",
+    "stadiums": [
+      {
+        "id": "Q159884",
+        "name": "Estadio Olímpico de Roma"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q242645",
+        "name": "Formello"
+      }
+    ],
+    "inception": "+1900-01-09T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-7e96df11426f96067c30",
+    "name": "Lecce",
+    "leagueId": "serie-a",
+    "country": "Italia",
+    "season": "2026-27",
+    "wikipediaTitle": "US Lecce",
+    "sourceUrl": "https://en.wikipedia.org/wiki/US_Lecce",
+    "sourceRevision": 1377356348,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 32,
+    "totalListedCount": 44,
+    "wikidataId": "Q13391",
+    "stadiums": [
+      {
+        "id": "Q684727",
+        "name": "Stadio Via del Mare"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q13386",
+        "name": "Lecce"
+      }
+    ],
+    "inception": "+1908-00-00T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-4f47225546a50db8e57e",
+    "name": "AC Milan",
+    "leagueId": "serie-a",
+    "country": "Italia",
+    "season": "2026-27",
+    "wikipediaTitle": "AC Milan",
+    "sourceUrl": "https://en.wikipedia.org/wiki/AC_Milan",
+    "sourceRevision": 1376820217,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 27,
+    "totalListedCount": 39,
+    "wikidataId": "Q1543",
+    "stadiums": [
+      {
+        "id": "Q133566",
+        "name": "Estadio Giuseppe Meazza"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q490",
+        "name": "Milán"
+      }
+    ],
+    "inception": "+1899-12-16T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-2a024c7d7b9cff75bf1b",
+    "name": "Monza",
+    "leagueId": "serie-a",
+    "country": "Italia",
+    "season": "2026-27",
+    "wikipediaTitle": "AC Monza",
+    "sourceUrl": "https://en.wikipedia.org/wiki/AC_Monza",
+    "sourceRevision": 1376663409,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 31,
+    "totalListedCount": 39,
+    "wikidataId": "Q289482",
+    "stadiums": [
+      {
+        "id": "Q1851616",
+        "name": "Stadio Brianteo"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q6252",
+        "name": "Monza"
+      }
+    ],
+    "inception": "+1912-09-01T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-dccd49f7d8e46aaea9f6",
+    "name": "Napoli",
+    "leagueId": "serie-a",
+    "country": "Italia",
+    "season": "2026-27",
+    "wikipediaTitle": "SSC Napoli",
+    "sourceUrl": "https://en.wikipedia.org/wiki/SSC_Napoli",
+    "sourceRevision": 1378209032,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 27,
+    "totalListedCount": 44,
+    "wikidataId": "Q2641",
+    "stadiums": [
+      {
+        "id": "Q82709",
+        "name": "Estadio Diego Armando Maradona"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q2634",
+        "name": "Nápoles"
+      }
+    ],
+    "inception": "+1926-00-00T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-1ad9beb5f2b0b268aacc",
+    "name": "Parma",
+    "leagueId": "serie-a",
+    "country": "Italia",
+    "season": "2026-27",
+    "wikipediaTitle": "Parma Calcio 1913",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Parma_Calcio_1913",
+    "sourceRevision": 1377487527,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 28,
+    "totalListedCount": 42,
+    "wikidataId": "Q2693",
+    "stadiums": [
+      {
+        "id": "Q610546",
+        "name": "Estadio Ennio Tardini"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q2683",
+        "name": "Parma"
+      }
+    ],
+    "inception": "+1913-00-00T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-216834a1255ea390b44d",
+    "name": "Roma",
+    "leagueId": "serie-a",
+    "country": "Italia",
+    "season": "2026-27",
+    "wikipediaTitle": "AS Roma",
+    "sourceUrl": "https://en.wikipedia.org/wiki/AS_Roma",
+    "sourceRevision": 1377089198,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 24,
+    "totalListedCount": 41,
+    "wikidataId": "Q2739",
+    "stadiums": [
+      {
+        "id": "Q159884",
+        "name": "Estadio Olímpico de Roma"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q220",
+        "name": "Roma"
+      }
+    ],
+    "inception": "+1927-06-07T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-a8f81e335f61372c2fdd",
+    "name": "Sassuolo",
+    "leagueId": "serie-a",
+    "country": "Italia",
+    "season": "2026-27",
+    "wikipediaTitle": "US Sassuolo Calcio",
+    "sourceUrl": "https://en.wikipedia.org/wiki/US_Sassuolo_Calcio",
+    "sourceRevision": 1378250197,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 33,
+    "totalListedCount": 53,
+    "wikidataId": "Q8603",
+    "stadiums": [
+      {
+        "id": "Q1887221",
+        "name": "MAPEI Stadium - Città del Tricolore"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q8598",
+        "name": "Sassuolo"
+      }
+    ],
+    "inception": "+1920-00-00T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-b1736a13e6dbe9e86688",
+    "name": "Torino",
+    "leagueId": "serie-a",
+    "country": "Italia",
+    "season": "2026-27",
+    "wikipediaTitle": "Torino FC",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Torino_FC",
+    "sourceRevision": 1375212002,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 29,
+    "totalListedCount": 48,
+    "wikidataId": "Q2768",
+    "stadiums": [
+      {
+        "id": "Q214629",
+        "name": "Estadio Olímpico de Turín"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q495",
+        "name": "Turín"
+      }
+    ],
+    "inception": "+2005-00-00T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-c238eaddcd0bbd095464",
+    "name": "Udinese",
+    "leagueId": "serie-a",
+    "country": "Italia",
+    "season": "2026-27",
+    "wikipediaTitle": "Udinese Calcio",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Udinese_Calcio",
+    "sourceRevision": 1377760397,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 28,
+    "totalListedCount": 38,
+    "wikidataId": "Q2798",
+    "stadiums": [
+      {
+        "id": "Q640031",
+        "name": "Estadio Friuli"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q2790",
+        "name": "Údine"
+      }
+    ],
+    "inception": "+1896-00-00T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-2949b40f9fe9bd2c9bf9",
+    "name": "Venezia",
+    "leagueId": "serie-a",
+    "country": "Italia",
+    "season": "2026-27",
+    "wikipediaTitle": "Venezia FC",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Venezia_FC",
+    "sourceRevision": 1377459018,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 35,
+    "totalListedCount": 53,
+    "wikidataId": "Q501245",
+    "stadiums": [
+      {
+        "id": "Q588926",
+        "name": "Stadio Pierluigi Penzo"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q641",
+        "name": "Venecia"
+      }
+    ],
+    "inception": "+1907-12-14T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-c3b8f48e86ddb0e8d727",
+    "name": "FC Augsburg",
+    "leagueId": "bundesliga",
+    "country": "Alemania",
+    "season": "2026-27",
+    "wikipediaTitle": "FC Augsburg",
+    "sourceUrl": "https://en.wikipedia.org/wiki/FC_Augsburg",
+    "sourceRevision": 1377527389,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 28,
+    "totalListedCount": 35,
+    "wikidataId": "Q15755",
+    "stadiums": [
+      {
+        "id": "Q167418",
+        "name": "WWK Arena"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q2749",
+        "name": "Augsburgo"
+      }
+    ],
+    "inception": "+1907-00-00T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-458fd51688e4b8927c5d",
+    "name": "Union Berlin",
+    "leagueId": "bundesliga",
+    "country": "Alemania",
+    "season": "2026-27",
+    "wikipediaTitle": "1. FC Union Berlin",
+    "sourceUrl": "https://en.wikipedia.org/wiki/1._FC_Union_Berlin",
+    "sourceRevision": 1378224423,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 30,
+    "totalListedCount": 34,
+    "wikidataId": "Q141971",
+    "stadiums": [
+      {
+        "id": "Q749172",
+        "name": "Stadion An der Alten Försterei"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q64",
+        "name": "Berlín"
+      }
+    ],
+    "inception": "+1966-01-20T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-15aad3f10598fc2ba563",
+    "name": "Werder Bremen",
+    "leagueId": "bundesliga",
+    "country": "Alemania",
+    "season": "2026-27",
+    "wikipediaTitle": "SV Werder Bremen",
+    "sourceUrl": "https://en.wikipedia.org/wiki/SV_Werder_Bremen",
+    "sourceRevision": 1377743838,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 33,
+    "totalListedCount": 38,
+    "wikidataId": "Q51976",
+    "stadiums": [
+      {
+        "id": "Q154475",
+        "name": "Weserstadion"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q24879",
+        "name": "Bremen"
+      }
+    ],
+    "inception": "+1899-00-00T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-56723566c4135f994421",
+    "name": "Borussia Dortmund",
+    "leagueId": "bundesliga",
+    "country": "Alemania",
+    "season": "2026-27",
+    "wikipediaTitle": "Borussia Dortmund",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Borussia_Dortmund",
+    "sourceRevision": 1378206050,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 30,
+    "totalListedCount": 34,
+    "wikidataId": "Q41420",
+    "stadiums": [
+      {
+        "id": "Q150928",
+        "name": "Signal Iduna Park"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q1295",
+        "name": "Dortmund"
+      }
+    ],
+    "inception": "+1909-12-19T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-4a707b69aeeec0fea52d",
+    "name": "SV Elversberg",
+    "leagueId": "bundesliga",
+    "country": "Alemania",
+    "season": "2026-27",
+    "wikipediaTitle": "SV Elversberg",
+    "sourceUrl": "https://en.wikipedia.org/wiki/SV_Elversberg",
+    "sourceRevision": 1375277425,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 28,
+    "totalListedCount": 28,
+    "wikidataId": "Q692691",
+    "stadiums": [
+      {
+        "id": "Q474858",
+        "name": "Waldstadion an der Kaiserlinde"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q629932",
+        "name": "Spiesen-Elversberg"
+      }
+    ],
+    "inception": "+1907-00-00T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-d461dcead7362e8f29f0",
+    "name": "Eintracht Frankfurt",
+    "leagueId": "bundesliga",
+    "country": "Alemania",
+    "season": "2026-27",
+    "wikipediaTitle": "Eintracht Frankfurt",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Eintracht_Frankfurt",
+    "sourceRevision": 1377524552,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 26,
+    "totalListedCount": 36,
+    "wikidataId": "Q38245",
+    "stadiums": [
+      {
+        "id": "Q157273",
+        "name": "Deutsche Bank Park"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q1794",
+        "name": "Fráncfort del Meno"
+      }
+    ],
+    "inception": "+1899-03-08T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-a36a41ea8600269ff656",
+    "name": "SC Freiburg",
+    "leagueId": "bundesliga",
+    "country": "Alemania",
+    "season": "2026-27",
+    "wikipediaTitle": "SC Freiburg",
+    "sourceUrl": "https://en.wikipedia.org/wiki/SC_Freiburg",
+    "sourceRevision": 1378058216,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 27,
+    "totalListedCount": 31,
+    "wikidataId": "Q106394",
+    "stadiums": [
+      {
+        "id": "Q311458",
+        "name": "Dreisamstadion"
+      },
+      {
+        "id": "Q64586775",
+        "name": "Europa-Park-Stadion"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q2833",
+        "name": "Friburgo de Brisgovia"
+      }
+    ],
+    "inception": "+1904-00-00T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-142d7be0752df966ed68",
+    "name": "Hamburger SV",
+    "leagueId": "bundesliga",
+    "country": "Alemania",
+    "season": "2026-27",
+    "wikipediaTitle": "Hamburger SV",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Hamburger_SV",
+    "sourceRevision": 1376658204,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 28,
+    "totalListedCount": 34,
+    "wikidataId": "Q51974",
+    "stadiums": [
+      {
+        "id": "Q150933",
+        "name": "Volksparkstadion"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q1055",
+        "name": "Hamburgo"
+      }
+    ],
+    "inception": "+1887-09-29T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-15853030e41c70614156",
+    "name": "TSG Hoffenheim",
+    "leagueId": "bundesliga",
+    "country": "Alemania",
+    "season": "2026-27",
+    "wikipediaTitle": "TSG 1899 Hoffenheim",
+    "sourceUrl": "https://en.wikipedia.org/wiki/TSG_1899_Hoffenheim",
+    "sourceRevision": 1378514682,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 27,
+    "totalListedCount": 38,
+    "wikidataId": "Q22707",
+    "stadiums": [
+      {
+        "id": "Q129870",
+        "name": "PreZero-Arena"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q14950",
+        "name": "Sinsheim"
+      }
+    ],
+    "inception": "+1899-00-00T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-c0aa5ca8e706fbe8f803",
+    "name": "1. FC Köln",
+    "leagueId": "bundesliga",
+    "country": "Alemania",
+    "season": "2026-27",
+    "wikipediaTitle": "1. FC Köln",
+    "sourceUrl": "https://en.wikipedia.org/wiki/1._FC_K%C3%B6ln",
+    "sourceRevision": 1377455248,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 31,
+    "totalListedCount": 38,
+    "wikidataId": "Q104770",
+    "stadiums": [
+      {
+        "id": "Q151893",
+        "name": "Estadio Rhein Energie"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q365",
+        "name": "Colonia"
+      }
+    ],
+    "inception": "+1948-02-13T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-8e398c8d674500078da8",
+    "name": "RB Leipzig",
+    "leagueId": "bundesliga",
+    "country": "Alemania",
+    "season": "2026-27",
+    "wikipediaTitle": "RB Leipzig",
+    "sourceUrl": "https://en.wikipedia.org/wiki/RB_Leipzig",
+    "sourceRevision": 1378664431,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 29,
+    "totalListedCount": 37,
+    "wikidataId": "Q702455",
+    "stadiums": [
+      {
+        "id": "Q210466",
+        "name": "Zentralstadion"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q2079",
+        "name": "Leipzig"
+      }
+    ],
+    "inception": "+2009-05-19T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-fd132e086d02cda78afb",
+    "name": "Bayer Leverkusen",
+    "leagueId": "bundesliga",
+    "country": "Alemania",
+    "season": "2026-27",
+    "wikipediaTitle": "Bayer 04 Leverkusen",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Bayer_04_Leverkusen",
+    "sourceRevision": 1376679278,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 27,
+    "totalListedCount": 39,
+    "wikidataId": "Q104761",
+    "stadiums": [
+      {
+        "id": "Q156630",
+        "name": "BayArena"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q2938",
+        "name": "Leverkusen"
+      }
+    ],
+    "inception": "+1904-00-00T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-3a6a223b0709bdf0d42e",
+    "name": "Mainz 05",
+    "leagueId": "bundesliga",
+    "country": "Alemania",
+    "season": "2026-27",
+    "wikipediaTitle": "1. FSV Mainz 05",
+    "sourceUrl": "https://en.wikipedia.org/wiki/1._FSV_Mainz_05",
+    "sourceRevision": 1372880139,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 26,
+    "totalListedCount": 33,
+    "wikidataId": "Q105254",
+    "stadiums": [
+      {
+        "id": "Q392494",
+        "name": "Mewa Arena"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q1720",
+        "name": "Maguncia"
+      }
+    ],
+    "inception": "+1905-03-16T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-952637f794e610699b86",
+    "name": "Borussia Mönchengladbach",
+    "leagueId": "bundesliga",
+    "country": "Alemania",
+    "season": "2026-27",
+    "wikipediaTitle": "Borussia Mönchengladbach",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Borussia_M%C3%B6nchengladbach",
+    "sourceRevision": 1378726949,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 30,
+    "totalListedCount": 35,
+    "wikidataId": "Q101959",
+    "stadiums": [
+      {
+        "id": "Q154074",
+        "name": "Borussia Park"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q2758",
+        "name": "Mönchengladbach"
+      }
+    ],
+    "inception": "+1900-00-00T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-faaf41e337a3ca47a363",
+    "name": "Bayern Munich",
+    "leagueId": "bundesliga",
+    "country": "Alemania",
+    "season": "2026-27",
+    "wikipediaTitle": "FC Bayern Munich",
+    "sourceUrl": "https://en.wikipedia.org/wiki/FC_Bayern_Munich",
+    "sourceRevision": 1377697746,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 24,
+    "totalListedCount": 41,
+    "wikidataId": "Q15789",
+    "stadiums": [
+      {
+        "id": "Q127429",
+        "name": "Allianz Arena"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q1726",
+        "name": "Múnich"
+      }
+    ],
+    "inception": "+1900-02-27T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-49824e4d729ee8517f39",
+    "name": "SC Paderborn",
+    "leagueId": "bundesliga",
+    "country": "Alemania",
+    "season": "2026-27",
+    "wikipediaTitle": "SC Paderborn 07",
+    "sourceUrl": "https://en.wikipedia.org/wiki/SC_Paderborn_07",
+    "sourceRevision": 1378011289,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 32,
+    "totalListedCount": 64,
+    "wikidataId": "Q160532",
+    "stadiums": [
+      {
+        "id": "Q567402",
+        "name": "Home Deluxe Arena"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q2971",
+        "name": "Paderborn"
+      }
+    ],
+    "inception": "+1907-00-00T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-4425dfdd6b251398343e",
+    "name": "Schalke 04",
+    "leagueId": "bundesliga",
+    "country": "Alemania",
+    "season": "2026-27",
+    "wikipediaTitle": "FC Schalke 04",
+    "sourceUrl": "https://en.wikipedia.org/wiki/FC_Schalke_04",
+    "sourceRevision": 1376769992,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 27,
+    "totalListedCount": 41,
+    "wikidataId": "Q32494",
+    "stadiums": [
+      {
+        "id": "Q150961",
+        "name": "Veltins-Arena"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q2765",
+        "name": "Gelsenkirchen"
+      }
+    ],
+    "inception": "+1904-05-04T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-eefa56725bca3d91e619",
+    "name": "VfB Stuttgart",
+    "leagueId": "bundesliga",
+    "country": "Alemania",
+    "season": "2026-27",
+    "wikipediaTitle": "VfB Stuttgart",
+    "sourceUrl": "https://en.wikipedia.org/wiki/VfB_Stuttgart",
+    "sourceRevision": 1378140274,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 30,
+    "totalListedCount": 37,
+    "wikidataId": "Q4512",
+    "stadiums": [
+      {
+        "id": "Q152349",
+        "name": "MHPArena"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q1022",
+        "name": "Stuttgart"
+      }
+    ],
+    "inception": "+1893-00-00T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-ec2ed6109ecb85a202c7",
+    "name": "Angers",
+    "leagueId": "ligue-1",
+    "country": "Francia",
+    "season": "2026-27",
+    "wikipediaTitle": "Angers SCO",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Angers_SCO",
+    "sourceRevision": 1378873337,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 24,
+    "totalListedCount": 31,
+    "wikidataId": "Q845137",
+    "stadiums": [
+      {
+        "id": "Q387213",
+        "name": "Stade Jean-Bouin"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q38380",
+        "name": "Angers"
+      }
+    ],
+    "inception": "+1919-00-00T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-8b3f7813ade33c1a2d25",
+    "name": "Auxerre",
+    "leagueId": "ligue-1",
+    "country": "Francia",
+    "season": "2026-27",
+    "wikipediaTitle": "AJ Auxerre",
+    "sourceUrl": "https://en.wikipedia.org/wiki/AJ_Auxerre",
+    "sourceRevision": 1378873465,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 31,
+    "totalListedCount": 36,
+    "wikidataId": "Q182876",
+    "stadiums": [
+      {
+        "id": "Q1347183",
+        "name": "Estadio de l'Abbé-Deschamps"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q167600",
+        "name": "Auxerre"
+      }
+    ],
+    "inception": "+1905-00-00T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-b84cdb5f57a010bc9af6",
+    "name": "Brest",
+    "leagueId": "ligue-1",
+    "country": "Francia",
+    "season": "2026-27",
+    "wikipediaTitle": "Stade Brestois 29",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Stade_Brestois_29",
+    "sourceRevision": 1378245942,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 24,
+    "totalListedCount": 25,
+    "wikidataId": "Q218372",
+    "stadiums": [
+      {
+        "id": "Q1432517",
+        "name": "Stade Francis-Le Blé"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q12193",
+        "name": "Brest"
+      }
+    ],
+    "inception": "+1950-00-00T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-102540a015822d798aa6",
+    "name": "Le Havre",
+    "leagueId": "ligue-1",
+    "country": "Francia",
+    "season": "2026-27",
+    "wikipediaTitle": "Le Havre AC",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Le_Havre_AC",
+    "sourceRevision": 1378873765,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 27,
+    "totalListedCount": 28,
+    "wikidataId": "Q328658",
+    "stadiums": [
+      {
+        "id": "Q219462",
+        "name": "Stade Océane"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q42810",
+        "name": "El Havre"
+      }
+    ],
+    "inception": "+1884-00-00T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-29adea3d0c885434d0f6",
+    "name": "Le Mans",
+    "leagueId": "ligue-1",
+    "country": "Francia",
+    "season": "2026-27",
+    "wikipediaTitle": "Le Mans FC",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Le_Mans_FC",
+    "sourceRevision": 1376910711,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 29,
+    "totalListedCount": 31,
+    "wikidataId": "Q210864",
+    "stadiums": [
+      {
+        "id": "Q1862372",
+        "name": "estadio Marie Marvingt"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q1476",
+        "name": "Le Mans"
+      }
+    ],
+    "inception": "+1985-06-12T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-b6915aef774002491ee5",
+    "name": "Lens",
+    "leagueId": "ligue-1",
+    "country": "Francia",
+    "season": "2026-27",
+    "wikipediaTitle": "RC Lens",
+    "sourceUrl": "https://en.wikipedia.org/wiki/RC_Lens",
+    "sourceRevision": 1379049635,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 29,
+    "totalListedCount": 39,
+    "wikidataId": "Q191843",
+    "stadiums": [
+      {
+        "id": "Q854122",
+        "name": "Stade Félix Bollaert"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q165271",
+        "name": "Lens"
+      },
+      {
+        "id": "Q331624",
+        "name": "Avion"
+      }
+    ],
+    "inception": "+1906-00-00T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-81fd811f7adac9f01531",
+    "name": "Lille",
+    "leagueId": "ligue-1",
+    "country": "Francia",
+    "season": "2026-27",
+    "wikipediaTitle": "Lille OSC",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Lille_OSC",
+    "sourceRevision": 1378873980,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 25,
+    "totalListedCount": 39,
+    "wikidataId": "Q19516",
+    "stadiums": [
+      {
+        "id": "Q1410402",
+        "name": "Estadio Pierre Mauroy"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q3034480",
+        "name": "Q3034480"
+      }
+    ],
+    "inception": "+1944-09-23T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-3fb0bee0010f97b4eab2",
+    "name": "Lorient",
+    "leagueId": "ligue-1",
+    "country": "Francia",
+    "season": "2026-27",
+    "wikipediaTitle": "FC Lorient",
+    "sourceUrl": "https://en.wikipedia.org/wiki/FC_Lorient",
+    "sourceRevision": 1378873081,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 27,
+    "totalListedCount": 30,
+    "wikidataId": "Q48911",
+    "stadiums": [
+      {
+        "id": "Q39189",
+        "name": "Stade du Moustoir"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q71724",
+        "name": "Lorient"
+      }
+    ],
+    "inception": "+1926-00-00T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-f7649082a8dc4a7d63da",
+    "name": "Lyon",
+    "leagueId": "ligue-1",
+    "country": "Francia",
+    "season": "2026-27",
+    "wikipediaTitle": "Olympique Lyonnais",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Olympique_Lyonnais",
+    "sourceRevision": 1377740596,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 26,
+    "totalListedCount": 39,
+    "wikidataId": "Q704",
+    "stadiums": [
+      {
+        "id": "Q8507",
+        "name": "Parc Olympique lyonnais"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q124014090",
+        "name": "Q124014090"
+      }
+    ],
+    "inception": "+1950-00-00T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-d5da943e1968981bcf21",
+    "name": "Marseille",
+    "leagueId": "ligue-1",
+    "country": "Francia",
+    "season": "2026-27",
+    "wikipediaTitle": "Olympique de Marseille",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Olympique_de_Marseille",
+    "sourceRevision": 1379015823,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 22,
+    "totalListedCount": 30,
+    "wikidataId": "Q132885",
+    "stadiums": [
+      {
+        "id": "Q202150",
+        "name": "Stade Vélodrome"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q2945089",
+        "name": "Centre d'entraînement Robert Louis-Dreyfus"
+      },
+      {
+        "id": "Q23482",
+        "name": "Marsella"
+      }
+    ],
+    "inception": "+1899-08-31T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-b8ed8bc9f0080433458d",
+    "name": "Monaco",
+    "leagueId": "ligue-1",
+    "country": "Francia",
+    "season": "2026-27",
+    "wikipediaTitle": "AS Monaco FC",
+    "sourceUrl": "https://en.wikipedia.org/wiki/AS_Monaco_FC",
+    "sourceRevision": 1376042222,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 30,
+    "totalListedCount": 35,
+    "wikidataId": "Q180305",
+    "stadiums": [
+      {
+        "id": "Q318851",
+        "name": "Estadio Luis II"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q3685392",
+        "name": "comuna de Mónaco"
+      }
+    ],
+    "inception": "+1924-08-23T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-ac68d4009d734041ac6a",
+    "name": "Nice",
+    "leagueId": "ligue-1",
+    "country": "Francia",
+    "season": "2026-27",
+    "wikipediaTitle": "OGC Nice",
+    "sourceUrl": "https://en.wikipedia.org/wiki/OGC_Nice",
+    "sourceRevision": 1378874386,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 29,
+    "totalListedCount": 35,
+    "wikidataId": "Q185163",
+    "stadiums": [
+      {
+        "id": "Q127372",
+        "name": "Allianz Riviera"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q33959",
+        "name": "Niza"
+      }
+    ],
+    "inception": "+1904-00-00T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-1bfdfb2df32e98a677b4",
+    "name": "Paris FC",
+    "leagueId": "ligue-1",
+    "country": "Francia",
+    "season": "2026-27",
+    "wikipediaTitle": "Paris FC",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Paris_FC",
+    "sourceRevision": 1378347481,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 25,
+    "totalListedCount": 30,
+    "wikidataId": "Q1051013",
+    "stadiums": [
+      {
+        "id": "Q541391",
+        "name": "Estadio Charléty"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q90",
+        "name": "París"
+      },
+      {
+        "id": "Q236058",
+        "name": "Orly"
+      }
+    ],
+    "inception": "+1969-08-01T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-3c2a3c749e70ef6d083c",
+    "name": "Paris Saint-Germain",
+    "leagueId": "ligue-1",
+    "country": "Francia",
+    "season": "2026-27",
+    "wikipediaTitle": "Paris Saint-Germain FC",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Paris_Saint-Germain_FC",
+    "sourceRevision": 1379041426,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 24,
+    "totalListedCount": 29,
+    "wikidataId": "Q483020",
+    "stadiums": [
+      {
+        "id": "Q193431",
+        "name": "Parque de los Príncipes"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q90",
+        "name": "París"
+      }
+    ],
+    "inception": "+1970-08-12T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-641f111e3f2497c2e701",
+    "name": "Rennes",
+    "leagueId": "ligue-1",
+    "country": "Francia",
+    "season": "2026-27",
+    "wikipediaTitle": "Stade Rennais FC",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Stade_Rennais_FC",
+    "sourceRevision": 1375839522,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 26,
+    "totalListedCount": 37,
+    "wikidataId": "Q19509",
+    "stadiums": [
+      {
+        "id": "Q1121760",
+        "name": "Stade de la Route de Lorient"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q2945079",
+        "name": "Centre d'entraînement Henri-Guérin"
+      }
+    ],
+    "inception": "+1901-03-10T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-858451e1f88664c74354",
+    "name": "Strasbourg",
+    "leagueId": "ligue-1",
+    "country": "Francia",
+    "season": "2026-27",
+    "wikipediaTitle": "RC Strasbourg Alsace",
+    "sourceUrl": "https://en.wikipedia.org/wiki/RC_Strasbourg_Alsace",
+    "sourceRevision": 1379050471,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 30,
+    "totalListedCount": 38,
+    "wikidataId": "Q126334",
+    "stadiums": [
+      {
+        "id": "Q374883",
+        "name": "Stade de la Meinau"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q6602",
+        "name": "Estrasburgo"
+      }
+    ],
+    "inception": "+1906-00-00T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-4ecb923d42e36824c692",
+    "name": "Toulouse",
+    "leagueId": "ligue-1",
+    "country": "Francia",
+    "season": "2026-27",
+    "wikipediaTitle": "Toulouse FC",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Toulouse_FC",
+    "sourceRevision": 1378874802,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 24,
+    "totalListedCount": 30,
+    "wikidataId": "Q19518",
+    "stadiums": [
+      {
+        "id": "Q738044",
+        "name": "Stade de Toulouse"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q7880",
+        "name": "Toulouse"
+      }
+    ],
+    "inception": "+1970-05-25T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  },
+  {
+    "id": "wiki-71d8066b87e059f7b8d6",
+    "name": "Troyes",
+    "leagueId": "ligue-1",
+    "country": "Francia",
+    "season": "2026-27",
+    "wikipediaTitle": "ES Troyes AC",
+    "sourceUrl": "https://en.wikipedia.org/wiki/ES_Troyes_AC",
+    "sourceRevision": 1377254275,
+    "license": "CC-BY-SA-4.0",
+    "firstTeamCount": 28,
+    "totalListedCount": 30,
+    "wikidataId": "Q501693",
+    "stadiums": [
+      {
+        "id": "Q2001732",
+        "name": "Stade de l'Aube"
+      }
+    ],
+    "headquarters": [
+      {
+        "id": "Q5489",
+        "name": "Troyes"
+      }
+    ],
+    "inception": "+1986-06-28T00:00:00Z",
+    "biographicalLicense": "CC0-1.0"
+  }
+]

@@ -1,0 +1,329 @@
+/* FUTIN: chalk grey, porcelain, charcoal, coral selection and electric yellow. */
+body.futin-ui {
+  color-scheme: light;
+  --page: var(--theme-page,#dfdfdb);
+  --panel: var(--theme-panel,#f9f9f5);
+  --panel-soft: var(--theme-panel-soft,#eeefeb);
+  --line: var(--theme-line,#c8cac5);
+  --text: var(--theme-text,#30383d);
+  --muted: var(--theme-muted,#626b70);
+  --lime: #ff5269;
+  --cyan: #ff5269;
+  --ui-sky: #ff5269;
+  --ui-ink: var(--theme-text,#30383d);
+  --ui-line: var(--theme-line,#c8cac5);
+  --ui-muted: var(--theme-muted,#626b70);
+  --home-sky: #ff5269;
+  --home-cream: var(--theme-text,#30383d);
+  --coral: #ff5269;
+  --yellow: #fff044;
+  --paper: var(--theme-panel,#f9f9f5);
+  --ink: var(--theme-text,#30383d);
+  --selection-ink: #30383d;
+  color: var(--ink);
+  background: var(--page);
+}
+body.futin-ui .main-content {
+  background: linear-gradient(126deg,var(--theme-glaze-strong,#ffffff38) 18%,transparent 18% 59%,var(--theme-glaze-soft,#ffffff1c) 59% 60%,transparent 60%),radial-gradient(ellipse at 90% 10%,var(--theme-panel,#f4f4ef),transparent 65%),var(--theme-page,#dfdfdb);
+}
+body.futin-ui .sidebar { background: linear-gradient(165deg,var(--theme-panel,#f7f7f3),var(--theme-panel-soft,#e7e8e3)); border-color: var(--theme-line,#c5c8c3); }
+body.futin-ui .topbar { background: var(--theme-panel,#f3f4efdf); border-color: var(--theme-line,#c7cbc6); }
+.futin-ui .brand { color: var(--ink); }
+.futin-ui .brand > span:last-child { text-shadow: none; }
+.futin-ui .brand-period { color: var(--coral); }
+.futin-ui .nav-label,.futin-ui .breadcrumb > span:first-child { color: var(--theme-muted,#707a7f); }
+.futin-ui .breadcrumb,.futin-ui .profile-copy strong { color: var(--ink); }
+.futin-ui .crumb-slash { color: var(--theme-soft,#858d91); }
+.futin-ui .nav-link { color: var(--theme-text,#4a545b); border-color: transparent; }
+.futin-ui .nav-icon { color: var(--theme-text,#4a545b); background: var(--theme-panel-soft,#e6e8e2); border-color: var(--theme-line,#d0d4cb); }
+body.futin-ui .nav-link.is-active { color: var(--selection-ink); background: var(--coral); border-color: var(--coral); box-shadow: inset 3px 0 var(--selection-ink); }
+body.futin-ui .nav-link.is-active .nav-icon { color: var(--yellow); background: var(--selection-ink); border-color: var(--selection-ink); }
+.futin-ui .profile-mini { border-color: var(--theme-line,#c9cdc6); }
+.futin-ui .profile-copy small,.futin-ui .profile-more { color: var(--theme-muted,#737c80); }
+.futin-ui .avatar { color: var(--ink); background: var(--theme-panel-soft,#e4e7e1); border-color: var(--theme-line,#b9c1ba); }
+.futin-ui .season-card { background: linear-gradient(125deg,var(--theme-panel,#fffef7),var(--theme-panel,#f1f0e8)); border-color: var(--theme-line,#c7cbc3); box-shadow: 0 6px 16px #353b3f07; }
+.futin-ui .season-card strong,.futin-ui .season-meta b,.futin-ui .season-card .season-meta b { color: var(--ink); }
+.futin-ui .season-top { color: var(--theme-muted,#535e64); }
+.futin-ui .season-meta { color: var(--theme-muted,#68737a); }
+.futin-ui .season-progress,.futin-ui .goal-progress { background: var(--theme-control,#d2d6ce); }
+.futin-ui .season-progress span,.futin-ui .goal-progress span { background: var(--coral); }
+.futin-ui .coin-pill,.futin-ui .gem-balance-card,.futin-ui .games-wallet { background: var(--theme-panel,#fafaf6); border-color: var(--theme-line,#bfc5bd); color: var(--ink); box-shadow: 0 4px 12px #30383d09; }
+.futin-ui .coin-pill strong,.futin-ui .gem-balance-card strong,.futin-ui .games-wallet strong { color: var(--ink); }
+.futin-ui .coin-plus,.futin-ui .gem-balance-card > a { color: var(--ink); border-color: var(--theme-line,#c5ccc3); background: var(--theme-panel-soft,#e3e8df); }
+.futin-ui .gem-balance-card small,.futin-ui .games-wallet small { color: var(--theme-muted,#5e6b72); }
+.futin-ui .notification-button { color: var(--theme-muted,#4e5a60); }
+.futin-ui .notification-button i,.futin-ui .live-dot,.futin-ui .green-dot,.futin-ui .eyebrow-line { background: var(--coral); box-shadow: none; }
+.futin-ui :is(h1,h2,h3) { color: var(--ink); }
+.futin-ui :is(.eyebrow,.quiet-count,.section-note,.subheading,.drag-hint,.catalog-intro,.card-catalog-footer) { color: var(--theme-muted,#626d73); }
+.futin-ui .club-page-hero { border-color: var(--theme-line,#c7cdc4); background: radial-gradient(ellipse at 85% 20%,#fff7bb45,transparent 50%),linear-gradient(110deg,var(--theme-panel,#f9f9f5),var(--theme-panel,#eff0e9)); box-shadow: 0 9px 24px #353b3f08; }
+.futin-ui .club-page-hero::before { background: linear-gradient(124deg,transparent 58%,#353f4504 58% 66%,transparent 66% 73%,#353f4509 73% 74%,transparent 74%); }
+.futin-ui .club-page-hero::after { filter: drop-shadow(0 10px 13px #30383d21); }
+.futin-ui .club-page-hero h1 { color: var(--ink); }
+.futin-ui .club-page-hero h1 span { color: var(--theme-accent-text,#e9415b); }
+.futin-ui .club-page-hero .subheading,.futin-ui .catalog-intro { color: var(--theme-muted,#626d73); }
+.futin-ui .card-catalog-link,.futin-ui .catalog-back { color: var(--theme-text,#46535b); }
+.futin-ui :is(.module-panel,.card-design-sample,.collection-panel,.bench-panel,.shop-pack.shop-pack-card,.career-save-slot,.career-save-slot.is-empty,.death-game-card,.guess-game-card,.coming-game,.pass-earn-panel) { background: var(--paper); border-color: var(--theme-line,#c7cdc4); box-shadow: 0 7px 21px #30383d08; }
+.futin-ui :is(.section-heading h2,.bench-heading h2,.card-design-sample h2,.shop-pack-copy h3,.gold-pack .shop-pack-copy h3,.career-save-slot h2) { color: var(--ink); }
+.futin-ui .sample-heading p,.futin-ui .sample-heading h2 span,.futin-ui .sample-index,.futin-ui .catalog-key { color: var(--theme-muted,#69757c); }
+.futin-ui .formation-picker { color: var(--theme-muted,#536269); background: var(--theme-panel,#f1f3ed); border-color: var(--theme-line,#c4ccc2); }
+.futin-ui :is(.formation-picker select,.career-select,.filter-panel select,.guess-input-wrap input) { background: var(--theme-panel,#fafbf7); border-color: var(--theme-line,#bbc6bd); color: var(--ink); }
+.futin-ui .squad-footer { color: var(--theme-muted,#596b72); border-color: var(--theme-line,#ced5cd); }
+.futin-ui .module-rating { color: var(--ink); background: var(--theme-panel-soft,#e3e8e0); border-color: var(--theme-line,#c1ccbf); }
+.futin-ui .inventory-tabs { background: var(--theme-panel-soft,#e3e7df); }
+.futin-ui .inventory-tab { background: var(--theme-panel,#eef0e9); color: var(--theme-muted,#4f5d63); border-color: var(--theme-line,#c5cfc1); }
+.futin-ui .inventory-tab.is-active { background: var(--coral); color: var(--selection-ink); border-color: var(--coral); }
+.futin-ui .inventory-tab span { color: inherit; }
+.futin-ui .inventory-toolbar { background: var(--theme-panel-soft,#ecefe8); border-color: var(--theme-line,#d0d7ca); }
+.futin-ui .inventory-summary { color: var(--theme-muted,#5a6971); }
+.futin-ui :is(.filter-toggle,.filter-reset,.modal-action,.setup-back-button,.match-close,.career-open-saves) { background: var(--theme-panel-soft,#e7ece2); border-color: var(--theme-line,#becaba); color: var(--theme-text,#3d4d55); }
+.futin-ui .filter-panel,.futin-ui .empty-inventory,.futin-ui .career-empty-state { background: var(--theme-panel,#f0f3ec); border-color: var(--theme-line,#c1cdba); color: var(--theme-muted,#617069); }
+.futin-ui :is(.button-neon,.buy-gems-button,.filter-apply,.guess-input-wrap button) { color: var(--ink); background: var(--theme-panel-soft,#e8eae4); border-color: var(--theme-line,#c1c7bd); }
+.futin-ui .button-secondary { color: var(--ink); background: var(--theme-panel,#fafaf6); border-color: var(--theme-line,#bfc8bc); }
+.futin-ui .button,.futin-ui .buy-gems-button { border: 1px solid var(--theme-line,#c1c7bd); box-shadow: none; }
+.futin-ui .shop-pack .shop-pack-copy { background: var(--theme-panel,#fafaf6); border-color: var(--theme-line,#d3d7ce); }
+.futin-ui .shop-pack .shop-pack-art { background: radial-gradient(ellipse at 50% 80%,#333d4410,transparent 65%),var(--theme-panel,#f0f1ea); }
+.futin-ui .gold-visual,.futin-ui .gold-jumbo-visual { background: radial-gradient(ellipse at 50% 70%,#f3d86b45,transparent 75%),var(--theme-panel,#f3f2e9); }
+.futin-ui .elite-visual,.futin-ui .elite-jumbo-visual,.futin-ui .special-visual { background: radial-gradient(ellipse at 50% 70%,var(--theme-panel-soft,#e6dde64d),transparent 75%),var(--theme-selected-soft,#f0eeef); }
+.futin-ui .shop-pack-art::before { border-color: var(--theme-line,#b6bfb733); }
+.futin-ui .shop-pack-art::after { background: #30383d20; }
+.futin-ui .pack-tier { color: var(--theme-muted,#69766e); }
+.futin-ui .pack-description,.futin-ui .gold-pack .pack-description { color: var(--theme-muted,#65716b); }
+.futin-ui .pack-price-row { border-color: var(--theme-line,#d1d6cd); }
+.futin-ui .pack-price-row > span { color: var(--theme-muted,#68736c); }
+.futin-ui .pack-price-row strong { color: var(--ink); }
+body.futin-ui .pass-overview,body.futin-ui .pass-roadmap { border-color: var(--theme-line,#c2cbc0); background: var(--paper); box-shadow: 0 9px 25px #30383d09; }
+body.futin-ui .pass-overview::after { border-color: #37424609; box-shadow: 0 0 0 22px #37424604,0 0 0 46px #37424603; }
+body.futin-ui .pass-overview-heading h2,body.futin-ui .pass-roadmap-header h2,body.futin-ui .pass-level-display strong,body.futin-ui .pass-xp-heading strong { color: var(--ink); }
+body.futin-ui :is(.pass-overview-heading .eyebrow,.pass-roadmap-header .eyebrow,.pass-roadmap-copy,.pass-level-display,.pass-xp-heading,.pass-overview-footer,.pass-roadmap-count,.pass-legend) { color: var(--theme-muted,#69756d); }
+body.futin-ui .pass-overview-footer b,.futin-ui .pass-roadmap-count b { color: var(--ink); }
+body.futin-ui .pass-season-chip,body.futin-ui .pass-status { border-color: var(--theme-line,#c4cdbc); background: var(--theme-panel-soft,#ecefe5); color: var(--theme-muted,#4f5d50); }
+body.futin-ui .pass-season-chip i { background: var(--coral); box-shadow: none; }
+body.futin-ui .pass-progress-track { background: var(--theme-panel-soft,#e1e7dc); border-color: var(--theme-line,#cad4c3); }
+body.futin-ui .pass-progress-track > span { background: var(--coral); box-shadow: none; }
+.futin-ui .pass-track-toolbar { color: var(--theme-muted,#5d696e); }
+.futin-ui .pass-track-toolbar button { background: var(--theme-panel-soft,#e8ece3); border-color: var(--theme-line,#c2ccbc); color: var(--ink); }
+.futin-ui .pass-step-head,.futin-ui .pass-track-corner { background: var(--theme-panel-soft,#e8ece3); border-color: var(--theme-line,#c9d1c4); color: var(--theme-muted,#5f6c63); }
+body.futin-ui .pass-step.is-current .pass-step-head { background: var(--coral); color: var(--selection-ink); border-color: var(--coral); box-shadow: 0 0 0 3px #ff52691f; }
+.futin-ui .pass-step.is-current .pass-step-head > span { color: var(--selection-ink); }
+.futin-ui .pass-step.is-upcoming .pass-step-head strong { color: var(--theme-muted,#59676d); }
+.futin-ui .pass-step.is-completed .pass-step-head { background: var(--theme-panel-soft,#dbe5d6); color: var(--theme-text,#344c3c); border-color: var(--theme-line,#aabb9f); }
+.futin-ui .pass-reward-slot,.futin-ui .pass-reward-slot.is-free,.futin-ui .pass-lane-free { background: var(--theme-panel,#eef0e8); color: var(--theme-muted,#546455); border-color: var(--theme-line,#c5d0bc); }
+.futin-ui .pass-reward-slot.is-premium,.futin-ui .pass-lane-premium { background: var(--theme-panel,#f7f1dd); color: #736432; border-color: #dcd0a8; }
+.futin-ui .pass-reward-slot strong { color: var(--theme-muted,#4d5b61); }
+.futin-ui .pass-reward-slot small { color: var(--theme-muted,#737d73); }
+.futin-ui .pass-reward-spark,.futin-ui .pass-lane-label > i { border-color: var(--theme-line,#b9c4ae); color: inherit; background: var(--theme-panel,#ffffff44); }
+.futin-ui .pass-earn-grid article { background: var(--theme-panel,#edf0e7); border-color: var(--theme-line,#c8d0bf); }
+.futin-ui :is(.pass-earn-grid p,.pass-earn-note,.pass-earn-heading > span) { color: var(--theme-muted,#657369); }
+.futin-ui .pass-earn-grid b { color: var(--ink); }
+.futin-ui .career-save-slot::before { opacity: .2; }
+.futin-ui .save-slot-top,.futin-ui .career-save-slot > p,.futin-ui .career-save-note { color: var(--theme-muted,#65736c); }
+.futin-ui .save-slot-counter,.futin-ui .save-add { background: var(--theme-panel-soft,#e7ece1); border-color: var(--theme-line,#c1ccba); color: var(--ink); }
+.futin-ui .career-save-slot > .save-slot-club { color: var(--theme-accent-text,#b7354b); }
+.futin-ui .career-tabs,.futin-ui .team-tabs { background: var(--theme-panel-soft,#ebeee6); border-color: var(--theme-line,#c7d0bf); }
+.futin-ui .career-tab,.futin-ui .team-tab { color: var(--theme-muted,#5c6a62); }
+.futin-ui .career-tab.is-active,.futin-ui .team-tab.is-active { background: var(--coral); color: var(--selection-ink); border-color: var(--coral); }
+.futin-ui .career-stat-grid,.futin-ui .career-stat-grid > div { background: var(--theme-panel-soft,#e8eee2); color: var(--ink); border-color: var(--theme-line,#c9d3c0); }
+.futin-ui .career-stat-grid strong { color: var(--ink); }
+.futin-ui .career-stat-grid span,.futin-ui .career-progress > div:first-child { color: var(--theme-muted,#647463); }
+.futin-ui .career-match,.futin-ui .career-module-heading { background: var(--theme-panel,#f9f9f4); border-color: var(--theme-line,#c5cdbf); }
+.futin-ui .status-tag { background: var(--theme-selected-soft,#ffe3e7); border-color: #efb7c0; color: var(--theme-accent-text,#b93148); }
+.futin-ui .status-tag i { background: var(--coral); box-shadow: none; }
+.futin-ui :is(.match-league,.match-time .match-vs,.match-foot,.career-select-label,.career-data-actions button,.career-module-heading p) { color: var(--theme-muted,#62746c); }
+.futin-ui :is(.team-block strong,.match-time strong,.career-table td,.career-result-row,.career-mini-row,.career-leader-row) { color: var(--ink); }
+.futin-ui .career-table thead { background: var(--theme-panel-soft,#e8ede2); }
+.futin-ui :is(.career-table th,.career-table td:first-child,.career-mini-row > span,.career-mini-row small,.career-result-row small,.career-setting-row p) { color: var(--theme-muted,#6a786e); }
+.futin-ui :is(.career-table td,.fixture-row,.career-result-row,.career-mini-row,.career-leader-row,.career-setting-row) { border-color: var(--theme-line,#d5dccd); }
+.futin-ui .career-table td:nth-child(2) strong,.futin-ui .career-result-row b { color: var(--ink); }
+.futin-ui .career-table tr.is-user-club { background: var(--theme-selected-soft,#ffe8ec); }
+.futin-ui .career-table tr.is-user-club td:nth-child(2) strong { color: var(--theme-accent-text,#b42f46); }
+.futin-ui :is(.career-progress-track,.stat-track,.save-slot-progress i) { background: var(--theme-panel-soft,#d8e0cf); }
+.futin-ui :is(.career-setup-window,.match-sim-window,.career-match-window,.player-modal-card) { background: var(--paper); border-color: var(--theme-line,#bbc7b3); }
+.futin-ui :is(.career-setup-header,.match-sim-header) { background: var(--theme-panel-soft,#ecefe5); border-color: var(--theme-line,#cad3c1); }
+.futin-ui :is(.career-setup-header h2,.match-sim-header h2,.career-setup-section-heading h3,.player-stat strong,.live-team strong,.live-score-center > strong) { color: var(--ink); }
+.futin-ui :is(.career-setup-header p:last-child,.career-setup-note,.league-choice-card > small,.choice-card-top,.team-choice-copy small,.modal-position,.player-stat) { color: var(--theme-muted,#657567); }
+.futin-ui .career-choice-card { background: var(--theme-panel,#eef1e8); border-color: var(--theme-line,#c5d0bb); color: var(--ink); }
+.futin-ui .choice-card-cta { border-color: var(--theme-line,#ccd6c0); color: var(--theme-accent-text,#aa3045); }
+.futin-ui .modal-close { background: var(--theme-panel-soft,#e5ebdd); color: var(--ink); }
+.futin-ui :is(.modal-player-top,.modal-actions,.round-fixtures) { border-color: var(--theme-line,#d2dbca); }
+.futin-ui .shop-toast { color: var(--ink); background: var(--theme-panel,#fffdf4); border-color: var(--theme-line,#cbbda1); box-shadow: 0 12px 32px #30383d22; }
+.futin-ui .shop-toast.is-error { color: var(--theme-accent-text,#a3273a); background: var(--theme-selected-soft,#fff0f2); border-color: #e7a3af; }
+.futin-ui .game-picker-card,.futin-ui .picker-guess { background: var(--theme-panel,#f9f9f4); color: var(--ink); border-color: var(--theme-line,#c3cbbd); }
+.futin-ui .game-picker-card.is-selected { background: var(--theme-selected-soft,#ffe4e8); border-color: var(--coral); box-shadow: inset 0 -3px var(--coral); }
+.futin-ui :is(.picker-index,.picker-copy small,.picker-action) { color: var(--theme-muted,#596b64); }
+.futin-ui .game-picker-card.is-selected .picker-index,.futin-ui .game-picker-card.is-selected .picker-action { color: var(--theme-accent-text,#b62e45); }
+.futin-ui .daily-attempts { background: var(--theme-panel,#f7f8f1); border-color: var(--theme-line,#c2ccba); }
+.futin-ui :is(.daily-attempts strong,.attempts-counter > span,.death-game-heading h2,.guess-game-heading h2,.games-library-heading h2,.coming-game h3) { color: var(--ink); }
+.futin-ui :is(.game-kicker,.daily-attempts small,.death-game-heading p:last-child,.guess-game-heading > div:first-child > p:last-child,.coming-game p,.coming-game > div > small,.games-library-heading .eyebrow) { color: var(--theme-muted,#63756c); }
+.futin-ui .game-kicker > span { background: var(--coral); box-shadow: none; }
+.futin-ui .death-game-heading h2 span,.futin-ui .guess-game-heading h2 span { color: var(--theme-accent-text,#d63852); }
+.futin-ui .death-game-heading,.futin-ui .guess-game-heading { border-color: var(--theme-line,#d1dacc); }
+.futin-ui .death-game-badge { color: var(--theme-muted,#495c52); }
+.futin-ui .death-game-badge svg { fill: #edf2e5; stroke: #667b64; }
+.futin-ui .penalty-arena,.futin-ui .prize-console,.futin-ui .mystery-card-panel { background: var(--theme-panel,#eef2e7); border-color: var(--theme-line,#c7d3bd); }
+.futin-ui :is(.arena-topline,.game-feedback,.secured-prize strong,.next-prize-row strong,.guess-prize-strip strong) { color: var(--ink); }
+.futin-ui :is(.arena-legend,.arena-legend small,.secured-prize small,.prize-console-head p,.secured-xp,.next-prize-row,.risk-note) { color: var(--theme-muted,#5b7062); }
+.futin-ui :is(.prize-console-head span,.secured-xp strong,.next-prize-label,.next-prize-label span:last-child) { color: var(--theme-accent-text,#a72f46); }
+.futin-ui .prize-divider { background: var(--theme-control,#c9d6c0); }
+.futin-ui .probability-pill { background: var(--theme-panel,#f9faf5); border-color: var(--theme-line,#bdceb1); color: var(--theme-muted,#4c6651); }
+.futin-ui .round-progress i { background: var(--theme-control,#c7d2bd); }
+.futin-ui .round-progress i.is-current { background: var(--coral); box-shadow: none; }
+.futin-ui .goal-scene { border-color: var(--theme-line,#b9c7b1); background: linear-gradient(180deg,var(--theme-control,#657365),var(--theme-control,#5d765d) 65%,var(--theme-control,#6a8360)); }
+.futin-ui .goal-zone button { background: #eff4e822; border-color: var(--theme-line,#ecf2e7a6); color: #fff; text-shadow: none; }
+.futin-ui .games-library { background: none; border-color: var(--theme-line,#c2cdba); }
+.futin-ui .coming-game-icon { background: var(--theme-panel-soft,#e7edde); color: var(--theme-muted,#566954); border-color: var(--theme-line,#c2d0b5); }
+.futin-ui .coming-game-state,.futin-ui .games-library-heading > span { color: var(--theme-muted,#66765f); border-color: var(--theme-line,#bcccb0); }
+.futin-ui .guess-daily-pill,.futin-ui .guess-prize-strip { background: var(--theme-panel,#eef3e6); border-color: var(--theme-line,#c3d2b7); }
+.futin-ui :is(.guess-daily-count,.guess-error-meter) { color: var(--theme-accent-text,#a63048); border-color: #e6acb8; }
+.futin-ui :is(.guess-daily-pill small,.guess-prize-strip small,.guess-prize-strip strong em,.mystery-card-caption,.guess-rules,.guess-feedback) { color: var(--theme-muted,#64755f); }
+.futin-ui .guess-clues-empty,.futin-ui .guess-clue { background: var(--theme-panel,#f0f4e9); border-color: var(--theme-line,#c8d6bc); color: var(--theme-text,#465b45); }
+.futin-ui .guess-clues-empty > span,.futin-ui .guess-clue > span { background: var(--theme-selected-soft,#ffe1e7); border-color: #f0bac4; color: var(--theme-accent-text,#a52a42); }
+.futin-ui .guess-clue small,.futin-ui .guess-clue p { color: var(--theme-muted,#5c7057); }
+.futin-ui .guess-clue strong { color: var(--theme-text,#334d34); }
+.futin-ui .guess-form > label { color: var(--theme-muted,#526a51); }
+.futin-ui .guess-input-wrap input::placeholder { color: var(--theme-muted,#7b8872); }
+.futin-ui .guess-suggestions { background: var(--theme-panel,#fafcf5); border-color: var(--theme-line,#b8c9a9); box-shadow: 0 9px 24px #30383d20; }
+.futin-ui .guess-suggestion { color: var(--ink); border-color: var(--theme-line,#d2dcc8); }
+.futin-ui .guess-suggestion small { color: var(--theme-muted,#68765f); }
+/* Home keeps its football illustrations, with a light menu surface. */
+.futin-ui :is(.home-overline,.home-date,.home-date small,.home-welcome p:last-child,.home-kicker,.home-section-heading .home-kicker,.home-footer) { color: var(--theme-muted,#66716e); }
+.futin-ui .home-welcome h1,.futin-ui .home-section-heading h2 { color: var(--ink); }
+.futin-ui .home-welcome h1 span { color: var(--theme-accent-text,#e23d57); }
+.futin-ui .home-overline > span,.futin-ui .home-date i,.futin-ui .home-game-tag i,.futin-ui .hub-squad::after { background: var(--coral); box-shadow: none; }
+.futin-ui .hub-tile { background: var(--theme-panel,#f9f9f4); border-color: var(--theme-line,#c3cdc0); box-shadow: 0 6px 18px #30383d0a; }
+.futin-ui .hub-store { background: radial-gradient(ellipse at 90% 40%,#fff09e55,transparent 70%),var(--theme-panel,#faf9ef); }
+.futin-ui .hub-season { background: var(--theme-panel,#f0f2e9); }
+.futin-ui .hub-tile h2,.futin-ui .home-game h3,.futin-ui .home-squad-meta b,.futin-ui .home-pack-price,.futin-ui .home-pass-progress { color: var(--ink); }
+.futin-ui :is(.hub-squad-heading h2 span,.home-store-copy h2 span,.home-season-copy h2 span) { color: var(--theme-accent-text,#d13e54); }
+.futin-ui :is(.home-store-copy .home-kicker,.home-store-copy p,.home-season-copy p,.home-pack-price small,.home-pass-progress small,.home-squad-meta > span,.home-overall > span,.home-game p,.home-game-tag,.home-game-career .home-game-tag,.home-game-copy .home-kicker,.home-game-career .home-kicker) { color: var(--theme-muted,#64716a); }
+.futin-ui .home-gold-label { background: var(--theme-panel-soft,#f3eccb); border-color: var(--theme-line,#d2cba4); color: #73652f; }
+.futin-ui .home-overall strong { background: var(--theme-panel-soft,#ecefe5); border-color: var(--theme-line,#c0cbb8); outline-color: var(--theme-line,#c0cbb85c); color: var(--ink); }
+.futin-ui .hub-squad-footer { background: var(--theme-panel-soft,#ecefe7f2); border-color: var(--theme-line,#cad3c1); }
+.futin-ui .hub-action,.futin-ui .home-section-heading > a,.futin-ui .home-footer > a { color: var(--theme-muted,#4a5b51); }
+.futin-ui .hub-action i,.futin-ui .hub-corner-arrow,.futin-ui .hub-store .hub-corner-arrow { background: var(--theme-panel-soft,#e5ebdf); border-color: var(--theme-line,#bbcbb0); color: var(--theme-text,#3c5240); }
+.futin-ui .home-pass-track { background: var(--theme-panel-soft,#d4dec8); }
+.futin-ui .home-pass-track span { background: var(--coral); box-shadow: none; }
+.futin-ui .hub-season::before { border-color: #39484504; box-shadow: 0 0 0 35px #39484503; }
+.futin-ui .season-emblem-outer { fill: #30383d; stroke: #ff5269; }
+.futin-ui .season-emblem-inner { fill: #ff5269; stroke: #ffa6b3; }
+.futin-ui .season-emblem-star { fill: #fff044; stroke: #fffca1; }
+.futin-ui .season-emblem-chevron { stroke: #ffe5e9; }
+.futin-ui .home-season-emblem > span,.futin-ui .home-season-emblem b { color: var(--theme-muted,#4e6552); }
+.futin-ui .home-game::after { background: linear-gradient(0deg,var(--theme-panel,#f9f9f4),transparent 90%); }
+.futin-ui .home-goal-net { border-color: var(--theme-line,#667c64); box-shadow: 4px 5px #61766026; background: repeating-linear-gradient(90deg,transparent 0 15px,#52624d1c 16px 17px),repeating-linear-gradient(0deg,transparent 0 15px,#52624d1c 16px 17px); }
+.futin-ui .home-goal-target { border-color: var(--coral); box-shadow: none; }
+.futin-ui .home-game-arrow { color: var(--theme-accent-text,#a93249); }
+.futin-ui .home-guess-card { background: linear-gradient(135deg,var(--theme-selected-soft,#ffdce2),#ff5269); border-color: #d03e57; }
+.futin-ui .home-guess-card :is(b,small,i) { color: var(--theme-text,#30383d); }
+.futin-ui .home-footer { border-color: var(--theme-line,#c0cbbc); }
+.futin-ui .home-footer img { filter: none; }
+.futin-ui .home-footer b { color: var(--theme-accent-text,#b22e47); }
+/* Legacy screen details also need readable text on the light surfaces. */
+body.futin-ui .club-page-hero h1 span { color: var(--theme-accent-text,#e9415b); }
+body.futin-ui .club-page-hero .subheading { color: var(--theme-muted,#626d73); }
+body.futin-ui .pass-roadmap-count b { color: var(--theme-muted,#52615b); }
+.futin-ui .pass-track-toolbar > span,.futin-ui .pass-step-head > span { color: var(--theme-muted,#657264); }
+.futin-ui .pass-lane-label small { color: var(--theme-muted,#68765f); }
+.futin-ui .pass-lane-premium small { color: #7b6b40; }
+.futin-ui .pass-reward-slot.is-free .pass-reward-spark { color: var(--theme-muted,#546b4a); border-color: var(--theme-line,#aabca0); }
+.futin-ui .pass-legend i { background: var(--theme-panel-soft,#dce1d6); border-color: var(--theme-line,#bdc9b4); }
+.futin-ui .pass-legend .pass-legend-current { background: var(--coral); border-color: var(--coral); }
+.futin-ui .pass-legend .pass-legend-completed { background: var(--theme-control,#6b8760); border-color: #4e6d44; }
+.futin-ui .pass-track-scroll { scrollbar-color: #9ea69a #e6eadf; }
+.futin-ui .daily-attempts > div:nth-child(2) strong { color: var(--ink); }
+.futin-ui .daily-attempts > div:nth-child(2) small { color: var(--theme-muted,#64735f); }
+.futin-ui .attempts-icon { color: var(--theme-muted,#616e5c); border-color: var(--theme-line,#c1cdb5); background: var(--theme-panel-soft,#e5ecdd); }
+.futin-ui .attempt-dots i { background: var(--coral); border-color: var(--coral); box-shadow: none; }
+.futin-ui .attempt-dots i.is-used { background: var(--theme-control,#c0c8b8); border-color: var(--theme-line,#a1ad97); }
+.futin-ui .games-wallet > i { color: var(--theme-muted,#596953); }
+.futin-ui .guess-clues-empty p { color: var(--theme-muted,#5c7057); }
+.futin-ui .guess-input-wrap input:focus { border-color: #d73955; box-shadow: 0 0 0 3px #ff52691a; }
+.futin-ui .guess-no-suggestion { color: var(--theme-muted,#5a7052); }
+.futin-ui .guess-suggestion.is-highlighted { background: var(--coral); color: var(--ink); }
+.futin-ui .home-football { filter: grayscale(1) drop-shadow(0 8px 6px #30383d2b); }
+.futin-ui .season-card:hover .season-progress span { background: var(--ink); }
+.futin-ui :is(.training-select-card,.training-info,.training-player-card,.academy-card,.academy-status,.player-detail-window,.live-match-side,.chance-panel,.tactic-panel,.live-stat-strip > div) { color: var(--ink); background: var(--theme-panel,#f2f5ea); border-color: var(--theme-line,#c5d2b8); }
+.futin-ui :is(.training-avatar strong,.training-xp > div strong,.training-info h3,.academy-card h3,.academy-status strong,.player-detail-header h2,.live-stat-strip strong) { color: var(--ink); }
+.futin-ui :is(.training-avatar small,.training-avatar > div > span,.training-xp > div,.training-info p,.training-feedback,.team-table-hint,.academy-status p,.academy-card p,.live-stat-strip span,.career-empty) { color: var(--theme-muted,#63775d); }
+.futin-ui :is(.training-xp > i,.player-detail-progress > i,.player-detail-stats span,.career-empty) { background: var(--theme-panel-soft,#e3ebd9); border-color: var(--theme-line,#c1d0b1); }
+.futin-ui .tactic-options button { color: var(--ink); background: var(--theme-panel-soft,#e5eddb); border-color: var(--theme-line,#bfcead); }
+.futin-ui .career-choice-card:hover,.futin-ui .tactic-options button:hover { color: var(--selection-ink); background: var(--coral); border-color: var(--coral); }
+.futin-ui .fixture-row { color: var(--ink); background: var(--theme-panel,#f1f4e9); }
+.futin-ui .fixture-row strong,.futin-ui .fixture-row b { color: var(--ink); }
+.futin-ui .career-save-slot:hover,.futin-ui .card-design-sample:hover,.futin-ui .career-table tbody tr:hover { background: var(--coral); border-color: var(--coral); }
+.futin-ui .career-save-slot:hover :is(h2,p,.save-slot-top,.save-slot-club),.futin-ui .card-design-sample:hover .sample-heading :is(h2,p,span),.futin-ui .career-table tbody tr:hover :is(td,strong,b) { color: var(--selection-ink); }
+.futin-ui .career-save-slot:hover .button { background: var(--yellow); border-color: #efde39; }
+/* Selection follows the reference: coral surface, charcoal text, yellow icon. */
+.futin-ui :is(.nav-link,.hub-tile,.game-picker-card,.season-card,.coin-pill,.profile-mini,.career-choice-card,.shop-pack-card,.button,.buy-gems-button,.inventory-tab,.filter-toggle,.filter-reset,.filter-apply,.career-tab,.team-tab,.save-add,.modal-action,.setup-back-button,.match-close,.career-open-saves,.guess-input-wrap button,.pass-track-toolbar button):not(:disabled) {
+  transition: background-color .18s ease,color .18s ease,border-color .18s ease,box-shadow .18s ease;
+}
+body.futin-ui :is(.nav-link,.hub-tile,.game-picker-card,.season-card,.coin-pill,.profile-mini,.career-choice-card,.shop-pack-card,.button,.buy-gems-button,.inventory-tab,.filter-toggle,.filter-reset,.filter-apply,.career-tab,.team-tab,.save-add,.modal-action,.setup-back-button,.match-close,.career-open-saves,.guess-input-wrap button,.pass-track-toolbar button):not(:disabled):is(:hover,:focus-visible) {
+  color: var(--selection-ink); background: var(--coral); border-color: var(--coral); box-shadow: 0 8px 22px #a535481c; filter: none;
+}
+.futin-ui :is(.hub-tile,.game-picker-card,.season-card,.career-choice-card,.shop-pack-card):is(:hover,:focus-visible) :is(h2,h3,p,strong,b,small,.home-kicker,.picker-index,.picker-action,.home-gold-label,.home-game-tag,.home-game-arrow,.hub-action,.home-pack-price,.pack-tier,.home-pass-progress,.home-squad-meta,.home-season-emblem > span,.season-top,.season-meta) { color: var(--selection-ink); }
+.futin-ui .hub-tile:is(:hover,:focus-visible) :is(h2 span,h3 span,.home-game-copy .home-kicker,.hub-corner-arrow,.hub-action i),.futin-ui .nav-link:is(:hover,:focus-visible) .nav-icon { color: var(--yellow); }
+.futin-ui .hub-tile:is(:hover,:focus-visible) :is(h2 span,h3 span,.home-game-copy .home-kicker) { color: var(--selection-ink); }
+.futin-ui .hub-tile:is(:hover,:focus-visible) :is(.hub-corner-arrow,.hub-action i) { background: var(--selection-ink); border-color: var(--selection-ink); }
+.futin-ui .nav-link:is(:hover,:focus-visible) .nav-icon { background: #30383d; border-color: #30383d; }
+.futin-ui .hub-tile:is(:hover,:focus-visible)::before,.futin-ui .home-game:is(:hover,:focus-visible)::after { background: none; }
+.futin-ui .hub-tile:is(:hover,:focus-visible) .hub-squad-footer { background: #f64960; border-color: #e83f58; }
+.futin-ui .shop-pack-card:is(:hover,:focus-within) .shop-pack-copy,.futin-ui .shop-pack-card:hover .shop-pack-art { background: var(--coral); border-color: #e43b55; }
+.futin-ui .shop-pack-card:hover .buy-gems-button { background: var(--yellow); border-color: #efde39; color: var(--selection-ink); }
+.futin-ui .goal-zone button:not(:disabled):not(.is-safe):not(.is-danger):is(:hover,:focus-visible) { background: var(--coral); color: var(--selection-ink); border-color: var(--yellow); box-shadow: 0 0 0 2px #fff04466; }
+.futin-ui .guess-suggestion:hover,.futin-ui .guess-suggestion.is-active { background: var(--coral); color: var(--selection-ink); }
+.futin-ui :is(a,button,select,input):focus-visible { outline: 3px solid #d72b46; outline-offset: 3px; }
+.futin-ui a:not([class]):hover,.futin-ui .text-link:hover,.futin-ui .catalog-back:hover,.futin-ui .card-catalog-link:hover,.futin-ui .home-footer > a:hover,.futin-ui .home-section-heading > a:hover { color: #c92d47; }
+.futin-ui button:disabled { cursor: not-allowed; }
+@media (max-width:620px) { body.futin-ui .sidebar { background: var(--theme-panel,#f4f5ef); box-shadow: 0 -3px 16px #30383d12; } }
+@media (prefers-reduced-motion:reduce) { .futin-ui :is(a,button,.shop-pack-card) { transition: none; } }
+
+/* Light colors use their original fallback; these tokens supply the dark palette. */
+html[data-theme="dark"] {
+  color-scheme: dark;
+  background: #17191e;
+  --theme-page: #17191e;
+  --theme-panel: #26292f;
+  --theme-panel-soft: #30343a;
+  --theme-control: #383e44;
+  --theme-line: #4b525b;
+  --theme-text: #f2f2ed;
+  --theme-muted: #bac0c6;
+  --theme-soft: #a4adb7;
+  --theme-accent-text: #ff899c;
+  --theme-selected-soft: #482b36;
+  --theme-glaze-strong: #ffffff05;
+  --theme-glaze-soft: #ffffff03;
+}
+html[data-theme="dark"] body.futin-ui { color-scheme: dark; }
+html[data-theme="dark"] .futin-ui .topbar { background: #202329ed; }
+html[data-theme="dark"] .futin-ui :is(.pass-lane-premium,.home-gold-label) { color: #ebd998; }
+html[data-theme="dark"] .futin-ui :is(.pass-reward-slot.is-premium,.pass-lane-premium) { background: #39342b; border-color: #6e6144; }
+html[data-theme="dark"] .futin-ui .pass-lane-premium small { color: #cabd93; }
+html[data-theme="dark"] .futin-ui .pass-reward-slot.is-premium .pass-reward-spark { color: #ebd998; border-color: #8c7c52; background: #26292f; }
+html[data-theme="dark"] .futin-ui .home-gold-label { background: #39342b; border-color: #6e6144; }
+html[data-theme="dark"] .futin-ui .home-gold-label:is(:hover,:focus-visible) { color: var(--selection-ink); }
+html[data-theme="dark"] .futin-ui .home-footer img { filter: invert(1); }
+html[data-theme="dark"] .futin-ui .shop-toast.is-error { color: #ffc2cd; background: #472932; }
+.futin-ui .theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  min-width: 83px;
+  height: 38px;
+  padding: 0 10px;
+  border: 1px solid var(--theme-line,#bfc5bd);
+  border-radius: 9px;
+  background: var(--theme-panel,#fafaf6);
+  color: var(--ink);
+  font: 700 10px var(--font-body);
+  cursor: pointer;
+  transition: background-color .18s ease,color .18s ease,border-color .18s ease;
+}
+.futin-ui .theme-toggle svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.futin-ui .theme-toggle:is(:hover,:focus-visible) { background: var(--coral); border-color: var(--coral); color: var(--selection-ink); }
+@media (max-width:620px) {
+  .futin-ui .theme-toggle { min-width: 34px; width: 34px; height: 34px; padding: 0; }
+  .futin-ui .theme-toggle span { display: none; }
+  .futin-ui .topbar-actions { gap: 8px; }
+}
+@media (prefers-reduced-motion:reduce) { .futin-ui .theme-toggle { transition: none; } }

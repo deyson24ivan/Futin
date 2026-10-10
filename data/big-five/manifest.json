@@ -1,0 +1,317 @@
+{
+  "schemaVersion": 1,
+  "season": "2026-27",
+  "referenceDate": "2026-10-07",
+  "collectedAt": "2026-10-08T02:07:37.172Z",
+  "scope": "Men: first-team rosters, with separately identified academy and loaned-out players when listed",
+  "completeOfficialRegistrationList": false,
+  "sourceProviders": [
+    "Wikipedia",
+    "Wikidata"
+  ],
+  "licenses": [
+    "CC-BY-SA-4.0",
+    "CC0-1.0"
+  ],
+  "counts": {
+    "leagues": 5,
+    "clubs": 96,
+    "uniquePlayers": 3469,
+    "uniqueFirstTeamPlayers": 2622,
+    "registrations": 3642,
+    "withBirthDate": 3058,
+    "withWikidataIdentity": 3066
+  },
+  "leagues": [
+    {
+      "leagueId": "premier-league",
+      "name": "Premier League",
+      "teams": 20,
+      "firstTeamRegistrations": 552,
+      "totalRegistrations": 839,
+      "firstTeamWithBirthDate": 548
+    },
+    {
+      "leagueId": "la-liga",
+      "name": "LaLiga",
+      "teams": 20,
+      "firstTeamRegistrations": 506,
+      "totalRegistrations": 665,
+      "firstTeamWithBirthDate": 503
+    },
+    {
+      "leagueId": "serie-a",
+      "name": "Serie A",
+      "teams": 20,
+      "firstTeamRegistrations": 571,
+      "totalRegistrations": 873,
+      "firstTeamWithBirthDate": 547
+    },
+    {
+      "leagueId": "bundesliga",
+      "name": "Bundesliga",
+      "teams": 18,
+      "firstTeamRegistrations": 513,
+      "totalRegistrations": 673,
+      "firstTeamWithBirthDate": 479
+    },
+    {
+      "leagueId": "ligue-1",
+      "name": "Ligue 1",
+      "teams": 18,
+      "firstTeamRegistrations": 480,
+      "totalRegistrations": 592,
+      "firstTeamWithBirthDate": 442
+    }
+  ],
+  "issues": [
+    {
+      "type": "ambiguous-birth-date",
+      "playerId": "Q17496496",
+      "name": "Matt Crooks",
+      "candidates": [
+        "1994-01-20",
+        "1994-04-20"
+      ],
+      "sourceUrl": "https://www.wikidata.org/wiki/Q17496496"
+    },
+    {
+      "type": "ambiguous-birth-date",
+      "playerId": "Q115145113",
+      "name": "Harvey Davies",
+      "candidates": [
+        "2003-09-23",
+        "2003-09-03"
+      ],
+      "sourceUrl": "https://www.wikidata.org/wiki/Q115145113"
+    },
+    {
+      "type": "ambiguous-birth-date",
+      "playerId": "Q122910207",
+      "name": "Rodrigo Mendoza",
+      "candidates": [
+        "2005-03-14",
+        "2005-03-15"
+      ],
+      "sourceUrl": "https://www.wikidata.org/wiki/Q122910207"
+    },
+    {
+      "type": "ambiguous-birth-date",
+      "playerId": "Q37518060",
+      "name": "Tete Morente",
+      "candidates": [
+        "1996-12-02",
+        "1996-12-04"
+      ],
+      "sourceUrl": "https://www.wikidata.org/wiki/Q37518060"
+    },
+    {
+      "type": "ambiguous-birth-date",
+      "playerId": "Q109282703",
+      "name": "Rubén Sánchez",
+      "candidates": [
+        "2001-01-09",
+        "2001-02-04"
+      ],
+      "sourceUrl": "https://www.wikidata.org/wiki/Q109282703"
+    },
+    {
+      "type": "ambiguous-birth-date",
+      "playerId": "Q112869138",
+      "name": "Tay Abed",
+      "candidates": [
+        "2004-08-03",
+        "2004-03-08"
+      ],
+      "sourceUrl": "https://www.wikidata.org/wiki/Q112869138"
+    },
+    {
+      "type": "ambiguous-birth-date",
+      "playerId": "Q115181709",
+      "name": "Robbie Ure",
+      "candidates": [
+        "2004-02-24",
+        "2004-02-26"
+      ],
+      "sourceUrl": "https://www.wikidata.org/wiki/Q115181709"
+    },
+    {
+      "type": "ambiguous-birth-date",
+      "playerId": "Q79058092",
+      "name": "Lucas Da Cunha",
+      "candidates": [
+        "2001-07-09",
+        "2001-06-09"
+      ],
+      "sourceUrl": "https://www.wikidata.org/wiki/Q79058092"
+    },
+    {
+      "type": "ambiguous-birth-date",
+      "playerId": "Q31762810",
+      "name": "Marco Bleve",
+      "candidates": [
+        "1995-08-17",
+        "1995-10-18"
+      ],
+      "sourceUrl": "https://www.wikidata.org/wiki/Q31762810"
+    },
+    {
+      "type": "ambiguous-birth-date",
+      "playerId": "Q59914667",
+      "name": "Demba Thiam",
+      "candidates": [
+        "1998-03-09",
+        "1998-03-05"
+      ],
+      "sourceUrl": "https://www.wikidata.org/wiki/Q59914667"
+    },
+    {
+      "type": "ambiguous-birth-date",
+      "playerId": "Q117349349",
+      "name": "Damián Pizarro",
+      "candidates": [
+        "2005-03-28",
+        "2005-08-25"
+      ],
+      "sourceUrl": "https://www.wikidata.org/wiki/Q117349349"
+    },
+    {
+      "type": "ambiguous-birth-date",
+      "playerId": "Q27062813",
+      "name": "Emmanuel Latte Lath",
+      "candidates": [
+        "1999-01-01",
+        "1999-01-02"
+      ],
+      "sourceUrl": "https://www.wikidata.org/wiki/Q27062813"
+    },
+    {
+      "type": "ambiguous-birth-date",
+      "playerId": "Q114842149",
+      "name": "Skelly Alvero",
+      "candidates": [
+        "2002-05-04",
+        "2002-05-02"
+      ],
+      "sourceUrl": "https://www.wikidata.org/wiki/Q114842149"
+    },
+    {
+      "type": "ambiguous-birth-date",
+      "playerId": "Q127375659",
+      "name": "Reigan Heskey",
+      "candidates": [
+        "2008-01-18",
+        "2008-01-19"
+      ],
+      "sourceUrl": "https://www.wikidata.org/wiki/Q127375659"
+    },
+    {
+      "type": "ambiguous-birth-date",
+      "playerId": "Q42303279",
+      "name": "Alessio Castro-Montes",
+      "candidates": [
+        "1999-05-17",
+        "1997-05-17"
+      ],
+      "sourceUrl": "https://www.wikidata.org/wiki/Q42303279"
+    },
+    {
+      "type": "ambiguous-birth-date",
+      "playerId": "Q16914022",
+      "name": "Mama Baldé",
+      "candidates": [
+        "1997-11-06",
+        "1995-11-06"
+      ],
+      "sourceUrl": "https://www.wikidata.org/wiki/Q16914022"
+    },
+    {
+      "type": "ambiguous-birth-date",
+      "playerId": "Q22004047",
+      "name": "Habib Diallo",
+      "candidates": [
+        "1995-06-15",
+        "1995-06-18"
+      ],
+      "sourceUrl": "https://www.wikidata.org/wiki/Q22004047"
+    },
+    {
+      "type": "ambiguous-birth-date",
+      "playerId": "Q116838606",
+      "name": "Bamo Meïté",
+      "candidates": [
+        "2001-06-20",
+        "2001-12-03"
+      ],
+      "sourceUrl": "https://www.wikidata.org/wiki/Q116838606"
+    },
+    {
+      "type": "ambiguous-birth-date",
+      "playerId": "Q112206567",
+      "name": "Christian Mawissa",
+      "candidates": [
+        "2005-04-18",
+        "2005-05-18"
+      ],
+      "sourceUrl": "https://www.wikidata.org/wiki/Q112206567"
+    },
+    {
+      "type": "ambiguous-birth-date",
+      "playerId": "Q113506899",
+      "name": "Edan Diop",
+      "candidates": [
+        "2004-08-24",
+        "2004-08-28"
+      ],
+      "sourceUrl": "https://www.wikidata.org/wiki/Q113506899"
+    },
+    {
+      "type": "ambiguous-birth-date",
+      "playerId": "Q15906939",
+      "name": "Hamari Traoré",
+      "candidates": [
+        "1992-07-31",
+        "1992-01-27"
+      ],
+      "sourceUrl": "https://www.wikidata.org/wiki/Q15906939"
+    },
+    {
+      "type": "ambiguous-birth-date",
+      "playerId": "Q99396781",
+      "name": "Charlie Cresswell",
+      "candidates": [
+        "2002-12-07",
+        "2002-08-17"
+      ],
+      "sourceUrl": "https://www.wikidata.org/wiki/Q99396781"
+    },
+    {
+      "type": "ambiguous-birth-date",
+      "playerId": "Q26838064",
+      "name": "Niklas Schmidt",
+      "candidates": [
+        "1998-03-01",
+        "1998-04-01"
+      ],
+      "sourceUrl": "https://www.wikidata.org/wiki/Q26838064"
+    }
+  ],
+  "missingGameAttributes": [
+    "overall",
+    "potential",
+    "pace",
+    "shooting",
+    "passing",
+    "dribbling",
+    "defending",
+    "physical",
+    "goalkeeping",
+    "value"
+  ],
+  "notes": [
+    "Source rosters may be incomplete or stale; this is not a certified list of every registered player.",
+    "Age calculated on referenceDate only when a precise birth date exists.",
+    "No EA ratings, pictures, flags or crests have been downloaded.",
+    "Broad positions POR/DEF/MED/DEL follow squad tables; detailed position IDs retained where available."
+  ]
+}

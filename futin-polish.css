@@ -1,0 +1,280 @@
+/* Shared controls and page details use the existing FUTIN palette. */
+body.futin-ui { --surface:var(--panel); --surface-soft:var(--panel-soft); --stroke:var(--line); --foreground:var(--text); --secondary:var(--muted); --selection-ink:#20262b; }
+body.futin-ui .button-neon,body.futin-ui .buy-gems-button { background:var(--coral); color:var(--selection-ink); border-color:var(--coral); }
+.futin-ui .button-neon:is(:hover,:focus-visible) { background:#f1445e; border-color:#f1445e; }
+.futin-ui .ui-icon { width:22px; height:22px; display:inline-block; flex:none; fill:none; stroke:currentColor; stroke-width:1.7; stroke-linecap:round; stroke-linejoin:round; vertical-align:middle; }
+.futin-ui .ui-icon-button { display:inline-grid; place-items:center; width:36px; height:36px; padding:0; color:var(--foreground); background:var(--surface-soft); border:1px solid var(--stroke); border-radius:9px; cursor:pointer; }
+.futin-ui .ui-icon-button:hover { background:var(--coral); color:var(--selection-ink); border-color:var(--coral); }
+.futin-ui .sidebar { overflow-y:auto; }
+.futin-ui .sidebar-bottom { display:grid; gap:16px; padding-top:24px; }
+.futin-ui .sidebar-bottom .season-card { display:block; padding:16px; }
+.futin-ui .sidebar-bottom .season-card strong { margin:12px 0 16px; }
+.futin-ui .sidebar-bottom .profile-mini { margin:0; padding:12px 10px; min-height:60px; border:1px solid var(--stroke); border-radius:10px; background:var(--surface); }
+.futin-ui .profile-copy { min-width:0; }
+.futin-ui .profile-copy :is(strong,small) { white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.futin-ui .season-card:is(:hover,:focus-visible) .season-progress { background:#30383d40; }
+.futin-ui .season-card:is(:hover,:focus-visible) .season-progress span { background:var(--selection-ink); }
+.futin-ui .topbar .notification-button { border-radius:9px; border:1px solid var(--stroke); background:var(--surface); cursor:pointer; width:36px; height:36px; }
+.futin-ui .topbar .notification-button:hover { background:var(--coral); color:var(--selection-ink); }
+.futin-ui .notification-button .ui-icon { width:19px; height:19px; }
+.futin-ui .notification-button i { border:2px solid var(--surface); width:8px; height:8px; right:4px; top:4px; }
+.futin-ui .topbar-actions { gap:12px; }
+.futin-ui .top-avatar { height:36px; width:36px; }
+.futin-ui .coin-pill { min-height:36px; }
+.futin-ui .coin-plus { border:1px solid var(--stroke); }
+.futin-ui .club-dialog { width:min(520px,calc(100vw - 32px)); max-height:85dvh; padding:24px; border:1px solid var(--stroke); border-radius:16px; background:var(--surface); color:var(--foreground); box-shadow:0 24px 80px #0005; }
+.futin-ui .club-dialog::backdrop { background:#12161dcc; backdrop-filter:blur(4px); }
+.futin-ui .activity-dialog { margin-right:24px; margin-top:86px; }
+.futin-ui .dialog-heading { display:flex; align-items:center; justify-content:space-between; gap:16px; margin-bottom:20px; }
+.futin-ui .dialog-heading h2 { margin:6px 0 0; font:700 28px/1 var(--font-display); }
+.futin-ui .activity-toolbar { display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:8px; color:var(--secondary); font-size:11px; }
+.futin-ui .activity-toolbar .text-link { color:var(--theme-accent-text,#bb344b); font:600 11px var(--font-body); background:none; border:0; cursor:pointer; padding:8px 0; }
+.futin-ui .activity-toolbar .text-link:disabled { color:var(--secondary); opacity:.6; }
+.futin-ui .activity-item { display:flex; gap:12px; padding:16px 12px; border-bottom:1px solid var(--stroke); border-radius:8px; }
+.futin-ui .activity-item.is-unread { background:var(--theme-selected-soft,#fff0f2); }
+.futin-ui .activity-item:hover { background:var(--surface-soft); }
+.futin-ui .activity-icon,.futin-ui .movement-icon { display:grid; place-items:center; width:36px; height:36px; flex:none; border-radius:10px; background:var(--surface-soft); color:var(--theme-accent-text,#bb344b); }
+.futin-ui .activity-item strong { display:block; font-size:13px; }
+.futin-ui .activity-item p { margin:6px 0; font-size:12px; line-height:1.5; color:var(--secondary); }
+.futin-ui .activity-item small { font-size:10px; color:var(--secondary); }
+.futin-ui .club-empty { padding:32px 16px; text-align:center; color:var(--secondary); }
+.futin-ui .club-empty > .ui-icon { width:40px; height:40px; margin-bottom:8px; }
+.futin-ui .club-empty h3 { color:var(--foreground); font-size:16px; margin:8px 0; }
+.futin-ui .club-empty p { max-width:380px; margin:8px auto 0; font-size:12px; line-height:1.5; }
+.futin-ui .club-toast { position:fixed; bottom:24px; left:50%; transform:translateX(-50%); z-index:50; max-width:calc(100vw - 32px); padding:14px 22px; border:1px solid var(--stroke); border-radius:12px; color:var(--foreground); background:var(--surface); box-shadow:0 10px 30px #0003; font-size:13px; }
+.futin-ui .club-toast.is-error { border-color:var(--coral); }
+.futin-ui .detail-page { display:grid; gap:24px; }
+.futin-ui .detail-page > .club-page-hero { min-height:160px; margin:0; align-items:center; }
+.futin-ui .detail-page .club-page-hero h1 { margin:8px 0; }
+.futin-ui .detail-page .club-page-hero::after { display:none; }
+.futin-ui .detail-page .club-page-hero > div:first-child { max-width:none; }
+.futin-ui .detail-page .module-panel { padding:24px; border-radius:14px; background:var(--surface); border:1px solid var(--stroke); color:var(--foreground); }
+.futin-ui .detail-page h2 { margin:0 0 16px; font:700 26px/1.05 var(--font-display); }
+.futin-ui .profile-layout { display:grid; grid-template-columns:minmax(260px,.8fr) minmax(320px,1.5fr); gap:24px; align-items:start; }
+.futin-ui .profile-identity { text-align:center; }
+.futin-ui .profile-avatar-large { display:grid; place-items:center; width:100px; height:100px; margin:8px auto 20px; border:2px solid var(--coral); border-radius:24px; background:var(--theme-selected-soft,#fff0f2); color:var(--foreground); font:800 40px var(--font-display); }
+.futin-ui .profile-identity h2 { font-size:32px; overflow-wrap:anywhere; margin-bottom:8px; }
+.futin-ui .profile-identity p { color:var(--secondary); font-size:13px; margin:0 0 24px; }
+.futin-ui .profile-stats { display:grid; grid-template-columns:1fr 1fr; gap:12px; text-align:left; }
+.futin-ui .profile-stats > div { padding:14px; border:1px solid var(--stroke); border-radius:10px; background:var(--surface-soft); }
+.futin-ui .profile-stats small { display:block; color:var(--secondary); font-size:9px; font-weight:700; letter-spacing:.5px; }
+.futin-ui .profile-stats strong { font:700 30px var(--font-display); }
+.futin-ui .profile-settings { display:grid; gap:24px; }
+.futin-ui .profile-form { display:grid; grid-template-columns:1fr 1fr; gap:20px; }
+.futin-ui .profile-form label,.futin-ui .preference-row label { display:grid; gap:8px; font-size:11px; font-weight:700; }
+.futin-ui .profile-form input,.futin-ui .preference-row select { min-height:44px; width:100%; padding:12px; border:1px solid var(--stroke); border-radius:8px; background:var(--surface-soft); color:var(--foreground); font:400 14px var(--font-body); }
+.futin-ui .profile-form .button { grid-column:1/-1; width:max-content; padding:12px 24px; font-size:12px; }
+.futin-ui .preference-row { display:grid; grid-template-columns:1fr 200px; gap:24px; align-items:center; }
+.futin-ui .preference-row strong { font-size:14px; }
+.futin-ui .preference-row p,.futin-ui .local-save-note { font-size:12px; line-height:1.6; color:var(--secondary); }
+.futin-ui .local-save-note { margin:0; }
+.futin-ui .daily-reset-line { display:flex; flex-wrap:wrap; align-items:center; gap:8px; font-size:11px; color:var(--secondary); }
+.futin-ui .daily-reset-line b { font-variant-numeric:tabular-nums; color:var(--foreground); }
+.futin-ui .wallet-hero { display:flex; align-items:center; justify-content:space-between; gap:24px; padding:28px; border-radius:16px; border:1px solid var(--stroke); background:var(--surface); }
+.futin-ui .wallet-total { display:flex; align-items:center; gap:20px; }
+.futin-ui .wallet-total img { width:88px; height:88px; }
+.futin-ui .wallet-total strong { display:block; font:800 clamp(40px,5vw,64px)/1 var(--font-display); margin:8px 0; }
+.futin-ui .wallet-total small { color:var(--secondary); font-size:11px; }
+.futin-ui .wallet-hero .button { padding:12px 22px; font-size:12px; }
+.futin-ui .wallet-columns { display:grid; grid-template-columns:1.15fr 1fr; gap:24px; align-items:start; }
+.futin-ui .wallet-purchase { padding:28px; border:1px dashed var(--stroke); border-radius:14px; background:var(--surface); }
+.futin-ui .wallet-purchase > .ui-icon { width:40px; height:40px; color:var(--theme-accent-text,#bb344b); margin-bottom:16px; }
+.futin-ui .wallet-purchase h2 { margin:8px 0 16px; }
+.futin-ui .wallet-purchase p { color:var(--secondary); font-size:13px; line-height:1.65; }
+.futin-ui .wallet-purchase .button { margin-top:12px; padding:12px 18px; font-size:12px; }
+.futin-ui .wallet-ways { display:grid; gap:12px; margin-top:24px; }
+.futin-ui .wallet-way { display:flex; align-items:center; gap:16px; padding:16px 20px; border:1px solid var(--stroke); border-radius:12px; background:var(--surface); }
+.futin-ui .wallet-way > span { flex:1; }
+.futin-ui .wallet-way strong { font-size:13px; }
+.futin-ui .wallet-way small { display:block; margin-top:5px; color:var(--secondary); font-size:11px; }
+.futin-ui .wallet-way:hover { background:var(--coral); color:var(--selection-ink); }
+.futin-ui .wallet-way:hover small { color:var(--selection-ink); }
+.futin-ui .wallet-metrics { display:flex; gap:24px; padding-bottom:20px; margin-bottom:4px; border-bottom:1px solid var(--stroke); }
+.futin-ui .wallet-metrics small { display:block; color:var(--secondary); font-size:10px; }
+.futin-ui .wallet-metrics strong { display:block; font:700 26px var(--font-display); margin-top:6px; }
+.futin-ui .wallet-movement { display:flex; align-items:center; gap:12px; padding:16px 0; border-bottom:1px solid var(--stroke); }
+.futin-ui .wallet-movement > div { flex:1; min-width:0; }
+.futin-ui .wallet-movement strong { display:block; font-size:12px; }
+.futin-ui .wallet-movement small { display:block; font-size:10px; color:var(--secondary); margin-top:5px; }
+.futin-ui .wallet-movement > b { white-space:nowrap; font-size:15px; }
+.futin-ui .wallet-movement .is-income { color:var(--theme-accent-text,#bb344b); }
+.futin-ui .shop-shortcuts { display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin-bottom:4px; }
+.futin-ui .shop-shortcuts a { display:flex; align-items:center; gap:8px; padding:10px 16px; border:1px solid var(--stroke); border-radius:8px; background:var(--surface); font-size:11px; font-weight:600; }
+.futin-ui .shop-shortcuts a:hover { color:var(--selection-ink); background:var(--coral); border-color:var(--coral); }
+.futin-ui .shop-shortcuts b { font-size:8px; }
+.futin-ui .shop-shortcuts .ui-icon { width:16px; height:16px; }
+.futin-ui .owned-packs-section { padding:24px; border:1px solid var(--stroke); border-radius:14px; background:var(--surface); }
+.futin-ui .owned-packs-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; }
+.futin-ui .owned-packs-grid > .club-empty { grid-column:1/-1; padding:12px; }
+.futin-ui .owned-pack { display:flex; align-items:center; gap:16px; padding:16px; background:var(--surface-soft); border:1px solid var(--stroke); border-radius:12px; }
+.futin-ui .owned-pack img { width:64px; height:100px; object-fit:contain; }
+.futin-ui .owned-pack h3 { margin:0 0 6px; font:700 22px var(--font-display); }
+.futin-ui .owned-pack p { margin:0 0 12px; font-size:10px; color:var(--secondary); }
+.futin-ui .owned-pack .button { min-height:34px; padding:8px 12px; font-size:11px; }
+.futin-ui .owned-pack .ui-icon { width:16px; height:16px; }
+.futin-ui .purchase-pack-preview { display:flex; align-items:center; gap:24px; }
+.futin-ui .purchase-pack-preview > img { width:100px; height:150px; object-fit:contain; }
+.futin-ui .purchase-pack-preview h3 { font:700 28px var(--font-display); margin:0 0 12px; }
+.futin-ui .purchase-pack-preview p { font-size:12px; color:var(--secondary); line-height:1.5; }
+.futin-ui .purchase-pack-preview strong { display:flex; align-items:center; gap:8px; font-size:20px; }
+.futin-ui .purchase-note { font-size:12px; color:var(--secondary); margin:20px 0; }
+.futin-ui .purchase-actions { display:flex; justify-content:space-between; gap:16px; }
+.futin-ui .purchase-actions .button { padding:12px 16px; font-size:12px; }
+.futin-ui .pack-reveal-dialog { width:min(960px,calc(100vw - 32px)); }
+.futin-ui .pack-reveal-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:16px; }
+.futin-ui .pack-result { position:relative; padding:20px; border:1px solid var(--stroke); border-radius:12px; background:var(--surface-soft); }
+.futin-ui .result-quality { display:block; font-size:9px; letter-spacing:1px; color:var(--theme-accent-text,#bb344b); font-weight:700; }
+.futin-ui .pack-result > strong { display:inline-block; font:800 44px var(--font-display); margin:8px 0; }
+.futin-ui .result-position { float:right; font-size:12px; font-weight:700; margin-top:28px; }
+.futin-ui .result-player-icon { display:grid; place-items:center; height:88px; color:var(--secondary); }
+.futin-ui .result-player-icon .ui-icon { width:68px; height:68px; stroke-width:1; }
+.futin-ui .pack-result h3 { font:700 22px/1.1 var(--font-display); margin:12px 0 6px; }
+.futin-ui .pack-result p { font-size:10px; line-height:1.6; color:var(--secondary); margin:0; }
+.futin-ui .result-bronze { border-top:3px solid #b07852; }.futin-ui .result-silver { border-top:3px solid #8e9fae; }.futin-ui .result-gold { border-top:3px solid #c0932d; }.futin-ui .result-elite { border-top:3px solid #dc3044; }.futin-ui .result-special { border-top:3px solid #8774c8; }
+.futin-ui .pack-reveal-footer { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:16px; margin-top:20px; font-size:12px; color:var(--secondary); }
+.futin-ui .pack-reveal-footer .button { padding:12px 20px; font-size:12px; }
+.futin-ui .pass-total-progress { display:grid; grid-template-columns:auto 1fr auto; gap:24px; align-items:center; padding:20px 24px; background:var(--surface); border:1px solid var(--stroke); border-radius:12px; }
+.futin-ui .pass-total-progress strong { display:block; margin-top:6px; font:700 24px var(--font-display); }
+.futin-ui .pass-total-progress small { color:var(--secondary); font-size:11px; }
+.futin-ui .total-xp-meter { overflow:hidden; height:8px; border-radius:8px; background:var(--surface-soft); border:1px solid var(--stroke); }
+.futin-ui .total-xp-meter span { display:block; height:100%; background:var(--coral); }
+.futin-ui .pass-track-controls { display:flex; align-items:center; gap:8px; }
+.futin-ui .pass-track-toolbar .pass-current-button { width:auto; padding:0 12px; font-size:11px; font-family:var(--font-body); }
+.futin-ui .pass-track-controls select { min-height:34px; max-width:130px; padding:8px 12px; background:var(--surface); color:var(--foreground); border:1px solid var(--stroke); border-radius:8px; font:600 11px var(--font-body); }
+.futin-ui .pass-track-controls .ui-icon { width:18px; height:18px; }
+.futin-ui .arrow-back { transform:rotate(180deg); display:inline-block; }
+.futin-ui .pass-step-head { position:relative; cursor:pointer; width:100%; border:0; background:none; color:inherit; font-family:var(--font-body); }
+.futin-ui .pass-step-head:hover { background:var(--theme-selected-soft,#fff0f2); }
+.futin-ui .pass-step.is-current .pass-step-head { background:var(--coral); color:var(--selection-ink); }
+.futin-ui .pass-reward-spark .ui-icon { width:26px; height:26px; }
+.futin-ui .pass-milestone { position:absolute; right:12px; top:12px; width:7px; height:7px; border-radius:2px; background:var(--theme-accent-text,#bb344b); transform:rotate(45deg); }
+.futin-ui .pass-season-chip { display:flex; align-items:center; gap:8px; }
+.futin-ui .pass-season-chip .ui-icon { width:18px; height:18px; }
+.futin-ui .pass-daily-panel { padding:24px; border:1px solid var(--stroke); border-radius:14px; background:var(--surface); }
+.futin-ui .pass-daily-panel h2 { font:700 28px var(--font-display); margin:6px 0 0; }
+.futin-ui .pass-daily-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; margin-top:24px; }
+.futin-ui .daily-xp-card { padding:20px; border:1px solid var(--stroke); border-radius:12px; background:var(--surface-soft); }
+.futin-ui .daily-xp-card > .ui-icon { color:var(--theme-accent-text,#bb344b); margin-bottom:12px; }
+.futin-ui .daily-xp-card > strong { display:block; font-size:13px; margin-bottom:6px; }
+.futin-ui .daily-xp-card > small { display:block; color:var(--secondary); font-size:11px; }
+.futin-ui .daily-xp-card > div { display:flex; gap:4px; align-items:baseline; margin:20px 0 10px; }
+.futin-ui .daily-xp-card > div b { font:700 26px var(--font-display); }
+.futin-ui .daily-xp-card > div span { font-size:11px; color:var(--secondary); }
+.futin-ui .daily-xp-track { display:block; height:5px; background:var(--stroke); border-radius:5px; overflow:hidden; }
+.futin-ui .daily-xp-track b { display:block; height:100%; background:var(--coral); }
+.futin-ui .daily-xp-action { display:block; margin-top:20px; font-size:11px; font-weight:700; }
+.futin-ui .daily-xp-card:hover { background:var(--coral); border-color:var(--coral); color:var(--selection-ink); }
+.futin-ui .daily-xp-card:hover :is(small,.ui-icon,div span) { color:var(--selection-ink); }
+.futin-ui .daily-xp-card:hover .daily-xp-track b { background:var(--selection-ink); }
+.futin-ui .level-dialog-rewards { display:flex; align-items:center; gap:16px; background:var(--surface-soft); padding:20px; border-radius:10px; margin-top:24px; }
+.futin-ui .level-dialog-rewards p { color:var(--secondary); font-size:12px; }
+.futin-ui .career-save-grid { grid-template-columns:repeat(4,minmax(0,1fr)); gap:16px; }
+.futin-ui .career-save-slot,.futin-ui .career-save-slot.is-empty { min-height:220px; padding:20px; display:flex; flex-direction:column; }
+.futin-ui .career-save-slot h2 { margin:20px 0 4px; font-size:25px; }
+.futin-ui .career-save-slot > p { max-width:100%; font-size:11px; margin:8px 0; }
+.futin-ui .career-save-slot .button { margin-top:auto; font-size:10px; width:100%; }
+.futin-ui .career-save-slot::before { width:56px; height:70px; right:16px; top:70px; opacity:.08; }
+.futin-ui .career-save-slot.is-active-save { border-top:3px solid var(--coral); }
+.futin-ui .save-slot-progress { margin:12px 0 20px; }
+.futin-ui .career-save-note { margin:20px 0 0; color:var(--secondary); font-size:11px; }
+.futin-ui .career-tab { display:inline-flex; align-items:center; justify-content:center; gap:8px; min-height:44px; padding:10px 16px; font-size:12px; white-space:nowrap; }
+.futin-ui .career-tab .ui-icon { width:18px; height:18px; }
+.futin-ui .career-tabs { margin-bottom:24px; }
+.futin-ui .career-actions { max-width:320px; display:flex; flex-wrap:wrap; gap:8px; }
+.futin-ui .career-actions .career-select { width:100%; min-height:38px; font-size:12px; }
+.futin-ui .career-actions .career-select-label { margin:0; }
+.futin-ui .career-data-tools { width:100%; font-size:10px; color:var(--secondary); margin-top:4px; }
+.futin-ui .career-data-tools summary { cursor:pointer; padding:8px 0; }
+.futin-ui .career-actions .career-open-saves { font-size:11px; padding:8px 12px; margin:0 0 4px; width:100%; }
+.futin-ui .career-overview-grid { grid-template-columns:1.3fr 1fr; gap:20px; }
+.futin-ui .career-summary { padding:24px; }
+.futin-ui .career-summary .career-stat-grid { gap:12px; margin-top:20px; }
+.futin-ui .career-stat-grid > div { border-radius:10px; padding:16px; }
+.futin-ui .career-tab:is(:hover,:focus-visible) .ui-icon { color:var(--selection-ink); }
+.futin-ui .career-match .career-simulate { font-size:12px; min-height:44px; margin-top:12px; }
+.futin-ui .career-empty-state .button { margin-top:16px; }
+.futin-ui .choice-card-top .ui-icon { width:24px; height:24px; }
+.futin-ui .save-add,.futin-ui .save-delete { min-width:32px; min-height:32px; cursor:pointer; }
+.futin-ui .career-team-tabs .team-tab { min-height:40px; font-size:11px; }
+.futin-ui .daily-attempts .attempts-icon .ui-icon { width:24px; height:24px; }
+.futin-ui .game-picker-card .picker-action { font-size:10px; }
+.futin-ui .guess-suggestion.is-highlighted { background:var(--coral); color:var(--selection-ink); }
+@media(max-width:1300px) { .futin-ui .career-save-grid { grid-template-columns:repeat(3,minmax(0,1fr)); }.futin-ui .owned-packs-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+@media(max-width:1000px) { .futin-ui .career-save-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }.futin-ui .career-overview-grid { grid-template-columns:1fr; }.futin-ui .pass-daily-grid { gap:12px; }.futin-ui .daily-xp-card { padding:16px; }.futin-ui .pass-total-progress { grid-template-columns:1fr auto; }.futin-ui .total-xp-meter { grid-column:1/-1; grid-row:2; } }
+@media(max-width:620px) {
+  .futin-ui .owned-packs-grid { grid-template-columns:1fr; }
+  .futin-ui .owned-packs-section { padding:16px; }
+  .futin-ui .shop-shortcuts { gap:6px; }.futin-ui .shop-shortcuts a { padding:8px 10px; font-size:10px; }
+  .futin-ui .pack-reveal-grid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }.futin-ui .pack-result { padding:16px; }
+  .futin-ui .purchase-pack-preview { gap:16px; }.futin-ui .purchase-pack-preview > img { width:80px; height:120px; }
+  .futin-ui .purchase-actions { gap:8px; }.futin-ui .purchase-actions .button { font-size:10px; padding:10px 12px; }
+  .futin-ui .pass-daily-panel { padding:16px; }.futin-ui .pass-daily-grid { grid-template-columns:1fr; gap:12px; margin-top:16px; }
+  .futin-ui .daily-xp-card > div { margin-top:12px; }.futin-ui .daily-xp-action { margin-top:12px; }
+  .futin-ui .pass-total-progress { padding:16px; gap:12px; }
+  .futin-ui .pass-track-toolbar { flex-wrap:wrap; gap:12px; }.futin-ui .pass-track-controls { width:100%; }
+  .futin-ui .pass-track-controls select { flex:1; max-width:none; }
+  .futin-ui .pass-daily-panel .section-heading { align-items:start; gap:12px; flex-direction:column; }
+  .futin-ui .career-save-grid { grid-template-columns:1fr; }.futin-ui .career-save-slot { min-height:210px; }
+  .futin-ui .career-actions { max-width:none; width:100%; }.futin-ui .career-actions .career-open-saves { width:auto; }
+  .futin-ui .career-tab { font-size:11px; padding:8px 12px; }.futin-ui .career-tab .ui-icon { width:16px; height:16px; }
+  .futin-ui .career-tabs { border-radius:10px; }
+}
+@media(prefers-reduced-motion:reduce) { .futin-ui *, .futin-ui *::before,.futin-ui *::after { scroll-behavior:auto!important; animation-duration:.01ms!important; transition-duration:.01ms!important; } }
+.futin-ui .wallet-way > span:first-child,.futin-ui .wallet-way > span:last-child { flex:0 0 auto; }
+.futin-ui .activity-dialog { max-height:calc(100dvh - 112px); }
+.futin-ui .reward-coin { display:inline-flex; vertical-align:middle; margin-right:4px; }
+.futin-ui .reward-coin img { width:18px; height:18px; }
+.futin-ui .pass-lane-label .ui-icon { width:18px; height:18px; }
+.futin-ui .lineup-choice-note { margin:12px 0 20px; font-size:12px; color:var(--secondary); line-height:1.5; }
+.futin-ui .lineup-choices { display:grid; gap:8px; max-height:48dvh; overflow:auto; }
+.futin-ui .lineup-choice { display:flex; align-items:center; gap:14px; padding:12px; text-align:left; border:1px solid var(--stroke); border-radius:9px; background:var(--surface-soft); color:var(--foreground); cursor:pointer; }
+.futin-ui .lineup-choice > b { min-width:38px; font:700 24px var(--font-display); }
+.futin-ui .lineup-choice > span { font-size:13px; font-weight:700; }
+.futin-ui .lineup-choice small { display:block; margin-top:4px; font-size:10px; font-weight:400; }
+.futin-ui .lineup-choice:hover { background:var(--coral); color:var(--selection-ink); border-color:var(--coral); }
+.futin-ui .live-scoreboard { background:var(--surface-soft); border-color:var(--stroke); }
+.futin-ui .live-team small,.futin-ui .live-score-center > small:last-child { color:var(--secondary); }
+.futin-ui .live-score-center > strong i { color:var(--secondary); }
+.futin-ui .live-team-strengths > div,.futin-ui .match-event-feed,.futin-ui .live-event { background:var(--surface-soft); border-color:var(--stroke); }
+.futin-ui .live-team-strengths b,.futin-ui .live-event,.futin-ui .live-event.event-shot-off-target,.futin-ui .live-event.event-turnover { color:var(--foreground); }
+.futin-ui .live-team-strengths b:first-child { color:var(--theme-accent-text,#b7354d); }
+.futin-ui .live-team-strengths b:last-child { color:var(--foreground); }
+.futin-ui .live-team-strengths span,.futin-ui .live-section-heading,.futin-ui .live-section-heading small,.futin-ui .live-events > p,.futin-ui .live-event > b { color:var(--secondary); }
+.futin-ui .live-event { background:var(--surface); font-size:11px; line-height:1.5; }
+.futin-ui .live-event:is(.event-goal,.event-goal-against,.event-save) { background:var(--theme-selected-soft,#ffe8ec); color:var(--foreground); }
+.futin-ui .tactic-options button > strong { color:var(--foreground); font-size:13px; }
+.futin-ui .tactic-options button > small { color:var(--secondary); font-size:10px; line-height:1.4; }
+.futin-ui .tactic-options button.is-selected { background:var(--theme-selected-soft,#ffe8ec); border-color:var(--coral); box-shadow:inset 3px 0 var(--coral); }
+.futin-ui .tactic-options button.is-selected > strong { color:var(--theme-accent-text,#ad2f46); }
+.futin-ui .tactic-options button:is(:hover,:focus-visible) :is(strong,small) { color:var(--selection-ink); }
+.futin-ui .opponent-tactic { border-color:var(--stroke); }
+.futin-ui .opponent-tactic span,.futin-ui .chance-legend,.futin-ui .chance-hint { color:var(--secondary); font-size:10px; }
+.futin-ui .opponent-tactic strong { color:var(--foreground); font-size:11px; }
+.futin-ui .chance-panel { background:var(--surface); border-color:var(--stroke); }
+.futin-ui .chance-panel .eyebrow { color:var(--theme-accent-text,#ad2f46); }
+.futin-ui .match-back-career { background:var(--coral); color:var(--selection-ink); border-color:var(--coral); }
+@media(max-width:620px) { .futin-ui .pack-result h3 { font-size:20px; }.futin-ui .result-player-icon { height:64px; }.futin-ui .pack-result { padding:12px; } }
+@media(max-height:800px) and (min-width:621px) { .futin-ui .sidebar { padding-top:20px; }.futin-ui .sidebar .brand { margin-bottom:24px; }.futin-ui .sidebar-bottom { padding-top:20px; }.futin-ui .sidebar-bottom .season-card { padding:12px; }.futin-ui .sidebar-bottom .season-card strong { font-size:22px; margin:10px 0; } }
+@media(max-width:1000px) { .futin-ui .profile-layout,.futin-ui .wallet-columns { grid-template-columns:1fr; }.futin-ui .profile-identity { display:grid; grid-template-columns:120px 1fr; text-align:left; column-gap:24px; }.futin-ui .profile-avatar-large { grid-row:1/3; margin:0; }.futin-ui .profile-stats { grid-column:1/-1; grid-template-columns:repeat(4,1fr); }.futin-ui .profile-identity p { margin-bottom:24px; } }
+@media(max-width:620px) {
+  .futin-ui .sidebar { overflow:visible; }
+  .futin-ui .sidebar-bottom { display:none; }
+  .futin-ui .topbar { padding:0 12px; }
+  .futin-ui .topbar-actions { gap:6px; }
+  .futin-ui .topbar .notification-button { width:32px; height:32px; }
+  .futin-ui .top-avatar { width:30px; height:30px; }
+  .futin-ui .coin-pill { padding-left:7px; gap:5px; min-height:32px; }
+  .futin-ui .coin-plus { width:18px; height:18px; }
+  .futin-ui .activity-dialog { margin:72px auto auto; padding:20px; }
+  .futin-ui .club-toast { bottom:80px; width:max-content; }
+  .futin-ui .detail-page { gap:16px; }
+  .futin-ui .detail-page .module-panel { padding:20px; }
+  .futin-ui .profile-form,.futin-ui .preference-row { grid-template-columns:1fr; gap:16px; }
+  .futin-ui .profile-identity { grid-template-columns:72px 1fr; gap:12px; }
+  .futin-ui .profile-avatar-large { width:72px; height:72px; font-size:32px; border-radius:20px; }
+  .futin-ui .profile-identity h2 { font-size:28px; margin-bottom:0; }
+  .futin-ui .profile-stats { grid-template-columns:1fr 1fr; margin-top:8px; }
+  .futin-ui .wallet-hero { padding:20px; flex-wrap:wrap; }
+  .futin-ui .wallet-total { gap:16px; }.futin-ui .wallet-total img { width:60px; height:60px; }
+  .futin-ui .wallet-purchase { padding:20px; }
+}

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="rim" x1="13" y1="7" x2="51" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff0b7"/>
+      <stop offset=".3" stop-color="#d6a94c"/>
+      <stop offset=".66" stop-color="#8c6228"/>
+      <stop offset="1" stop-color="#f4d37e"/>
+    </linearGradient>
+    <linearGradient id="face" x1="18" y1="13" x2="47" y2="51" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#47484d"/>
+      <stop offset="1" stop-color="#1f2025"/>
+    </linearGradient>
+    <linearGradient id="cubeTop" x1="21" y1="19" x2="42" y2="31" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f4f5fa"/>
+      <stop offset="1" stop-color="#ff95ad"/>
+    </linearGradient>
+    <linearGradient id="cubeLeft" x1="20" y1="27" x2="32" y2="45" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#e34b6e"/>
+      <stop offset="1" stop-color="#ae3450"/>
+    </linearGradient>
+    <linearGradient id="cubeRight" x1="32" y1="28" x2="45" y2="43" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#df4367"/>
+      <stop offset="1" stop-color="#3e3f44"/>
+    </linearGradient>
+  </defs>
+  <circle cx="32" cy="32" r="29" fill="#1f2025" stroke="url(#rim)" stroke-width="3"/>
+  <circle cx="32" cy="32" r="23.5" fill="url(#face)" stroke="#f9e3a0" stroke-opacity=".75" stroke-width="1.2"/>
+  <path d="m32 16 13 8-13 7-13-7 13-8Z" fill="url(#cubeTop)" stroke="#f4f5fa" stroke-width="1.4" stroke-linejoin="round"/>
+  <path d="m19 24 13 7v17l-13-8V24Z" fill="url(#cubeLeft)" stroke="#ff91aa" stroke-width="1.4" stroke-linejoin="round"/>
+  <path d="m45 24-13 7v17l13-8V24Z" fill="url(#cubeRight)" stroke="#ff91aa" stroke-width="1.4" stroke-linejoin="round"/>
+  <path d="M27 28.5v13h2.8v-4.8h5.4v-2.8h-5.4v-2.6h6.8v-2.8H27Z" fill="#1f2025" stroke="#f4f5fa" stroke-width=".45" stroke-linejoin="round"/>
+  <circle cx="32" cy="32" r="26.2" stroke="#fff8db" stroke-opacity=".5" stroke-width=".8" stroke-dasharray="1.5 3"/>
+</svg>

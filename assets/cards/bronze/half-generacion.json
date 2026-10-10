@@ -1,0 +1,7 @@
+{
+  "tool": "image_gen (integrada)",
+  "date": "2026-10-06",
+  "input": "base.png",
+  "output": "base-half.png",
+  "prompt": "Use case: precise-object-edit.\nAsset: transparent short football player card base for FUTIN.\nImage 1 is the edit target, the current 1024x1536 bronze base.\nShorten ONLY the bottom of this card. Output canvas aspect ratio 1024:1088 (almost square). Keep the upper crown and shoulder frame geometry, copper thickness, width, warm brown satin interior, texture and lighting exactly as in the original at the same scale relative to width. Keep the original top through y=950 pixels unchanged; do not compress or rescale the top. Remove the entire lower statistics region and its horizontal dividing line at y=974. Close the bronze frame immediately below this region with a very shallow ornamental copper lower rim and a small central downward tip, occupying roughly y=975..1050 of the new shorter canvas. The left and right rails connect seamlessly to that rim. All interior is blank bronze satin. This should be the TOP PORTION of the existing card, cropped after the player name region, with an elegant shallow closure. NOT a full tall shield resized into a square. No text, name banner, letters, numbers, plaques, people, logos or stars. Truly transparent outside silhouette, fully opaque interior; no external glow or shadow, no checkerboard. Center card with the same side margins as input."
+}

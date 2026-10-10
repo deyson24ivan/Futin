@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.futin-build/
+.env
+.env.*
+!.env.example
+data/big-five/.cache/
+*.log
+*.pem
+*.key
+.DS_Store
+Thumbs.db

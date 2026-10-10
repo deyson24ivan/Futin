@@ -1,0 +1,6 @@
+{
+  "tool": "image_gen (herramienta integrada)",
+  "input": "assets/cards/bronze/base.png",
+  "output": "assets/cards/bronze/base-mini.png",
+  "prompt": "Use case: precise-object-edit. Edit target: the attached FUTIN bronze card base. Create a sibling clean mini-card base for the career squad UI. Change ONLY one thing: completely remove the thin horizontal copper divider line across the interior at about 63.4% canvas height and seamlessly continue the same warm satin bronze interior surface across that location. Preserve the exact outer copper frame, top scallops, corner ornaments, pointed lower tip, material, color, alignment, and original portrait canvas proportion 2:3. Do not add any text, letters, logos, statistics, badges, photographs or decorations. The entire interior must stay opaque warm bronze, not black. The exterior outside the frame must be genuinely transparent alpha, with no halo, gradient background, shadow, or backdrop. Frame fills nearly the same canvas as the original. One isolated blank card base, straight-on. Output transparent PNG."
+}

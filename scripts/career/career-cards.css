@@ -1,0 +1,36 @@
+/* Small base cards share FUTIN's frame; the whole inner card really turns. */
+.career-experience .career-player-card.career-mini-card { display:block; width:100%; aspect-ratio:1024 / 1088; min-height:0; padding:0; border:0; border-radius:0; background:none; box-shadow:none; perspective:700px; isolation:isolate; color:inherit; }
+.career-mini-card .career-card-rotator { position:absolute; inset:0; width:100%; height:100%; min-height:0; border-radius:0; transform-style:preserve-3d; transition:transform .55s cubic-bezier(.2,.7,.2,1); }
+.career-mini-front,.career-mini-back { position:absolute; inset:0; display:block; width:100%; height:100%; backface-visibility:hidden; -webkit-backface-visibility:hidden; }
+.career-mini-front { transform:rotateY(0deg); }
+.career-mini-front .bronze-mini { display:block; height:100%; }
+.career-mini-back { transform:rotateY(180deg); }
+.career-mini-card.is-flipped .career-card-rotator { transform:rotateY(180deg); }
+.career-experience .career-mini-card.is-flipped { z-index:3; background:none; box-shadow:none; }
+.career-experience .career-mini-card:focus-visible { outline:2px solid var(--lime); outline-offset:2px; }
+.career-experience .career-card-row { grid-template-columns:repeat(var(--row-size),minmax(72px,140px)); gap:8px; }
+.career-experience .career-card-pitch { gap:12px; padding:20px 12px; }
+.career-experience .career-mini-card.career-bench-card { flex:0 0 140px; min-height:0; }
+.career-mini-back { aspect-ratio:1024 / 1088; }
+.career-mini-details { position:absolute; z-index:4; left:17%; top:20%; width:66%; height:67%; display:flex; flex-direction:column; justify-content:center; gap:1cqw; color:var(--bronze-ink); text-align:center; }
+.career-mini-details>strong,.career-mini-stats,.career-mini-facts,.career-mini-value { position:relative; isolation:isolate; }
+.career-mini-details>strong::before,.career-mini-stats::before,.career-mini-facts::before,.career-mini-value::before { content:""; position:absolute; z-index:-1; inset:-.25cqw; background:var(--bronze-surface); filter:var(--card-material-filter,none); border-radius:.5cqw; }
+.career-mini-details>strong { display:block; font:700 6.5cqw/1.05 'Barlow Condensed',sans-serif; text-wrap:balance; overflow-wrap:anywhere; }
+.career-mini-stats { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1cqw 7cqw; padding-block:1.5cqw; border-block:1px solid currentColor; }
+.career-mini-stats>span { display:flex; align-items:baseline; justify-content:space-between; gap:2cqw; }
+.career-mini-stats small,.career-mini-facts small,.career-mini-value>small { font:600 5.5cqw/1 'Barlow Condensed',sans-serif; }
+.career-mini-stats b { font:700 7.5cqw/1 'Barlow Condensed',sans-serif; font-variant-numeric:tabular-nums; }
+.career-mini-facts { display:grid; grid-template-columns:1fr 1fr; gap:4cqw; }
+.career-mini-facts>span,.career-mini-value { display:flex; flex-direction:column; align-items:center; gap:1cqw; }
+.career-mini-facts b { font:700 7.5cqw/1 'Barlow Condensed',sans-serif; }
+.career-mini-facts b small { font-size:5cqw; }
+.career-mini-value b { white-space:nowrap; font:700 7.2cqw/1 'Barlow Condensed',sans-serif; }
+.career-experience .career-mini-card.is-drop-target { outline:2px solid var(--lime); outline-offset:2px; }
+.career-experience .career-bench-cards { padding:12px 4px; }
+@media(max-width:620px) {
+  .career-experience .career-card-row { grid-template-columns:repeat(var(--row-size),minmax(48px,76px)); gap:2px; }
+  .career-experience .career-card-pitch { gap:10px; padding:16px 4px; }
+  .career-experience .career-mini-card.career-bench-card { flex-basis:94px; }
+  .career-experience .career-mini-card.is-flipped { transform:scale(1.5); }
+}
+@media(prefers-reduced-motion:reduce) { .career-mini-card .career-card-rotator { transition:none; } }

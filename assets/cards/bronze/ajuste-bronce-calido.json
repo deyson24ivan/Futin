@@ -1,0 +1,17 @@
+{
+  "mode": "Edición con herramienta integrada image_gen, transparencia activada; placa vectorial creada en código",
+  "files": [
+    "base.png",
+    "nombre.png",
+    "placa-estadistica.svg"
+  ],
+  "colors": {
+    "lowerSurface": "#825e46",
+    "upperBadgeSurface": "#8b674c",
+    "text": "#fff5e8"
+  },
+  "prompts": {
+    "base": "Edit this exact upright bronze football card asset. Keep the complete copper metal perimeter, crown top, straight sides, curved pointed bottom, all current frame proportions and the thin horizontal separator in EXACTLY their current positions. Change ONLY the charcoal / black interior to an even warm medium-light bronze tan, target color #876047. All interior areas above AND below the horizontal separator should be the SAME #876047 bronze, with extremely subtle satin texture, no pronounced diagonal black stripe, no dark charcoal, no black patches, no gradient that changes the interior color greatly. The main flat tone should be #876047 so other UI layers with this hex color blend naturally. Retain a refined metal frame with highlights. No text, badge, rating, player, name or statistics. This is the empty base only. Exterior beyond the solid frame MUST be fully transparent alpha zero, no glow or shadow outside the card. Preserve the 1024 by 1536 canvas and exactly the existing silhouette. Professional game UI PNG component.",
+    "name": "Edit this exact empty bronze nameplate PNG. Keep its thin layered copper metal outline and chamfered corners EXACTLY as now, same very wide slim proportions and same transparent canvas padding. Replace the BLACK interior panel with a flat satin WARM BRONZE fill #825e46, no black, no charcoal, no gray reflection. It should coordinate with a bronze football card background. The only opaque content is the bronze outline and bronze inner fill. Exterior is pure transparent alpha zero. No name, no letters or numbers, no sparkles, no glow. Preserve the current 2172x724 canvas and the plate's location."
+  }
+}

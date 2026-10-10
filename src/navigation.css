@@ -1,0 +1,3 @@
+/* A document snapshot can capture HTML before game controllers initialize,
+   then crossfade two different layouts. Keep only the current document visible. */
+@view-transition { navigation: none; }

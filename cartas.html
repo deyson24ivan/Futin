@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f3f4ef" />
+    <title>Jugadores — FUTIN</title><link rel="icon" href="futin-mark.svg?v=10" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <script data-futin-theme>(() => {
+  'use strict';
+  const key = 'futin-theme-v1';
+  const modes = ['light','dark','auto'];
+  let button;
+  let mode = 'dark';
+  try { const saved = localStorage.getItem(key); if (modes.includes(saved)) mode = saved; } catch (_) { /* Use the default when storage is unavailable. */ }
+  const icons = {
+    light: '<circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>',
+    dark: '<path d="M20.5 13.1A8.6 8.6 0 0 1 10.9 3.5 8.6 8.6 0 1 0 20.5 13.1Z"/>'
+  };
+  function apply(next = mode, save = false) {
+    mode = modes.includes(next) ? next : 'dark';
+    const hour = new Date().getHours();
+    const theme = mode === 'auto' ? hour >= 7 && hour < 19 ? 'light' : 'dark' : mode;
+    document.documentElement.dataset.theme = theme;
+    document.documentElement.dataset.themeMode = mode;
+    document.documentElement.style.colorScheme = theme;
+    document.querySelector('meta[name="theme-color"]')?.setAttribute('content', theme === 'dark' ? '#17181c' : '#f4f3f5');
+    if (button) {
+      const action = theme === 'dark' ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro';
+      button.setAttribute('aria-label', action);
+      button.setAttribute('aria-pressed', String(theme === 'dark'));
+      button.title = action;
+      button.querySelector('svg').innerHTML = icons[theme];
+      button.querySelector('span').textContent = mode === 'auto' ? 'Auto' : theme === 'dark' ? 'Oscuro' : 'Claro';
+    }
+    if (save) {
+      try { localStorage.setItem(key, mode); } catch (_) { /* The choice still works for this page. */ }
+    }
+    document.querySelectorAll('[data-theme-select]').forEach(select => { select.value = mode; });
+    window.dispatchEvent(new Event('futin:themechange'));
+  }
+  window.FutinTheme = { getMode:() => mode,setMode:next => apply(next,true) };
+  apply();
+  function mount() {
+    const actions = document.querySelector('.topbar-actions');
+    if (!actions) return;
+    // The React header renders its own toggle with the same styles and API.
+    if (actions.closest('[data-react-shell]')) return;
+    button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'theme-toggle';
+    button.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"></svg><span></span>';
+    button.addEventListener('click', () => apply(document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark', true));
+    actions.prepend(button);
+    apply();
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', mount, { once: true });
+  else mount();
+  setInterval(() => { if (mode === 'auto') apply(); },60000);
+  document.addEventListener('visibilitychange',() => { if (!document.hidden) apply(); });
+  addEventListener('storage', event => { if (event.key === key || event.key === null) apply(event.newValue); });
+})();
+
+</script>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="futin-ui.css" />
+    <link rel="stylesheet" href="futin-theme.css" /><link rel="stylesheet" href="futin-polish.css" /><link rel="stylesheet" href="futin-card.css?v=10" />
+<link rel="stylesheet" href="futin-premium.css?v=12" /><!--futin:preload:start-->
+<script vite-ignore defer src="futin-players.js"></script>
+<script vite-ignore defer src="futin-core.js"></script>
+<script vite-ignore defer src="app.js"></script>
+<script vite-ignore defer src="futin-shell.js"></script>
+<script vite-ignore defer src="futin-card-data.js"></script>
+<script vite-ignore defer src="futin-card.js?v=10"></script>
+<script vite-ignore defer src="cartas.js"></script>
+<script vite-ignore defer src="bronce-preview.js"></script>
+<script vite-ignore defer src="futin-ui.js"></script>
+<script vite-ignore defer src="futin-premium.js?v=12"></script>
+<script vite-ignore defer src="futin-ready.js"></script>
+<link rel="stylesheet" href="src/navigation.css" />
+<!--futin:preload:end-->
+</head>
+  <body class="card-catalog-body futin-ui">
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Navegación principal" data-react-shell><link vite-ignore rel="preload" as="image" href="futin-mark.svg?v=10"/><link vite-ignore rel="preload" as="image" href="assets/ui/controller-premium.svg?v=10"/><link vite-ignore rel="preload" as="image" href="assets/premium/glory-crest.png?v=10"/><a class="brand" href="index.html" aria-label="FUTIN, inicio"><img vite-ignore class="brand-mark" src="futin-mark.svg?v=10" alt=""/><span>FUTIN<span class="brand-period">.</span></span></a><div class="nav-label">MENÚ</div><nav class="main-nav"><a class="nav-link" href="index.html"><span class="nav-icon"><svg class="" viewBox="0 0 24 24" aria-hidden="true"><path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1V10Z"></path><path d="M8 7.5h.01M16 7.5h.01"></path></svg></span>Inicio</a><a class="nav-link" href="plantilla.html"><span class="nav-icon"><svg class="" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 12a3 3 0 1 0 6 0a3 3 0 1 0-6 0M3 9h3v6H3V9m15 0h3v6h-3V9M3 7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7M12 5v14"></path></svg></span>Mi equipo</a><a class="nav-link is-active" href="cartas.html" aria-current="page"><span class="nav-icon"><svg class="" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2"></path></svg></span>Jugadores</a><a class="nav-link" href="tienda.html"><span class="nav-icon"><svg class="" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.331 8H17.67a2 2 0 0 1 1.977 2.304l-1.255 8.152a3 3 0 0 1-2.966 2.544H8.574a3 3 0 0 1-2.965-2.544l-1.255-8.152A2 2 0 0 1 6.331 8M9 11V6a3 3 0 0 1 6 0v5"></path></svg></span>Tienda</a><a class="nav-link" href="pase.html"><span class="nav-icon"><svg class="" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="6"></circle><path d="M8.6 13 8 21l4-2.6 4 2.6-.6-8m-3.4-8.2 1 2 2.2.3-1.6 1.5.4 2.2-2-1-2 1 .4-2.2-1.6-1.5 2.2-.3Z"></path></svg></span>Pase de temporada</a><a class="nav-link" href="carrera.html"><span class="nav-icon"><svg class="" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="m12 7 4.76 3.45L15 16H9l-1.76-5.55L12 7m0 0V3m3 13 2.5 3m-.74-8.55 3.74-1.45M9.06 16.05 6.5 19m.74-8.55L3.5 9"></path></svg></span>Modo carrera</a><a class="nav-link" href="minijuegos.html"><span class="nav-icon"><img vite-ignore src="assets/ui/controller-premium.svg?v=10" alt=""/></span>Minijuegos</a></nav><div class="sidebar-bottom"><a class="season-card" href="pase.html" aria-label="Ver pase de temporada"><div class="season-top"><span class="live-dot"></span> TEMPORADA 01</div><strong>El camino<br/>a la gloria</strong><div class="season-progress"><span style="width:0%"></span></div><div class="season-meta"><span>Nivel <b>01</b></span><span><b>0</b>/<b>60</b> XP</span></div><img vite-ignore class="sidebar-season-crest" src="assets/premium/glory-crest.png?v=10" alt="" decoding="async" draggable="false"/></a><a class="profile-mini" href="perfil.html"><span class="avatar">J0</span><span class="profile-copy"><strong>Jugador 01</strong><small>FUTIN City</small></span><span class="profile-more">···</span></a></div></aside>
+      <main class="main-content"><header class="topbar" data-react-shell><div class="breadcrumb"><span>CLUB</span><span class="crumb-slash">/</span> <!-- -->JUGADORES</div><div class="topbar-actions"><button type="button" class="theme-toggle" aria-label="Cambiar a modo claro" aria-pressed="true" title="Cambiar a modo claro"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 13.1A8.6 8.6 0 0 1 10.9 3.5 8.6 8.6 0 1 0 20.5 13.1Z"></path></svg><span>Oscuro</span></button><a class="coin-pill" href="monedas.html" aria-label="Ver monedero y comprar monedas"><span class="gem-icon" aria-hidden="true"></span><strong>2.450</strong><span class="coin-plus">+</span></a><button type="button" class="icon-button notification-button" aria-label="Notificaciones, al día" aria-haspopup="dialog"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 10h18c0-3-3-3-3-10M10 21h4"></path></svg><i hidden=""></i></button><a class="avatar top-avatar" href="perfil.html" aria-label="Abrir perfil de Jugador 01">J0</a></div></header>
+    <section class="card-catalog">
+      <header class="card-catalog-header club-page-hero hero-players">
+        <a class="catalog-back" href="plantilla.html">← VOLVER A MI EQUIPO</a>
+        <p class="eyebrow"><span class="eyebrow-line"></span> IDENTIDAD VISUAL · FUTIN</p>
+        <h1>CADA CARTA.<br /><span>UNA IDENTIDAD.</span></h1>
+        <p class="catalog-intro">Explora la colección FUTIN: ocho diseños, acabados únicos y una identidad para cada jugador.</p>
+        <div class="catalog-key"><span><i class="finish-dot finish-matte"></i> NORMAL · acabado mate</span><span><i class="finish-dot finish-foil"></i> ESPECIAL · acabado foil</span></div>
+      <div class="premium-card-fan" aria-hidden="true"><span><div class="bronze-card bronze-type-silver" role="img" aria-label="FUTIN PLATA, normal, valoración 79, posición DEL, Colombia. RIT 86, TIR 84, PAS 80, REG 83, DEF 48, FIS 79">
+      <img vite-ignore class="bronze-base" src="assets/cards/bronze/base.png?v=3" alt="" draggable="false" decoding="async" />
+      <span class="card-speed-pattern" aria-hidden="true"></span>
+      <div class="bronze-photo-slot"><img vite-ignore class="bronze-portrait card-placeholder" src="assets/ui/player-silhouette.svg?v=10" alt="" draggable="false"/></div>
+      
+      <div class="bronze-identity"><b class="bronze-rating">79</b><span class="bronze-position">DEL</span><span class="bronze-nationality"><img vite-ignore src="assets/flags/co.svg" alt="" draggable="false" /></span><span class="bronze-crest"><img vite-ignore src="assets/cards/bronze/escudo-ejemplo-blanco.png" alt="" draggable="false" /></span></div>
+      <div class="bronze-name"><img vite-ignore class="bronze-banner" src="assets/cards/bronze/nombre.png?v=3" alt="" draggable="false" decoding="async" /><span style="--bronze-name-size:5.4cqw">FUTIN PLATA</span></div>
+      <div class="bronze-stats"><div class="bronze-stat"><img vite-ignore class="bronze-stat-frame" src="assets/cards/bronze/placa-estadistica.svg" alt="" draggable="false" /><span>PAC</span><div class="bronze-value"><b>86</b></div></div><div class="bronze-stat"><img vite-ignore class="bronze-stat-frame" src="assets/cards/bronze/placa-estadistica.svg" alt="" draggable="false" /><span>SHO</span><div class="bronze-value"><b>84</b></div></div><div class="bronze-stat"><img vite-ignore class="bronze-stat-frame" src="assets/cards/bronze/placa-estadistica.svg" alt="" draggable="false" /><span>PAS</span><div class="bronze-value"><b>80</b></div></div><div class="bronze-stat"><img vite-ignore class="bronze-stat-frame" src="assets/cards/bronze/placa-estadistica.svg" alt="" draggable="false" /><span>DRI</span><div class="bronze-value"><b>83</b></div></div><div class="bronze-stat"><img vite-ignore class="bronze-stat-frame" src="assets/cards/bronze/placa-estadistica.svg" alt="" draggable="false" /><span>DEF</span><div class="bronze-value"><b>48</b></div></div><div class="bronze-stat"><img vite-ignore class="bronze-stat-frame" src="assets/cards/bronze/placa-estadistica.svg" alt="" draggable="false" /><span>PHY</span><div class="bronze-value"><b>79</b></div></div></div>
+    </div></span><span><div class="bronze-card bronze-type-gold" role="img" aria-label="FUTIN ORO, normal, valoración 86, posición DEL, Colombia. RIT 86, TIR 84, PAS 80, REG 83, DEF 48, FIS 79">
+      <img vite-ignore class="bronze-base" src="assets/cards/bronze/base.png?v=3" alt="" draggable="false" decoding="async" />
+      <span class="card-speed-pattern" aria-hidden="true"></span>
+      <div class="bronze-photo-slot"><img vite-ignore class="bronze-portrait card-placeholder" src="assets/ui/player-silhouette.svg?v=10" alt="" draggable="false"/></div>
+      
+      <div class="bronze-identity"><b class="bronze-rating">86</b><span class="bronze-position">DEL</span><span class="bronze-nationality"><img vite-ignore src="assets/flags/co.svg" alt="" draggable="false" /></span><span class="bronze-crest"><img vite-ignore src="assets/cards/bronze/escudo-ejemplo-blanco.png" alt="" draggable="false" /></span></div>
+      <div class="bronze-name"><img vite-ignore class="bronze-banner" src="assets/cards/bronze/nombre.png?v=3" alt="" draggable="false" decoding="async" /><span style="--bronze-name-size:5.4cqw">FUTIN ORO</span></div>
+      <div class="bronze-stats"><div class="bronze-stat"><img vite-ignore class="bronze-stat-frame" src="assets/cards/bronze/placa-estadistica.svg" alt="" draggable="false" /><span>PAC</span><div class="bronze-value"><b>86</b></div></div><div class="bronze-stat"><img vite-ignore class="bronze-stat-frame" src="assets/cards/bronze/placa-estadistica.svg" alt="" draggable="false" /><span>SHO</span><div class="bronze-value"><b>84</b></div></div><div class="bronze-stat"><img vite-ignore class="bronze-stat-frame" src="assets/cards/bronze/placa-estadistica.svg" alt="" draggable="false" /><span>PAS</span><div class="bronze-value"><b>80</b></div></div><div class="bronze-stat"><img vite-ignore class="bronze-stat-frame" src="assets/cards/bronze/placa-estadistica.svg" alt="" draggable="false" /><span>DRI</span><div class="bronze-value"><b>83</b></div></div><div class="bronze-stat"><img vite-ignore class="bronze-stat-frame" src="assets/cards/bronze/placa-estadistica.svg" alt="" draggable="false" /><span>DEF</span><div class="bronze-value"><b>48</b></div></div><div class="bronze-stat"><img vite-ignore class="bronze-stat-frame" src="assets/cards/bronze/placa-estadistica.svg" alt="" draggable="false" /><span>PHY</span><div class="bronze-value"><b>79</b></div></div></div>
+    </div></span><span><div class="bronze-card bronze-type-elite bronze-card-special" role="img" aria-label="FUTIN ÉLITE, especial, valoración 92, posición DEL, Colombia. RIT 86, TIR 84, PAS 80, REG 83, DEF 48, FIS 79">
+      <img vite-ignore class="bronze-base" src="assets/cards/bronze/base.png?v=3" alt="" draggable="false" decoding="async" />
+      <span class="card-speed-pattern" aria-hidden="true"></span>
+      <div class="bronze-photo-slot"><img vite-ignore class="bronze-portrait card-placeholder" src="assets/ui/player-silhouette.svg?v=10" alt="" draggable="false"/></div>
+      <span class="bronze-effects" aria-hidden="true"><span class="bronze-effects-content"><img vite-ignore class="bronze-sparkles" src="assets/cards/bronze/efectos-especial.png" alt="" draggable="false" decoding="async" /></span></span><span class="bronze-flash" aria-hidden="true"><span class="bronze-foil"></span></span>
+      <div class="bronze-identity"><b class="bronze-rating">92</b><span class="bronze-position">DEL</span><span class="bronze-nationality"><img vite-ignore src="assets/flags/co.svg" alt="" draggable="false" /></span><span class="bronze-crest"><img vite-ignore src="assets/cards/bronze/escudo-ejemplo-blanco.png" alt="" draggable="false" /></span></div>
+      <div class="bronze-name"><img vite-ignore class="bronze-banner" src="assets/cards/bronze/nombre.png?v=3" alt="" draggable="false" decoding="async" /><span style="--bronze-name-size:5.4cqw">FUTIN ÉLITE</span></div>
+      <div class="bronze-stats"><div class="bronze-stat"><img vite-ignore class="bronze-stat-frame" src="assets/cards/bronze/placa-estadistica.svg" alt="" draggable="false" /><span>PAC</span><div class="bronze-value"><b>86</b></div></div><div class="bronze-stat"><img vite-ignore class="bronze-stat-frame" src="assets/cards/bronze/placa-estadistica.svg" alt="" draggable="false" /><span>SHO</span><div class="bronze-value"><b>84</b></div></div><div class="bronze-stat"><img vite-ignore class="bronze-stat-frame" src="assets/cards/bronze/placa-estadistica.svg" alt="" draggable="false" /><span>PAS</span><div class="bronze-value"><b>80</b></div></div><div class="bronze-stat"><img vite-ignore class="bronze-stat-frame" src="assets/cards/bronze/placa-estadistica.svg" alt="" draggable="false" /><span>DRI</span><div class="bronze-value"><b>83</b></div></div><div class="bronze-stat"><img vite-ignore class="bronze-stat-frame" src="assets/cards/bronze/placa-estadistica.svg" alt="" draggable="false" /><span>DEF</span><div class="bronze-value"><b>48</b></div></div><div class="bronze-stat"><img vite-ignore class="bronze-stat-frame" src="assets/cards/bronze/placa-estadistica.svg" alt="" draggable="false" /><span>PHY</span><div class="bronze-value"><b>79</b></div></div></div>
+    </div></span></div></header>
+      <section id="bronce" class="bronze-workshop" aria-labelledby="bronzeTitle">
+        <p class="eyebrow">CREADOR DE CARTAS · FUTIN</p>
+        <h2 id="bronzeTitle" data-card-editor-title>TU CARTA BRONCE</h2>
+        <p class="bronze-workshop-intro">Un marco, seis estadísticas y los datos de tu jugador. La versión especial añade un reflejo en movimiento sobre la misma base.</p>
+        <div class="bronze-workspace">
+          <div class="bronze-stage"><div class="bronze-preview" data-bronze-preview></div><p class="bronze-caption" data-bronze-finish></p></div>
+          <form class="bronze-controls" data-bronze-form>
+            <label>Tipo de carta<select name="cardType" data-card-type></select></label>
+            <label>Nombre del jugador<input name="playerName" value="NOMBRE DEL JUGADOR" maxlength="30" /></label>
+            <div class="bronze-control-pair"><label>Valoración<input name="rating" type="number" value="50" min="1" max="99" /></label><label>Posición<select name="position"><option value="">Vacía</option><option>POR</option><option>DFC</option><option>LI</option><option>LD</option><option>MCD</option><option>MC</option><option>MCO</option><option>MI</option><option>MD</option><option>EI</option><option>ED</option><option selected>DEL</option></select></label></div>
+            <fieldset class="bronze-stat-controls"><legend>Estadísticas</legend><label>RIT<input name="RIT" type="number" min="1" max="99" placeholder="—" /></label><label>PAS<input name="PAS" type="number" min="1" max="99" placeholder="—" /></label><label>TIR<input name="TIR" type="number" min="1" max="99" placeholder="—" /></label><label>REG<input name="REG" type="number" min="1" max="99" placeholder="—" /></label><label>DEF<input name="DEF" type="number" min="1" max="99" placeholder="—" /></label><label>FIS<input name="FIS" type="number" min="1" max="99" placeholder="—" /></label></fieldset>
+            <label class="bronze-toggle"><input name="special" type="checkbox" /> Acabado especial</label>
+            <label>Buscar país<input name="countrySearch" type="search" placeholder="Escribe un país" autocomplete="off" /></label>
+            <label>País y bandera<span class="bronze-country-select"><img data-country-preview alt="" hidden /><select name="countryCode" data-card-country></select></span></label>
+            <fieldset class="bronze-crest-picker"><legend>Escudo del club</legend><label>Buscar escudo<input name="crestSearch" type="search" placeholder="Busca por el nombre del club" autocomplete="off" /></label><div class="bronze-crest-options" data-crest-options></div><p class="bronze-crest-search-empty" data-crest-empty hidden>No hay escudos con ese nombre. Puedes subir el del club.</p></fieldset>
+            <label>Foto del jugador<input type="file" accept="image/png,image/jpeg,image/webp" data-bronze-upload="portrait" /></label>
+            <label>Añadir otro escudo<input type="file" accept="image/png,image/jpeg,image/webp" data-bronze-upload="crest" /></label>
+            <p class="bronze-control-note">Usa PNG con fondo transparente para la foto y el escudo. Las imágenes de esta vista previa no modifican tu plantilla.</p>
+            <button type="button" class="button button-ghost" data-bronze-reset>Restablecer vista previa</button>
+          </form>
+        </div>
+        <div class="bronze-assets"><h3>CAPAS DE LA CARTA</h3><div class="bronze-downloads"><a href="assets/cards/bronze/base.png?v=3" download="base.png">Base</a><a href="assets/cards/bronze/nombre.png?v=3" download="nombre.png">Nombre</a><a href="assets/cards/bronze/placa-estadistica.svg" download>Placa de estadísticas</a><a href="assets/cards/bronze/efectos-especial.png" download>Efectos especiales</a><a href="assets/cards/bronze/escudo-ejemplo-blanco.png" download>Escudo FUTIN</a><a href="assets/cards/bronce-capas.zip" download>Descargar todo</a></div></div>
+      </section>
+      <section id="cardDesignGrid" class="card-design-grid" aria-label="Variantes de las cartas FUTIN"></section>
+      
+    </section></main></div>
+    
+    
+    
+  
+<div id="futin-shell-root" data-react-shell><dialog class="club-dialog activity-dialog" aria-labelledby="activity-title"><header class="dialog-heading"><div><p class="eyebrow">TU CLUB AL DÍA</p><h2 id="activity-title">NOTIFICACIONES</h2></div><button type="button" class="ui-icon-button" aria-label="Cerrar notificaciones"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M6 18 18 6"></path></svg></button></header><div class="activity-toolbar"><span>Todo al día</span><button type="button" class="text-link" disabled="">Marcar todas como leídas</button></div><div><div class="club-empty"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 10h18c0-3-3-3-3-10M10 21h4"></path></svg><h3>Estás al día</h3><p>Tus compras, recompensas y avances aparecerán aquí.</p></div></div></dialog><div class="club-toast" role="status" aria-live="polite" hidden=""></div><!--futin:overlays:end--></div>
+<script type="module" src="/src/main.tsx"></script>
+</body>
+</html>
+
+
+
+

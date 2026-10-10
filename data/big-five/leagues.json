@@ -1,0 +1,52 @@
+[
+  {
+    "id": "premier-league",
+    "name": "Premier League",
+    "country": "Inglaterra",
+    "page": "2026–27 Premier League",
+    "expectedTeams": 20,
+    "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Premier_League",
+    "sourceRevision": 1378614663,
+    "teamCount": 20
+  },
+  {
+    "id": "la-liga",
+    "name": "LaLiga",
+    "country": "España",
+    "page": "2026–27 La Liga",
+    "expectedTeams": 20,
+    "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_La_Liga",
+    "sourceRevision": 1378155831,
+    "teamCount": 20
+  },
+  {
+    "id": "serie-a",
+    "name": "Serie A",
+    "country": "Italia",
+    "page": "2026–27 Serie A",
+    "expectedTeams": 20,
+    "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Serie_A",
+    "sourceRevision": 1377895480,
+    "teamCount": 20
+  },
+  {
+    "id": "bundesliga",
+    "name": "Bundesliga",
+    "country": "Alemania",
+    "page": "2026–27 Bundesliga",
+    "expectedTeams": 18,
+    "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Bundesliga",
+    "sourceRevision": 1378173509,
+    "teamCount": 18
+  },
+  {
+    "id": "ligue-1",
+    "name": "Ligue 1",
+    "country": "Francia",
+    "page": "2026–27 Ligue 1",
+    "expectedTeams": 18,
+    "sourceUrl": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Ligue_1",
+    "sourceRevision": 1378069426,
+    "teamCount": 18
+  }
+]

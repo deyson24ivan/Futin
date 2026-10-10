@@ -1,0 +1,74 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#f3f4ef"/><title>Mi perfil — FUTIN</title><link rel="icon" href="futin-mark.svg?v=10" type="image/svg+xml"/><link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"/><script data-futin-theme>(() => {
+  'use strict';
+  const key = 'futin-theme-v1';
+  const modes = ['light','dark','auto'];
+  let button;
+  let mode = 'dark';
+  try { const saved = localStorage.getItem(key); if (modes.includes(saved)) mode = saved; } catch (_) { /* Use the default when storage is unavailable. */ }
+  const icons = {
+    light: '<circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>',
+    dark: '<path d="M20.5 13.1A8.6 8.6 0 0 1 10.9 3.5 8.6 8.6 0 1 0 20.5 13.1Z"/>'
+  };
+  function apply(next = mode, save = false) {
+    mode = modes.includes(next) ? next : 'dark';
+    const hour = new Date().getHours();
+    const theme = mode === 'auto' ? hour >= 7 && hour < 19 ? 'light' : 'dark' : mode;
+    document.documentElement.dataset.theme = theme;
+    document.documentElement.dataset.themeMode = mode;
+    document.documentElement.style.colorScheme = theme;
+    document.querySelector('meta[name="theme-color"]')?.setAttribute('content', theme === 'dark' ? '#17181c' : '#f4f3f5');
+    if (button) {
+      const action = theme === 'dark' ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro';
+      button.setAttribute('aria-label', action);
+      button.setAttribute('aria-pressed', String(theme === 'dark'));
+      button.title = action;
+      button.querySelector('svg').innerHTML = icons[theme];
+      button.querySelector('span').textContent = mode === 'auto' ? 'Auto' : theme === 'dark' ? 'Oscuro' : 'Claro';
+    }
+    if (save) {
+      try { localStorage.setItem(key, mode); } catch (_) { /* The choice still works for this page. */ }
+    }
+    document.querySelectorAll('[data-theme-select]').forEach(select => { select.value = mode; });
+    window.dispatchEvent(new Event('futin:themechange'));
+  }
+  window.FutinTheme = { getMode:() => mode,setMode:next => apply(next,true) };
+  apply();
+  function mount() {
+    const actions = document.querySelector('.topbar-actions');
+    if (!actions) return;
+    // The React header renders its own toggle with the same styles and API.
+    if (actions.closest('[data-react-shell]')) return;
+    button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'theme-toggle';
+    button.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"></svg><span></span>';
+    button.addEventListener('click', () => apply(document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark', true));
+    actions.prepend(button);
+    apply();
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', mount, { once: true });
+  else mount();
+  setInterval(() => { if (mode === 'auto') apply(); },60000);
+  document.addEventListener('visibilitychange',() => { if (!document.hidden) apply(); });
+  addEventListener('storage', event => { if (event.key === key || event.key === null) apply(event.newValue); });
+})();
+
+</script><link rel="stylesheet" href="styles.css"/><link rel="stylesheet" href="futin-ui.css"/><link rel="stylesheet" href="futin-theme.css"/><link rel="stylesheet" href="futin-polish.css"/><link rel="stylesheet" href="futin-premium.css?v=12" /><!--futin:preload:start-->
+<script vite-ignore defer src="futin-players.js"></script>
+<script vite-ignore defer src="futin-core.js"></script>
+<script vite-ignore defer src="app.js"></script>
+<script vite-ignore defer src="futin-shell.js"></script>
+<script vite-ignore defer src="futin-ui.js"></script>
+<script vite-ignore defer src="perfil.js"></script>
+<script vite-ignore defer src="futin-premium.js?v=12"></script>
+<script vite-ignore defer src="futin-ready.js"></script>
+<link rel="stylesheet" href="src/navigation.css" />
+<!--futin:preload:end-->
+</head><body class="futin-ui"><div class="app-shell"><aside class="sidebar" aria-label="Navegación principal" data-react-shell><link vite-ignore rel="preload" as="image" href="futin-mark.svg?v=10"/><link vite-ignore rel="preload" as="image" href="assets/ui/controller-premium.svg?v=10"/><link vite-ignore rel="preload" as="image" href="assets/premium/glory-crest.png?v=10"/><a class="brand" href="index.html" aria-label="FUTIN, inicio"><img vite-ignore class="brand-mark" src="futin-mark.svg?v=10" alt=""/><span>FUTIN<span class="brand-period">.</span></span></a><div class="nav-label">MENÚ</div><nav class="main-nav"><a class="nav-link" href="index.html"><span class="nav-icon"><svg class="" viewBox="0 0 24 24" aria-hidden="true"><path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1V10Z"></path><path d="M8 7.5h.01M16 7.5h.01"></path></svg></span>Inicio</a><a class="nav-link" href="plantilla.html"><span class="nav-icon"><svg class="" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 12a3 3 0 1 0 6 0a3 3 0 1 0-6 0M3 9h3v6H3V9m15 0h3v6h-3V9M3 7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7M12 5v14"></path></svg></span>Mi equipo</a><a class="nav-link" href="cartas.html"><span class="nav-icon"><svg class="" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0-8 0M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2"></path></svg></span>Jugadores</a><a class="nav-link" href="tienda.html"><span class="nav-icon"><svg class="" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.331 8H17.67a2 2 0 0 1 1.977 2.304l-1.255 8.152a3 3 0 0 1-2.966 2.544H8.574a3 3 0 0 1-2.965-2.544l-1.255-8.152A2 2 0 0 1 6.331 8M9 11V6a3 3 0 0 1 6 0v5"></path></svg></span>Tienda</a><a class="nav-link" href="pase.html"><span class="nav-icon"><svg class="" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="6"></circle><path d="M8.6 13 8 21l4-2.6 4 2.6-.6-8m-3.4-8.2 1 2 2.2.3-1.6 1.5.4 2.2-2-1-2 1 .4-2.2-1.6-1.5 2.2-.3Z"></path></svg></span>Pase de temporada</a><a class="nav-link" href="carrera.html"><span class="nav-icon"><svg class="" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="m12 7 4.76 3.45L15 16H9l-1.76-5.55L12 7m0 0V3m3 13 2.5 3m-.74-8.55 3.74-1.45M9.06 16.05 6.5 19m.74-8.55L3.5 9"></path></svg></span>Modo carrera</a><a class="nav-link" href="minijuegos.html"><span class="nav-icon"><img vite-ignore src="assets/ui/controller-premium.svg?v=10" alt=""/></span>Minijuegos</a></nav><div class="sidebar-bottom"><a class="season-card" href="pase.html" aria-label="Ver pase de temporada"><div class="season-top"><span class="live-dot"></span> TEMPORADA 01</div><strong>El camino<br/>a la gloria</strong><div class="season-progress"><span style="width:0%"></span></div><div class="season-meta"><span>Nivel <b>01</b></span><span><b>0</b>/<b>60</b> XP</span></div><img vite-ignore class="sidebar-season-crest" src="assets/premium/glory-crest.png?v=10" alt="" decoding="async" draggable="false"/></a><a class="profile-mini" href="perfil.html"><span class="avatar">J0</span><span class="profile-copy"><strong>Jugador 01</strong><small>FUTIN City</small></span><span class="profile-more">···</span></a></div></aside><main class="main-content"><header class="topbar" data-react-shell><div class="breadcrumb"><span>CLUB</span><span class="crumb-slash">/</span> <!-- -->MI PERFIL</div><div class="topbar-actions"><button type="button" class="theme-toggle" aria-label="Cambiar a modo claro" aria-pressed="true" title="Cambiar a modo claro"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 13.1A8.6 8.6 0 0 1 10.9 3.5 8.6 8.6 0 1 0 20.5 13.1Z"></path></svg><span>Oscuro</span></button><a class="coin-pill" href="monedas.html" aria-label="Ver monedero y comprar monedas"><span class="gem-icon" aria-hidden="true"></span><strong>2.450</strong><span class="coin-plus">+</span></a><button type="button" class="icon-button notification-button" aria-label="Notificaciones, al día" aria-haspopup="dialog"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 10h18c0-3-3-3-3-10M10 21h4"></path></svg><i hidden=""></i></button><a class="avatar top-avatar" href="perfil.html" aria-label="Abrir perfil de Jugador 01">J0</a></div></header><div class="page-wrap detail-page profile-page">
+<section class="club-page-hero"><div><p class="eyebrow">IDENTIDAD DEL CLUB</p><h1>TU NOMBRE. <span>TU HISTORIA.</span></h1><p class="subheading">Tu perfil y tus preferencias, en un solo lugar.</p></div></section>
+<div class="profile-layout"><article class="module-panel profile-identity"><div class="profile-avatar-large" data-profile-avatar>JD</div><h2 data-profile-name>Jugador 01</h2><p data-profile-club>FUTIN City</p><div class="profile-stats"><div><small>JUGADORES</small><strong data-profile-players>18</strong></div><div><small>SOBRES</small><strong data-profile-packs>0</strong></div><div><small>NIVEL DEL PASE</small><strong data-profile-level>1</strong></div><div><small>XP TOTAL</small><strong data-profile-xp>0</strong></div></div></article>
+<div class="profile-settings"><section class="module-panel"><h2>DATOS DEL PERFIL</h2><form class="profile-form" data-profile-form><label for="profileName">NOMBRE DE MÁNAGER<input id="profileName" name="name" required minlength="2" maxlength="28" autocomplete="nickname"/></label><label for="profileClub">NOMBRE DEL CLUB<input id="profileClub" name="club" required minlength="2" maxlength="32" autocomplete="off"/></label><button type="submit" class="button button-neon">Guardar perfil <span data-ui-icon="check"></span></button></form></section>
+<section class="module-panel"><h2>APARIENCIA</h2><div class="preference-row"><div><strong>A tu manera</strong><p>Automático usa el modo claro de 07:00 a 19:00 y el oscuro por la noche, según la hora de tu dispositivo.</p></div><label for="appearanceMode">MODO DE PANTALLA<select id="appearanceMode" data-theme-select><option value="light">Claro</option><option value="dark">Oscuro</option><option value="auto">Automático</option></select></label></div></section>
+<section class="module-panel"><h2>TU DÍA EN FUTIN</h2><p class="local-save-note">Los intentos de ambos minijuegos y los topes de experiencia se renuevan a las 00:00 UTC.</p><p class="daily-reset-line"><span data-ui-icon="clock"></span> Próximo reinicio en <b data-daily-reset>00:00:00</b></p><a class="text-link" href="minijuegos.html">Ir a los desafíos →</a></section><p class="local-save-note">Tu progreso se guarda en este navegador y dispositivo.</p></div></div></div></main></div><div id="futin-shell-root" data-react-shell><dialog class="club-dialog activity-dialog" aria-labelledby="activity-title"><header class="dialog-heading"><div><p class="eyebrow">TU CLUB AL DÍA</p><h2 id="activity-title">NOTIFICACIONES</h2></div><button type="button" class="ui-icon-button" aria-label="Cerrar notificaciones"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M6 18 18 6"></path></svg></button></header><div class="activity-toolbar"><span>Todo al día</span><button type="button" class="text-link" disabled="">Marcar todas como leídas</button></div><div><div class="club-empty"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 10h18c0-3-3-3-3-10M10 21h4"></path></svg><h3>Estás al día</h3><p>Tus compras, recompensas y avances aparecerán aquí.</p></div></div></dialog><div class="club-toast" role="status" aria-live="polite" hidden=""></div><!--futin:overlays:end--></div>
+<script type="module" src="/src/main.tsx"></script>
+</body></html>
