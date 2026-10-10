@@ -43,14 +43,14 @@ La media, el potencial, valor y atributos de juego quedan en **null** en JSON y 
 Desde la raíz del proyecto, con Node.js 20 o superior:
 
 ```powershell
-node scripts/data/collect-big-five.mjs
+node scripts/data/collect-big-five.ts
 ```
 
 La ejecución reutiliza las respuestas descargadas. Para una nueva fotografía de las fuentes:
 
 ```powershell
 $env:FUTIN_REFERENCE_DATE = (Get-Date -Format 'yyyy-MM-dd')
-node scripts/data/collect-big-five.mjs --refresh
+node scripts/data/collect-big-five.ts --refresh
 ```
 
 Modificar la temporada requiere actualizar las cinco páginas de origen en el script. Un cambio de formato o un número inesperado de equipos detiene el proceso para evitar una base silenciosamente incompleta.

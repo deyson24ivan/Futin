@@ -1,9 +1,10 @@
-import controllers from './controllers.json';
+import {pages, type PageName} from './pages';
+export type {PageName} from './pages';
 
-export type PageName = keyof typeof controllers;
+
 
 export function currentPage(): PageName {
   const name = location.pathname.split('/').pop()?.replace(/\.html$/, '') || 'index';
-  return name in controllers ? name as PageName : 'index';
+  return pages.includes(name as PageName) ? name as PageName : 'index';
 }
 

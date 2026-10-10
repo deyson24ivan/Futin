@@ -3,9 +3,9 @@ import react from '@vitejs/plugin-react';
 import { cp, mkdir, readdir } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { pages } from './src/compat/pages.ts';
 
 const root = dirname(fileURLToPath(import.meta.url));
-const pages = ['index', 'plantilla', 'cartas', 'tienda', 'pase', 'carrera', 'minijuegos', 'monedas', 'perfil'];
 
 // Game controllers still resolve their artwork at runtime. Preserve these URLs
 // in the native/web build, without shipping collected datasets or backups.
@@ -19,9 +19,9 @@ function gameResources(): Plugin {
         await cp(resolve(root, source), resolve(output, target), { recursive: true });
       };
       for (const file of await readdir(root)) {
-        if (/\.(js|svg|png|mp4)$/.test(file)) await copy(file);
+        if (/\.(svg|png|mp4)$/.test(file)) await copy(file);
       }
-      await copy('scripts/career');
+      await copy('scripts/career/career-cards.css');
       for (const directory of ['cards', 'flags', 'premium', 'tabler', 'ui']) {
         await copy(`assets/${directory}`);
       }

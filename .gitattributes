@@ -13,3 +13,6 @@
 *.jpg binary
 *.mp4 binary
 *.zip binary
+
+# Historical snapshots are not active application source.
+legacy/** linguist-vendored=true

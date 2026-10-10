@@ -1,13 +1,13 @@
-import type { ClubNotification, Profile, SeasonProgress } from '../domain/club';
+import type { Player } from '../domain/game';
 
 declare global {
   interface Window {
-    FutinProfile?: { get(): Profile };
-    FutinWallet?: { get(): { balance: number } };
-    FutinNotifications?: { list(): ClubNotification[]; markRead(id?: string): void };
-    FutinSeasonPass?: { getState(): SeasonProgress };
     FutinToast?: (message: string, error?: boolean) => void;
-    FutinTheme?: { getMode(): 'light' | 'dark' | 'auto'; setMode(mode: 'light' | 'dark' | 'auto'): void };
+  }
+  interface WindowEventMap {
+    'futin:playerunlocked': CustomEvent<{player: Partial<Player>; playerId: string}>;
+    'futin:penaltyshot': CustomEvent<{index: number; safe: boolean}>;
+    'futin:rosterchange': CustomEvent;
   }
 }
 

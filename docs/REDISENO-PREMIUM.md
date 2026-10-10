@@ -28,5 +28,4 @@ Recorrido visual en navegador de inicio, equipo, galería, tienda, pase, carrera
 - Las fotos reales o PNG cargados conservan su integración; cuando falta una imagen se usa una equipación neutral. Inicio usa la minicarta para que media, posición, bandera y nombre sean legibles en su vista compacta.
 - La vitrina calcula primera victoria, cinco victorias y campeonato con los resultados reales de la temporada actual. Reiniciar una temporada muestra sus nuevos objetivos.
 - Se recorrieron las nueve páginas en el navegador, incluidos modo claro/oscuro, una formación de seis líneas en club, cinco defensores en carrera y reverso con estadísticas. Se revisó el pase y los minijuegos a 390 × 844 px. El lanzamiento y la retirada entregaron una sola recompensa en la vista previa; el cambio natural de día UTC renovó los intentos.
-- Ilustraciones generadas con la herramienta integrada de imágenes. Procedencia y prompts exactos en `assets/premium/generacion.json`. Vista previa estática mediante `node scripts/preview-server.cjs` en `http://127.0.0.1:8765`.
-
+- Ilustraciones generadas con la herramienta integrada de imágenes. Procedencia y prompts exactos en `assets/premium/generacion.json`. Vista previa estática mediante `node scripts/preview-server.ts` en `http://127.0.0.1:8765`.

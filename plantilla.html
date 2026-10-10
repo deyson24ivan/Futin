@@ -8,77 +8,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <script data-futin-theme>(() => {
-  'use strict';
-  const key = 'futin-theme-v1';
-  const modes = ['light','dark','auto'];
-  let button;
+    <script data-futin-theme>(function themeBootstrap()       {
   let mode = 'dark';
-  try { const saved = localStorage.getItem(key); if (modes.includes(saved)) mode = saved; } catch (_) { /* Use the default when storage is unavailable. */ }
-  const icons = {
-    light: '<circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>',
-    dark: '<path d="M20.5 13.1A8.6 8.6 0 0 1 10.9 3.5 8.6 8.6 0 1 0 20.5 13.1Z"/>'
-  };
-  function apply(next = mode, save = false) {
-    mode = modes.includes(next) ? next : 'dark';
-    const hour = new Date().getHours();
-    const theme = mode === 'auto' ? hour >= 7 && hour < 19 ? 'light' : 'dark' : mode;
-    document.documentElement.dataset.theme = theme;
-    document.documentElement.dataset.themeMode = mode;
-    document.documentElement.style.colorScheme = theme;
-    document.querySelector('meta[name="theme-color"]')?.setAttribute('content', theme === 'dark' ? '#17181c' : '#f4f3f5');
-    if (button) {
-      const action = theme === 'dark' ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro';
-      button.setAttribute('aria-label', action);
-      button.setAttribute('aria-pressed', String(theme === 'dark'));
-      button.title = action;
-      button.querySelector('svg').innerHTML = icons[theme];
-      button.querySelector('span').textContent = mode === 'auto' ? 'Auto' : theme === 'dark' ? 'Oscuro' : 'Claro';
-    }
-    if (save) {
-      try { localStorage.setItem(key, mode); } catch (_) { /* The choice still works for this page. */ }
-    }
-    document.querySelectorAll('[data-theme-select]').forEach(select => { select.value = mode; });
-    window.dispatchEvent(new Event('futin:themechange'));
-  }
-  window.FutinTheme = { getMode:() => mode,setMode:next => apply(next,true) };
-  apply();
-  function mount() {
-    const actions = document.querySelector('.topbar-actions');
-    if (!actions) return;
-    // The React header renders its own toggle with the same styles and API.
-    if (actions.closest('[data-react-shell]')) return;
-    button = document.createElement('button');
-    button.type = 'button';
-    button.className = 'theme-toggle';
-    button.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true"></svg><span></span>';
-    button.addEventListener('click', () => apply(document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark', true));
-    actions.prepend(button);
-    apply();
-  }
-  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', mount, { once: true });
-  else mount();
-  setInterval(() => { if (mode === 'auto') apply(); },60000);
-  document.addEventListener('visibilitychange',() => { if (!document.hidden) apply(); });
-  addEventListener('storage', event => { if (event.key === key || event.key === null) apply(event.newValue); });
-})();
-
-</script>
+  try {
+    const saved = localStorage.getItem('futin-theme-v1');
+    if (saved && ['light', 'dark', 'auto'].includes(saved)) mode = saved;
+  } catch { /* Storage can be unavailable; use the default theme. */ }
+  const hour = new Date().getHours();
+  const theme = mode === 'auto' ? hour >= 7 && hour < 19 ? 'light' : 'dark' : mode;
+  document.documentElement.dataset.theme = theme;
+  document.documentElement.dataset.themeMode = mode;
+  document.documentElement.style.colorScheme = theme;
+  document.querySelector('meta[name="theme-color"]')?.setAttribute('content', theme === 'dark' ? '#17181c' : '#f4f3f5');
+})();</script>
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="futin-ui.css" />
     <link rel="stylesheet" href="futin-theme.css" /><link rel="stylesheet" href="futin-polish.css" /><link rel="stylesheet" href="futin-card.css?v=10" />
 <link rel="stylesheet" href="futin-premium.css?v=12" /><!--futin:preload:start-->
-<script vite-ignore defer src="futin-formations.js?v=10"></script>
-<script vite-ignore defer src="futin-players.js"></script>
-<script vite-ignore defer src="futin-core.js"></script>
-<script vite-ignore defer src="app.js"></script>
-<script vite-ignore defer src="futin-shell.js"></script>
-<script vite-ignore defer src="futin-card-data.js"></script>
-<script vite-ignore defer src="futin-card.js?v=10"></script>
-<script vite-ignore defer src="plantilla.js?v=11"></script>
-<script vite-ignore defer src="futin-ui.js"></script>
-<script vite-ignore defer src="futin-premium.js?v=12"></script>
-<script vite-ignore defer src="futin-ready.js"></script>
 <link rel="stylesheet" href="src/navigation.css" />
 <!--futin:preload:end-->
 </head>
@@ -97,7 +43,7 @@
     </main>
   </div><div id="playerModal" class="player-modal" hidden></div><div id="dragAnnouncement" class="sr-only" aria-live="polite"></div>
 <div id="futin-shell-root" data-react-shell><dialog class="club-dialog activity-dialog" aria-labelledby="activity-title"><header class="dialog-heading"><div><p class="eyebrow">TU CLUB AL DÍA</p><h2 id="activity-title">NOTIFICACIONES</h2></div><button type="button" class="ui-icon-button" aria-label="Cerrar notificaciones"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M6 18 18 6"></path></svg></button></header><div class="activity-toolbar"><span>Todo al día</span><button type="button" class="text-link" disabled="">Marcar todas como leídas</button></div><div><div class="club-empty"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 10h18c0-3-3-3-3-10M10 21h4"></path></svg><h3>Estás al día</h3><p>Tus compras, recompensas y avances aparecerán aquí.</p></div></div></dialog><div class="club-toast" role="status" aria-live="polite" hidden=""></div><!--futin:overlays:end--></div>
-<script type="module" src="/src/main.tsx"></script>
+<script type="module" src="/src/entries/plantilla.ts"></script>
 </body>
 </html>
 

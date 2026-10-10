@@ -1,11 +1,11 @@
 # FUTIN
 
-Juego de fútbol web, con una migración gradual a React y TypeScript. Conserva
+Juego de fútbol web con interfaz compartida en React y lógica en TypeScript. Conserva
 la identidad grafito/coral, las cartas y los recursos originales.
 
 ## Desarrollo
 
-Requiere Node.js 22.12 o posterior. En este equipo se usó Node.js 24.16.
+Requiere Node.js 24 o posterior. En este equipo se usó Node.js 24.16.
 
 ```powershell
 npm ci
@@ -13,7 +13,7 @@ npm run dev
 ```
 
 Abre **http://127.0.0.1:8765/**. El comando anterior
-`node scripts/preview-server.cjs` también inicia Vite. Usa un solo servidor.
+`node scripts/preview-server.ts` también inicia Vite. Usa un solo servidor.
 Las páginas necesitan este servidor: abrir el HTML directamente como archivo
 no compila TypeScript.
 
@@ -36,14 +36,21 @@ Si cambias esos componentes durante una sesión ya abierta, ejecuta
 
 - React: menú, cabecera, perfil del menú, saldo, avance del pase, tema,
   notificaciones y mensajes temporales.
-- TypeScript: componentes compartidos y contratos del perfil, progreso y saldo.
-- Compatibilidad: los controladores de juego y el contenido de cada página
-  siguen usando su HTML, CSS y JavaScript existentes.
+- TypeScript: toda la lógica activa, incluidos jugadores, cartas, club, economía,
+  pase, carrera, penalti, trivia y herramientas de generación/recopilación.
+- Cada página carga una entrada de `src/entries/`. Vite compila esos módulos;
+  todos se comprueban con `strict: true`, sin desactivar los errores de tipos.
+- Las escenas conservan su HTML y CSS; sus controladores son módulos `.ts`.
+  React gestiona el menú, la cabecera y los overlays compartidos.
+- `legacy/` contiene copias históricas; no se cargan ni se incluyen en `dist/`.
 - Capacitor: configuración preparada para empaquetar `dist/` como aplicación
   móvil. Todavía no se crearon proyectos Android/iOS.
 
-Consulta [la guía de migración](docs/MIGRACION-REACT.md) para los límites de
-cada componente, el guardado y los pasos futuros.
+Consulta [la migración completa del código a TypeScript](docs/MIGRACION-TYPESCRIPT-COMPLETA.md)
+para la estructura, el guardado y las comprobaciones realizadas.
+
+TypeScript se compila a JavaScript para ejecutarse en el navegador. Los `.js`
+de `dist/` son resultado de compilación; se mantienen los `.ts` y `.tsx` fuente.
 
 Los datos recopilados de las cinco ligas siguen en `data/big-five/` como fuente
 separada. Su atribución está en `THIRD-PARTY-NOTICES.md`.

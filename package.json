@@ -3,15 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
+  "engines": {"node": ">=24.0.0"},
   "scripts": {
-    "shell:render": "node scripts/render-shell.mjs",
+    "shell:render": "node scripts/render-shell.ts",
     "predev": "npm run shell:render",
     "dev": "vite --host 127.0.0.1 --port 8765 --strictPort",
     "typecheck": "tsc --noEmit",
     "prebuild": "npm run shell:render",
     "build": "npm run typecheck && vite build",
     "preview": "vite preview --host 127.0.0.1 --port 8765 --strictPort",
-    "cap:sync": "cap sync"
+    "cap:sync": "cap sync",
+    "data:collect": "node scripts/data/collect-big-five.ts"
   },
   "dependencies": {
     "@capacitor/core": "8.5.3",

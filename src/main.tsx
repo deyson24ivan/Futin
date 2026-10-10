@@ -16,7 +16,7 @@ function onHydrated() {
 }
 
 // Attach React to the already-visible HTML rather than clearing and rebuilding
-// the menu on every navigation. Ordered defer controllers start independently.
+// the menu on every navigation. Page controllers run through the compiled TypeScript entry.
 hydrateRoot(sidebar, <SidebarApp page={page} onHydrated={onHydrated} />);
 hydrateRoot(topbar, <TopbarApp page={page} onHydrated={onHydrated} />);
 hydrateRoot(root, <OverlaysApp onHydrated={onHydrated} />);

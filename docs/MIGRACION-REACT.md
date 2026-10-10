@@ -1,5 +1,9 @@
 # Migración gradual a React y TypeScript
 
+> Registro histórico de la primera etapa. El estado actual está en
+> [MIGRACION-TYPESCRIPT-COMPLETA.md](MIGRACION-TYPESCRIPT-COMPLETA.md).
+> Los scripts JavaScript que se mencionan aquí están archivados en `legacy/`.
+
 ## Primera etapa — 8 de octubre de 2026
 
 Se incorporó React con TypeScript y Vite en las nueve páginas de FUTIN.
